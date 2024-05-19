@@ -1,0 +1,61 @@
+/* Thanks to: https://github.com/lucagez/medium.css */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Lora|Playfair+Display:700i,900');
+
+html, body {
+  margin: 0;
+  width: 100%;
+}
+
+h1, p, a, select {
+  color: rgba(0, 0, 0, 0.84);
+  text-rendering: optimizeLegibility;
+}
+
+h1, select {
+  font-family: "Lato", sans-serif;
+  line-height: 1.2em;
+  letter-spacing: 0;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 1.4em;
+  padding: 0;
+  margin: 1em 0;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Lora", serif;
+}
+
+p, select {
+  margin-top: 1em;
+  font-size: 1.3em;
+  letter-spacing: -0.03px;
+  line-height: 1.58em;
+  word-break: break-word;
+}
+
+select {
+  margin: 0;
+  padding: .3em 1em .2em .5em;
+}
+
+header {
+  position: absolute;
+  text-align: center;
+  z-index: 1000;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: max-content;
+}
+
+#graph {
+  height: 100vh;
+}
+
+#graph-select {
+}

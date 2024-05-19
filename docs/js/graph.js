@@ -1,0 +1,324 @@
+ready(() => {
+  const CONTAINER_ID = "graph";
+  const GRAPH_SELECT_CONTAINER_NAME = "header";
+  const GRAPH_SELECT_ID = "graph-select";
+  const LEAFLET_MAP_URL = (
+    "//api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}" +
+    "?access_token={accessToken}"
+  );
+  const LEAFLET_STYLE_ID = "streets-v12";
+  const LEAFLET_DEFAULT_COORDS = {lat: 0, lng: 0};
+  const LEAFLET_DEFAULT_ZOOM = 3;
+  const LEAFLET_MAX_ZOOM = 18;
+  const MAPBOX_ACCESS_TOKEN = (
+    "pk.eyJ1IjoiamF6YSIsImEiOiJjbHdjdzRzNGwwN2h" +
+    "qMmlwaHlnbnd3dTIyIn0.HYukMJILRBnI9X_6jU3eyw"
+  );
+  const LEAFLET_MAP_ATTRIBUTION = (
+    'Map data &copy; ' +
+    '<a href="https://www.openstreetmap.org/">OpenStreetMap</a> ' +
+    'contributors, ' +
+    '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+    'Imagery &copy; <a href="https://www.mapbox.com/">Mapbox</a>'
+  );
+  const CSV_URL_PREFIX = (
+    "https://raw.githubusercontent.com/Jaza/world-locality-transit-graph/master/csv/"
+  );
+
+  const GRAPH_CODES = [
+    "au-east"
+  ];
+
+  const GRAPH_INFO_MAP = {
+    "au-east": {
+      name: "AU East",
+      nodesCsvFilename: "au_east_localities.csv",
+      nearbyEdgesCsvFilename: "au_east_localities_transit_times.csv",
+      farEdgesCsvFilename: "au_east_localities_transit_times_floyd_warshall_generated.csv",
+      defaultCoords: {lat: -28.009906, lng: 145.4592851},
+      defaultZoom: 5
+    }
+  };
+
+  let map = null;
+  let nodes = null;
+  let nodeLatsLons = null;
+  let nodeNames = null;
+  let nearbyEdges = null;
+  let farEdges = null;
+  let edgeLocalities = null;
+
+  const getEdgePopupText = (totalMinutes, nameA, nameB) => {
+    const hours = Math.floor(totalMinutes / 60);
+    const minutes = totalMinutes % 60;
+    const hourOrHours = hours == 1 ? "hour" : "hours";
+    const minuteOrMinutes = minutes == 1 ? "minute" : "minutes";
+    const hoursMinutesFormatted = (
+      (hours ? `${hours} ${hourOrHours} ` : "") + `${minutes} ${minuteOrMinutes}`
+    );
+
+    return (
+      `<strong>${nameA} <-> ${nameB}</strong><br>` +
+      `Transit time: ${hoursMinutesFormatted}`
+    );
+  };
+
+  const loadNextFarEdgeFromFile = (code, result, results) => {
+    if (!farEdges) {
+      farEdges = L.layerGroup();
+    }
+
+    const slugA = result.locality_a;
+    const slugB = result.locality_b;
+
+    if (!edgeLocalities) {
+      edgeLocalities = new Set();
+    }
+
+    if (!(edgeLocalities.has(`${slugA};${slugB}`) || edgeLocalities.has(`${slugB};${slugA}`))) {
+      edgeLocalities.add(`${slugA};${slugB}`);
+
+      const latLonA = nodeLatsLons[slugA];
+      const latLonB = nodeLatsLons[slugB];
+
+      const edge = L.polyline([latLonA, latLonB], {color: "gray"});
+      edge.bindPopup(
+        getEdgePopupText(result.transit_time_mins, nodeNames[slugA], nodeNames[slugB])
+      );
+      farEdges.addLayer(edge);
+    }
+
+    if (results.length) {
+      const moreResults = results.slice();
+      const nextResult = moreResults.pop();
+      loadNextFarEdgeFromFile(code, nextResult, moreResults);
+    }
+    else {
+      farEdges.addTo(map);
+    }
+  };
+
+  const loadFarEdgesFromUrl = (code, url) => {
+    Papa.parse(
+      url,
+      {
+        download: true,
+        header: true,
+        dynamicTyping: true,
+        skipEmptyLines: 'greedy',
+        complete: (results) => {
+          if (!results.data.length) {
+            alert('Error: far edges file is empty, not loading far edges');
+            return;
+          }
+
+          const moreResults = results.data.slice();
+          const nextResult = moreResults.pop();
+          loadNextFarEdgeFromFile(code, nextResult, moreResults);
+        }
+      }
+    );
+  };
+
+  const loadNextNearbyEdgeFromFile = (code, result, results) => {
+    if (!nearbyEdges) {
+      nearbyEdges = L.layerGroup();
+    }
+
+    const slugA = result.locality_a;
+    const slugB = result.locality_b;
+
+    if (!edgeLocalities) {
+      edgeLocalities = new Set();
+    }
+
+    edgeLocalities.add(`${slugA};${slugB}`);
+
+    const latLonA = nodeLatsLons[slugA];
+    const latLonB = nodeLatsLons[slugB];
+
+    const edge = L.polyline([latLonA, latLonB]);
+    edge.bindPopup(
+      getEdgePopupText(result.transit_time_mins, nodeNames[slugA], nodeNames[slugB])
+    );
+    nearbyEdges.addLayer(edge);
+
+    if (results.length) {
+      const moreResults = results.slice();
+      const nextResult = moreResults.pop();
+      loadNextNearbyEdgeFromFile(code, nextResult, moreResults);
+    }
+    else {
+      nearbyEdges.addTo(map);
+
+      const url = `${CSV_URL_PREFIX}${GRAPH_INFO_MAP[code].farEdgesCsvFilename}`;
+      loadFarEdgesFromUrl(code, url);
+    }
+  };
+
+  const loadNearbyEdgesFromUrl = (code, url) => {
+    Papa.parse(
+      url,
+      {
+        download: true,
+        header: true,
+        dynamicTyping: true,
+        skipEmptyLines: 'greedy',
+        complete: (results) => {
+          if (!results.data.length) {
+            alert('Error: nearby edges file is empty, not loading nearby edges');
+            return;
+          }
+
+          const moreResults = results.data.slice();
+          const nextResult = moreResults.pop();
+          loadNextNearbyEdgeFromFile(code, nextResult, moreResults);
+        }
+      }
+    );
+  };
+
+  const loadNextNodeFromFile = (code, result, results) => {
+    if (!nodes) {
+      nodes = L.layerGroup();
+    }
+
+    if (!nodeLatsLons) {
+      nodeLatsLons = {};
+    }
+
+    if (!nodeNames) {
+      nodeNames = {};
+    }
+
+    const slug = result.slug;
+    const latLon = {lat: result.lat, lng: result.lon};
+    nodeLatsLons[slug] = latLon;
+    nodeNames[slug] = result.name;
+
+    const marker = L.marker(latLon);
+    marker.bindPopup(
+      `<strong>${result.name}</strong><br>` +
+      `Area of reference: ${result.area_of_reference}<br>` +
+      `Point of reference: ${result.point_of_reference}`
+    );
+    nodes.addLayer(marker);
+
+    if (results.length) {
+      const moreResults = results.slice();
+      const nextResult = moreResults.pop();
+      loadNextNodeFromFile(code, nextResult, moreResults);
+    }
+    else {
+      nodes.addTo(map);
+      map.setView(GRAPH_INFO_MAP[code].defaultCoords, GRAPH_INFO_MAP[code].defaultZoom);
+
+      const url = `${CSV_URL_PREFIX}${GRAPH_INFO_MAP[code].nearbyEdgesCsvFilename}`;
+      loadNearbyEdgesFromUrl(code, url);
+    }
+  };
+
+  const loadNodesFromUrl = (code, url) => {
+    Papa.parse(
+      url,
+      {
+        download: true,
+        header: true,
+        dynamicTyping: true,
+        skipEmptyLines: 'greedy',
+        complete: (results) => {
+          if (!results.data.length) {
+            alert('Error: nodes file is empty, not loading nodes');
+            return;
+          }
+
+          const moreResults = results.data.slice();
+          const nextResult = moreResults.pop();
+          loadNextNodeFromFile(code, nextResult, moreResults);
+        }
+      }
+    );
+  };
+
+  const initMap = (containerId) => {
+    map = L.map(containerId).setView(LEAFLET_DEFAULT_COORDS, LEAFLET_DEFAULT_ZOOM);
+
+    const defaultStyle = L.tileLayer(LEAFLET_MAP_URL, {
+      attribution: LEAFLET_MAP_ATTRIBUTION,
+      maxZoom: LEAFLET_MAX_ZOOM,
+      id: LEAFLET_STYLE_ID,
+      accessToken: MAPBOX_ACCESS_TOKEN
+    });
+
+    map.addLayer(defaultStyle);
+  };
+
+  const onGraphSelectChange = function() {
+    if (nodes) {
+      nodes.clearLayers();
+    }
+
+    if (nodeLatsLons) {
+      nodeLatsLons = null;
+    }
+
+    if (nodeNames) {
+      nodeNames = null;
+    }
+
+    if (nearbyEdges) {
+      nearbyEdges.clearLayers();
+    }
+
+    if (farEdges) {
+      farEdges.clearLayers();
+    }
+
+    if (edgeLocalities) {
+      edgeLocalities = null;
+    }
+
+    if (this.value) {
+      const code = this.value;
+      const url = `${CSV_URL_PREFIX}${GRAPH_INFO_MAP[code].nodesCsvFilename}`;
+      loadNodesFromUrl(code, url);
+    }
+    else {
+      map.setView(LEAFLET_DEFAULT_COORDS, LEAFLET_DEFAULT_ZOOM);
+    }
+  };
+
+  const initGraphSelect = () => {
+    const selectEl = document.createElement("select");
+    selectEl.id = GRAPH_SELECT_ID;
+
+    const defaultOptEl = document.createElement("option");
+    defaultOptEl.value = "";
+    defaultOptEl.text = "Choose a region...";
+    selectEl.appendChild(defaultOptEl);
+
+    for (const code of GRAPH_CODES) {
+      const optEl = document.createElement("option");
+      optEl.value = code;
+      optEl.text = GRAPH_INFO_MAP[code].name;
+      selectEl.appendChild(optEl);
+    }
+
+    selectEl.onchange = onGraphSelectChange;
+
+    const selectWrapperEl = document.createElement("div");
+    selectWrapperEl.appendChild(selectEl)
+
+    document.querySelector(GRAPH_SELECT_CONTAINER_NAME).appendChild(selectWrapperEl);
+  };
+
+  const init = () => {
+    const containerEl = document.getElementById(CONTAINER_ID);
+    if (containerEl) {
+      initMap(CONTAINER_ID);
+      initGraphSelect();
+    }
+  };
+
+  init();
+});

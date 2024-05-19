@@ -1,0 +1,54 @@
+slug,name,area_of_reference,point_of_reference,lat,lon
+au--nsw-sydney-city,AU: NSW: Sydney: City,Redfern,Redfern Park,-33.89462,151.20616
+au--nsw-sydney-eastern-suburbs,AU: NSW: Sydney: Eastern Suburbs,Randwick,Prince of Wales Hospital,-33.9184,151.23941
+au--nsw-sydney-inner-west,AU: NSW: Sydney: Inner West,Ashfield,Ashfield Train Station,-33.8877,151.1259
+au--nsw-sydney-north-shore,AU: NSW: Sydney: North Shore,Gordon,Gordon Train Station,-33.7558,151.1545
+au--nsw-sydney-northern-beaches,AU: NSW: Sydney: Northern Beaches,Dee Why,Northern Beaches Council,-33.75131,151.28704
+au--nsw-sydney-western-sydney,AU: NSW: Sydney: Western Sydney,Prospect,Prospect Reservoir,-33.8211,150.8929
+au--nsw-sydney-the-shire,AU: NSW: Sydney: The Shire,Miranda,Miranda Train Station,-34.0363,151.1028
+au--nsw-sydney-the-hills,AU: NSW: Sydney: The Hills,Kellyville,Kellyville Metro Station,-33.71313,150.93512
+au--nsw-sydney-south-west-sydney,AU: NSW: Sydney: South-West Sydney,Liverpool,Liverpool Train Station,-33.9245,150.9276
+au--nsw-blue-mountains,AU: NSW: Blue Mountains,Katoomba,Katoomba Train Station,-33.7119,150.3112
+au--nsw-central-coast,AU: NSW: Central Coast,Gosford,Gosford Train Station,-33.4234,151.3418
+au--nsw-wollongong-illawarra,AU: NSW: Wollongong-Illawarra,Wollongong,Wollongong Train Station,-34.427,150.8882
+au--nsw-southern-highlands,AU: NSW: Southern Highlands,Bowral,Bowral Train Station,-34.478,150.4167
+au--nsw-newcastle-hunter,AU: NSW: Newcastle-Hunter,Maitland,Maitland Train Station,-32.738,151.5521
+au--act-nsw-canberra-queanbeyan,AU: ACT/NSW: Canberra-Queanbeyan,Canberra,Australian Parliament House,-35.30756,149.1246
+au--nsw-shoalhaven,AU: NSW: Shoalhaven,St Georges Basin,St Georges Basin Post Office,-35.09067,150.59814
+au--nsw-far-south-coast,AU: NSW: Far South Coast,Narooma,Narooma Post Office,-36.2183,150.13245
+au--nsw-snowy-monaro,AU: NSW: Snowy-Monaro,Cooma,Cooma Post Office,-36.23441,149.12344
+au--nsw-mid-coast,AU: NSW: Mid Coast,Nabiac,Nabiac Post Office,-32.09914,152.3795
+au--nsw-mid-north-coast,AU: NSW: Mid North Coast,Port Macquarie,Port Macquarie Post Office,-31.43095,152.90735
+au--nsw-coffs-coast,AU: NSW: Coffs Coast,Coffs Harbour,Coffs Harbour Post Office,-30.30461,153.13603
+au--nsw-northern-rivers,AU: NSW: Northern Rivers,Lismore,Lismore Post Office,-28.81109,153.27504
+au--nsw-central-west,AU: NSW: Central West,Orange,Orange Train Station,-33.28673,149.10362
+au--nsw-north-west-slopes,AU: NSW: North-West Slopes,Narrabri,Narrabri Post Office,-30.32493,149.78313
+au--nsw-western-plains,AU: NSW: Western Plains,Nyngan,Nyngan Train Station,-31.56296,147.19702
+au--nsw-northern-tablelands,AU: NSW: Northern Tablelands,Glen Innes,Glen Innes Post Office,-29.73687,151.73609
+au--nsw-riverina,AU: NSW: Riverina,Narrandera,Narrandera Post Office,-34.74672,146.55284
+au--nsw-far-west,AU: NSW: Far West,Wilcannia,Wilcannia Post Office,-31.55932,143.37849
+au--nsw-vic-albury-wodonga,AU: NSW/VIC: Albury-Wodonga,Albury,Albury Train Station,-36.0844,146.9246
+au--vic-melbourne-city,AU: VIC: Melbourne: City,Melbourne,Flinders St Train Station,-37.8182,144.96661
+au--vic-melbourne-inner-northern-suburbs,AU: VIC: Melbourne: Inner Northern Suburbs,Brunswick,Brunswick Train Station,-37.7677,144.9596
+au--vic-melbourne-outer-northern-suburbs,AU: VIC: Melbourne: Outer Northern Suburbs,Thomastown,Thomastown Train Station,-37.6805,145.0143
+au--vic-melbourne-inner-eastern-suburbs,AU: VIC: Melbourne: Inner Eastern Suburbs,Camberwell,Camberwell Train Station,-37.8266,145.05865
+au--vic-melbourne-outer-eastern-suburbs,AU: VIC: Melbourne: Outer Eastern Suburbs,Ringwood East,Ringwood East Train Station,-37.8119,145.2503
+au--vic-melbourne-inner-south-eastern-suburbs,AU: VIC: Melbourne: Inner South-Eastern Suburbs,Caulfield,Caulfield Train Station,-37.87732,145.04238
+au--vic-melbourne-outer-south-eastern-suburbs,AU: VIC: Melbourne: Outer South-Eastern Suburbs,Dandenong,Dandenong Train Station,-37.99006,145.20971
+au--vic-melbourne-inner-western-suburbs,AU: VIC: Melbourne: Inner Western Suburbs,Tottenham,Tottenham Train Station,-37.79927,144.86321
+au--vic-melbourne-outer-western-suburbs,AU: VIC: Melbourne: Outer Western Suburbs,Williams Landing,Williams Landing Train Station,-37.87003,144.74696
+au--vic-geelong,AU: VIC: Geelong,Geelong,Geelong Train Station,-38.1443,144.3551
+au--vic-south-west,AU: VIC: South West,Warrnambool,Warrnambool Train Station,-38.3851,142.4754
+au--vic-ballarat,AU: VIC: Ballarat,Ballarat,Ballarat Train Station,-37.5587,143.8594
+au--vic-bendigo-loddon,AU: VIC: Bendigo-Loddon,Bendigo,Bendigo Train Station,-36.76563,144.28296
+au--vic-goulburn-valley,AU: VIC: Goulburn Valley,Shepparton,Shepparton Train Station,-36.38385,145.40603
+au--vic-alpine,AU: VIC: Alpine,Mount Beauty,Mount Beauty Post Office,-36.74259,147.16968
+au--vic-mallee,AU: VIC: Mallee,Robinvale,Robinvale Post Office,-34.58432,142.77448
+au--vic-wimmera,AU: VIC: Wimmera,Horsham,Horsham Train Station,-36.70758,142.20086
+au--vic-latrobe,AU: VIC: Latrobe,Traralgon,Traralgon Train Station,-38.1984,146.5387
+au--vic-east-gippsland,AU: VIC: East Gippsland,Orbost,Orbost Post Office,-37.70718,148.45513
+au--vic-hume,AU: VIC: Hume,Benalla,Benalla Train Station,-36.5447,145.9837
+au--vic-mornington-peninsula,AU: VIC: Mornington Peninsula,Mount Martha,Mount Martha Post Office,-38.26815,145.01321
+au--vic-west-gippsland,AU: VIC: West Gippsland,Warragul,Warragul Train Station,-38.1648,145.9327
+au--vic-central-gippsland,AU: VIC: Central Gippsland,Sale,Sale Train Station,-38.1032,147.0544
+au--vic-surf-coast,AU: VIC: Surf Coast,Anglesea,Anglesea Post Office,-38.40455,144.18915
