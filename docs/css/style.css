@@ -12,8 +12,15 @@ h1, p, a, select {
   text-rendering: optimizeLegibility;
 }
 
-h1, select {
+p {
+  font-family: "Lora", serif;
+}
+
+h1, select, a.button {
   font-family: "Lato", sans-serif;
+}
+
+h1, select {
   line-height: 1.2em;
   letter-spacing: 0;
   display: inline-block;
@@ -21,13 +28,10 @@ h1, select {
 
 h1 {
   font-size: 1.4em;
-  padding: 0;
+  padding: .2em;
   margin: 1em 0;
   font-weight: 700;
-}
-
-p {
-  font-family: "Lora", serif;
+  background-color: white;
 }
 
 p, select {
@@ -43,7 +47,7 @@ select {
   padding: .3em 1em .2em .5em;
 }
 
-header {
+header, footer {
   position: absolute;
   text-align: center;
   z-index: 1000;
@@ -57,5 +61,31 @@ header {
   height: 100vh;
 }
 
-#graph-select {
+footer {
+  bottom: 0;
+}
+
+a.button {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.84);
+  border-radius: .5em;
+  padding: .5em .7em;
+  margin: .5em 0 1em;
+  background-color: white;
+}
+
+a.button.first {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+a.button.last {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+a.button.active {
+  font-weight: 700;
+  box-shadow: 0 0 .2em .2em rgba(0, 0, 0, 0.5);
 }

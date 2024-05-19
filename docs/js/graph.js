@@ -1,6 +1,10 @@
 ready(() => {
   const CONTAINER_ID = "graph";
   const GRAPH_SELECT_CONTAINER_NAME = "header";
+  const TOGGLE_EDGES_CONTAINER_NAME = "footer";
+  const TOGGLE_EDGES_WRAPPER_ID = "toggle-edges-wrapper";
+  const TOGGLE_NEARBY_EDGES_ID = "toggle-nearby-edges";
+  const TOGGLE_ALL_EDGES_ID = "toggle-all-edges";
   const GRAPH_SELECT_ID = "graph-select";
   const LEAFLET_MAP_URL = (
     "//api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}" +
@@ -63,6 +67,32 @@ ready(() => {
     );
   };
 
+  const onToggleNearbyEdgesLinkClick = function(e) {
+    if (this.classList.contains("active")) {
+      return false;
+    }
+
+    this.classList.add("active");
+    document.getElementById(TOGGLE_ALL_EDGES_ID).classList.remove("active");
+
+    farEdges.removeFrom(map);
+
+    return false;
+  };
+
+  const onToggleAllEdgesLinkClick = function(e) {
+    if (this.classList.contains("active")) {
+      return false;
+    }
+
+    this.classList.add("active");
+    document.getElementById(TOGGLE_NEARBY_EDGES_ID).classList.remove("active");
+
+    farEdges.addTo(map);
+
+    return false;
+  };
+
   const loadNextFarEdgeFromFile = (code, result, results) => {
     if (!farEdges) {
       farEdges = L.layerGroup();
@@ -94,7 +124,28 @@ ready(() => {
       loadNextFarEdgeFromFile(code, nextResult, moreResults);
     }
     else {
-      farEdges.addTo(map);
+      const toggleNearbyEdgesLink = document.createElement("a");
+      toggleNearbyEdgesLink.text = "Nearby edges";
+      toggleNearbyEdgesLink.href = "#";
+      toggleNearbyEdgesLink.id = TOGGLE_NEARBY_EDGES_ID;
+      toggleNearbyEdgesLink.classList.add("button");
+      toggleNearbyEdgesLink.classList.add("first");
+      toggleNearbyEdgesLink.classList.add("active");
+      toggleNearbyEdgesLink.onclick = onToggleNearbyEdgesLinkClick;
+
+      const toggleAllEdgesLink = document.createElement("a");
+      toggleAllEdgesLink.text = "All edges";
+      toggleAllEdgesLink.href = "#";
+      toggleAllEdgesLink.id = TOGGLE_ALL_EDGES_ID;
+      toggleAllEdgesLink.classList.add("button");
+      toggleAllEdgesLink.classList.add("last");
+      toggleAllEdgesLink.onclick = onToggleAllEdgesLinkClick;
+
+      const toggleEdgesWrapper = document.createElement("p");
+      toggleEdgesWrapper.appendChild(toggleNearbyEdgesLink);
+      toggleEdgesWrapper.appendChild(toggleAllEdgesLink);
+      toggleEdgesWrapper.id = TOGGLE_EDGES_WRAPPER_ID;
+      document.querySelector(TOGGLE_EDGES_CONTAINER_NAME).appendChild(toggleEdgesWrapper);
     }
   };
 
@@ -276,6 +327,12 @@ ready(() => {
 
     if (edgeLocalities) {
       edgeLocalities = null;
+    }
+
+    const toggleEdgesWrapper = document.getElementById(TOGGLE_EDGES_WRAPPER_ID);
+
+    if (toggleEdgesWrapper) {
+      toggleEdgesWrapper.remove();
     }
 
     if (this.value) {
