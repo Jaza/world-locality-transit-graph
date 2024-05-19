@@ -298,7 +298,9 @@ ready(() => {
       attribution: LEAFLET_MAP_ATTRIBUTION,
       maxZoom: LEAFLET_MAX_ZOOM,
       id: LEAFLET_STYLE_ID,
-      accessToken: MAPBOX_ACCESS_TOKEN
+      accessToken: MAPBOX_ACCESS_TOKEN,
+      tileSize: 512,
+      zoomOffset: -1
     });
 
     map.addLayer(defaultStyle);
