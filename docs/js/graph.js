@@ -52,6 +52,14 @@ ready(() => {
   let farEdges = null;
   let edgeLocalities = null;
 
+  const getCsvUrlPrefix = () => {
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const csvUrlPrefix = urlParams.get("csv_url_prefix");
+
+    return csvUrlPrefix || CSV_URL_PREFIX;
+  };
+
   const getEdgePopupText = (totalMinutes, nameA, nameB) => {
     const hours = Math.floor(totalMinutes / 60);
     const minutes = totalMinutes % 60;
@@ -202,7 +210,7 @@ ready(() => {
     else {
       nearbyEdges.addTo(map);
 
-      const url = `${CSV_URL_PREFIX}${GRAPH_INFO_MAP[code].farEdgesCsvFilename}`;
+      const url = `${getCsvUrlPrefix()}${GRAPH_INFO_MAP[code].farEdgesCsvFilename}`;
       loadFarEdgesFromUrl(code, url);
     }
   };
@@ -264,7 +272,7 @@ ready(() => {
       nodes.addTo(map);
       map.setView(GRAPH_INFO_MAP[code].defaultCoords, GRAPH_INFO_MAP[code].defaultZoom);
 
-      const url = `${CSV_URL_PREFIX}${GRAPH_INFO_MAP[code].nearbyEdgesCsvFilename}`;
+      const url = `${getCsvUrlPrefix()}${GRAPH_INFO_MAP[code].nearbyEdgesCsvFilename}`;
       loadNearbyEdgesFromUrl(code, url);
     }
   };
@@ -339,7 +347,7 @@ ready(() => {
 
     if (this.value) {
       const code = this.value;
-      const url = `${CSV_URL_PREFIX}${GRAPH_INFO_MAP[code].nodesCsvFilename}`;
+      const url = `${getCsvUrlPrefix()}${GRAPH_INFO_MAP[code].nodesCsvFilename}`;
       loadNodesFromUrl(code, url);
     }
     else {
