@@ -101,60 +101,57 @@ ready(() => {
     return false;
   };
 
-  const loadNextFarEdgeFromFile = (code, result, results) => {
-    if (!farEdges) {
-      farEdges = L.layerGroup();
+  const loadFarEdgesFromFile = (code, results) => {
+    while (results.length) {
+      const result = results.pop();
+
+      if (!farEdges) {
+        farEdges = L.layerGroup();
+      }
+
+      const slugA = result.locality_a;
+      const slugB = result.locality_b;
+
+      if (!edgeLocalities) {
+        edgeLocalities = new Set();
+      }
+
+      if (!(edgeLocalities.has(`${slugA};${slugB}`) || edgeLocalities.has(`${slugB};${slugA}`))) {
+        edgeLocalities.add(`${slugA};${slugB}`);
+
+        const latLonA = nodeLatsLons[slugA];
+        const latLonB = nodeLatsLons[slugB];
+
+        const edge = L.polyline([latLonA, latLonB], {color: "gray"});
+        edge.bindPopup(
+          getEdgePopupText(result.transit_time_mins, nodeNames[slugA], nodeNames[slugB])
+        );
+        farEdges.addLayer(edge);
+      }
     }
 
-    const slugA = result.locality_a;
-    const slugB = result.locality_b;
+    const toggleNearbyEdgesLink = document.createElement("a");
+    toggleNearbyEdgesLink.text = "Nearby edges";
+    toggleNearbyEdgesLink.href = "#";
+    toggleNearbyEdgesLink.id = TOGGLE_NEARBY_EDGES_ID;
+    toggleNearbyEdgesLink.classList.add("button");
+    toggleNearbyEdgesLink.classList.add("first");
+    toggleNearbyEdgesLink.classList.add("active");
+    toggleNearbyEdgesLink.onclick = onToggleNearbyEdgesLinkClick;
 
-    if (!edgeLocalities) {
-      edgeLocalities = new Set();
-    }
+    const toggleAllEdgesLink = document.createElement("a");
+    toggleAllEdgesLink.text = "All edges";
+    toggleAllEdgesLink.href = "#";
+    toggleAllEdgesLink.id = TOGGLE_ALL_EDGES_ID;
+    toggleAllEdgesLink.classList.add("button");
+    toggleAllEdgesLink.classList.add("last");
+    toggleAllEdgesLink.onclick = onToggleAllEdgesLinkClick;
 
-    if (!(edgeLocalities.has(`${slugA};${slugB}`) || edgeLocalities.has(`${slugB};${slugA}`))) {
-      edgeLocalities.add(`${slugA};${slugB}`);
-
-      const latLonA = nodeLatsLons[slugA];
-      const latLonB = nodeLatsLons[slugB];
-
-      const edge = L.polyline([latLonA, latLonB], {color: "gray"});
-      edge.bindPopup(
-        getEdgePopupText(result.transit_time_mins, nodeNames[slugA], nodeNames[slugB])
-      );
-      farEdges.addLayer(edge);
-    }
-
-    if (results.length) {
-      const moreResults = results.slice();
-      const nextResult = moreResults.pop();
-      loadNextFarEdgeFromFile(code, nextResult, moreResults);
-    }
-    else {
-      const toggleNearbyEdgesLink = document.createElement("a");
-      toggleNearbyEdgesLink.text = "Nearby edges";
-      toggleNearbyEdgesLink.href = "#";
-      toggleNearbyEdgesLink.id = TOGGLE_NEARBY_EDGES_ID;
-      toggleNearbyEdgesLink.classList.add("button");
-      toggleNearbyEdgesLink.classList.add("first");
-      toggleNearbyEdgesLink.classList.add("active");
-      toggleNearbyEdgesLink.onclick = onToggleNearbyEdgesLinkClick;
-
-      const toggleAllEdgesLink = document.createElement("a");
-      toggleAllEdgesLink.text = "All edges";
-      toggleAllEdgesLink.href = "#";
-      toggleAllEdgesLink.id = TOGGLE_ALL_EDGES_ID;
-      toggleAllEdgesLink.classList.add("button");
-      toggleAllEdgesLink.classList.add("last");
-      toggleAllEdgesLink.onclick = onToggleAllEdgesLinkClick;
-
-      const toggleEdgesWrapper = document.createElement("p");
-      toggleEdgesWrapper.appendChild(toggleNearbyEdgesLink);
-      toggleEdgesWrapper.appendChild(toggleAllEdgesLink);
-      toggleEdgesWrapper.id = TOGGLE_EDGES_WRAPPER_ID;
-      document.querySelector(TOGGLE_EDGES_CONTAINER_NAME).appendChild(toggleEdgesWrapper);
-    }
+    const toggleEdgesWrapper = document.createElement("p");
+    toggleEdgesWrapper.appendChild(toggleNearbyEdgesLink);
+    toggleEdgesWrapper.appendChild(toggleAllEdgesLink);
+    toggleEdgesWrapper.id = TOGGLE_EDGES_WRAPPER_ID;
+    document.querySelector(TOGGLE_EDGES_CONTAINER_NAME).appendChild(toggleEdgesWrapper);
   };
 
   const loadFarEdgesFromUrl = (code, url) => {
@@ -171,48 +168,43 @@ ready(() => {
             return;
           }
 
-          const moreResults = results.data.slice();
-          const nextResult = moreResults.pop();
-          loadNextFarEdgeFromFile(code, nextResult, moreResults);
+          loadFarEdgesFromFile(code, results.data);
         }
       }
     );
   };
 
-  const loadNextNearbyEdgeFromFile = (code, result, results) => {
-    if (!nearbyEdges) {
-      nearbyEdges = L.layerGroup();
+  const loadNearbyEdgesFromFile = (code, results) => {
+    while (results.length) {
+      const result = results.pop();
+
+      if (!nearbyEdges) {
+        nearbyEdges = L.layerGroup();
+      }
+
+      const slugA = result.locality_a;
+      const slugB = result.locality_b;
+
+      if (!edgeLocalities) {
+        edgeLocalities = new Set();
+      }
+
+      edgeLocalities.add(`${slugA};${slugB}`);
+
+      const latLonA = nodeLatsLons[slugA];
+      const latLonB = nodeLatsLons[slugB];
+
+      const edge = L.polyline([latLonA, latLonB]);
+      edge.bindPopup(
+        getEdgePopupText(result.transit_time_mins, nodeNames[slugA], nodeNames[slugB])
+      );
+      nearbyEdges.addLayer(edge);
     }
 
-    const slugA = result.locality_a;
-    const slugB = result.locality_b;
+    nearbyEdges.addTo(map);
 
-    if (!edgeLocalities) {
-      edgeLocalities = new Set();
-    }
-
-    edgeLocalities.add(`${slugA};${slugB}`);
-
-    const latLonA = nodeLatsLons[slugA];
-    const latLonB = nodeLatsLons[slugB];
-
-    const edge = L.polyline([latLonA, latLonB]);
-    edge.bindPopup(
-      getEdgePopupText(result.transit_time_mins, nodeNames[slugA], nodeNames[slugB])
-    );
-    nearbyEdges.addLayer(edge);
-
-    if (results.length) {
-      const moreResults = results.slice();
-      const nextResult = moreResults.pop();
-      loadNextNearbyEdgeFromFile(code, nextResult, moreResults);
-    }
-    else {
-      nearbyEdges.addTo(map);
-
-      const url = `${getCsvUrlPrefix()}${GRAPH_INFO_MAP[code].farEdgesCsvFilename}`;
-      loadFarEdgesFromUrl(code, url);
-    }
+    const url = `${getCsvUrlPrefix()}${GRAPH_INFO_MAP[code].farEdgesCsvFilename}`;
+    loadFarEdgesFromUrl(code, url);
   };
 
   const loadNearbyEdgesFromUrl = (code, url) => {
@@ -229,52 +221,47 @@ ready(() => {
             return;
           }
 
-          const moreResults = results.data.slice();
-          const nextResult = moreResults.pop();
-          loadNextNearbyEdgeFromFile(code, nextResult, moreResults);
+          loadNearbyEdgesFromFile(code, results.data);
         }
       }
     );
   };
 
-  const loadNextNodeFromFile = (code, result, results) => {
-    if (!nodes) {
-      nodes = L.layerGroup();
+  const loadNodesFromFile = (code, results) => {
+    while (results.length) {
+      const result = results.pop();
+
+      if (!nodes) {
+        nodes = L.layerGroup();
+      }
+
+      if (!nodeLatsLons) {
+        nodeLatsLons = {};
+      }
+
+      if (!nodeNames) {
+        nodeNames = {};
+      }
+
+      const slug = result.slug;
+      const latLon = {lat: result.lat, lng: result.lon};
+      nodeLatsLons[slug] = latLon;
+      nodeNames[slug] = result.name;
+
+      const marker = L.marker(latLon);
+      marker.bindPopup(
+        `<strong>${result.name}</strong><br>` +
+        `Area of reference: ${result.area_of_reference}<br>` +
+        `Point of reference: ${result.point_of_reference}`
+      );
+      nodes.addLayer(marker);
     }
 
-    if (!nodeLatsLons) {
-      nodeLatsLons = {};
-    }
+    nodes.addTo(map);
+    map.setView(GRAPH_INFO_MAP[code].defaultCoords, GRAPH_INFO_MAP[code].defaultZoom);
 
-    if (!nodeNames) {
-      nodeNames = {};
-    }
-
-    const slug = result.slug;
-    const latLon = {lat: result.lat, lng: result.lon};
-    nodeLatsLons[slug] = latLon;
-    nodeNames[slug] = result.name;
-
-    const marker = L.marker(latLon);
-    marker.bindPopup(
-      `<strong>${result.name}</strong><br>` +
-      `Area of reference: ${result.area_of_reference}<br>` +
-      `Point of reference: ${result.point_of_reference}`
-    );
-    nodes.addLayer(marker);
-
-    if (results.length) {
-      const moreResults = results.slice();
-      const nextResult = moreResults.pop();
-      loadNextNodeFromFile(code, nextResult, moreResults);
-    }
-    else {
-      nodes.addTo(map);
-      map.setView(GRAPH_INFO_MAP[code].defaultCoords, GRAPH_INFO_MAP[code].defaultZoom);
-
-      const url = `${getCsvUrlPrefix()}${GRAPH_INFO_MAP[code].nearbyEdgesCsvFilename}`;
-      loadNearbyEdgesFromUrl(code, url);
-    }
+    const url = `${getCsvUrlPrefix()}${GRAPH_INFO_MAP[code].nearbyEdgesCsvFilename}`;
+    loadNearbyEdgesFromUrl(code, url);
   };
 
   const loadNodesFromUrl = (code, url) => {
@@ -291,9 +278,7 @@ ready(() => {
             return;
           }
 
-          const moreResults = results.data.slice();
-          const nextResult = moreResults.pop();
-          loadNextNodeFromFile(code, nextResult, moreResults);
+          loadNodesFromFile(code, results.data);
         }
       }
     );
