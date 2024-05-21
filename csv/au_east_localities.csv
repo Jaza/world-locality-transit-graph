@@ -52,3 +52,37 @@ au--vic-mornington-peninsula,AU: VIC: Mornington Peninsula,Mount Martha,Mount Ma
 au--vic-west-gippsland,AU: VIC: West Gippsland,Warragul,Warragul Train Station,-38.1648,145.9327
 au--vic-central-gippsland,AU: VIC: Central Gippsland,Sale,Sale Train Station,-38.1032,147.0544
 au--vic-surf-coast,AU: VIC: Surf Coast,Anglesea,Anglesea Post Office,-38.40455,144.18915
+au--qld-brisbane-city,AU: QLD: Brisbane: City,Brisbane,Brisbane GPO,-27.46808,153.02819
+au--qld-brisbane-northern-suburbs,AU: QLD: Brisbane: Northern Suburbs,Chermside,Chermside Post Office,-27.38481,153.0328
+au--qld-brisbane-eastern-suburbs,AU: QLD: Brisbane: Eastern Suburbs,Tingalpa,Tingalpa Post Office,-27.47391,153.126
+au--qld-brisbane-southern-suburbs,AU: QLD: Brisbane: Southern Suburbs,Coopers Plains,Coopers Plains Train Station,-27.5675,153.0359
+au--qld-brisbane-western-suburbs,AU: QLD: Brisbane: Western Suburbs,Kenmore,Kenmore Post Office,-27.5058,152.93887
+au--qld-brisbane-moreton-bay,AU: QLD: Brisbane: Moreton Bay,Burpengary,Burpengary Train Station,-27.1625,152.9572
+au--qld-brisbane-redlands,AU: QLD: Brisbane: Redlands,Cleveland,Cleveland Train Station,-27.5242,153.2652
+au--qld-brisbane-logan,AU: QLD: Brisbane: Logan,Kingston,Kingston Train Station,-27.6573,153.1183
+au--qld-brisbane-ipswitch,AU: QLD: Brisbane: Ipswitch,Ipswitch,Ipswitch Train Station,-27.61285,152.76046
+au--qld-gold-coast-downtown,AU: QLD: Gold Coast: Downtown,Surfers Paradise,Surfers Paradise Post Office,-28.00279,153.4306
+au--qld-gold-coast-northern,AU: QLD: Gold Coast: Northern,Upper Coomera,Upper Coomera Post Office,-27.84941,153.30222
+au--qld-gold-coast-southern,AU: QLD: Gold Coast: Southern,Burleigh Waters,Burleigh Town Post Office,-28.09779,153.43994
+au--qld-gold-coast-hinterland,AU: QLD: Gold Coast: Hinterland,Nerang,Nerang Post Office,-28.00023,153.33854
+au--nsw-qld-tweed-coolangatta,AU: NSW/QLD: Tweed-Coolangatta,Tweed Heads,Tweed Heads Post Office,-28.17247,153.54393
+au--qld-sunshine-coast-maroochy,AU: QLD: Sunshine Coast: Maroochy,Maroochydore,Maroochydore Post Office,-26.65205,153.09214
+au--qld-sunshine-coast-noosa,AU: QLD: Sunshine Coast: Noosa,Noosa Heads,Noosa Heads Post Office,-26.39672,153.08852
+au--qld-sunshine-coast-caloundra,AU: QLD: Sunshine Coast: Caloundra,Caloundra,Caloundra Post Office,-26.80321,153.13415
+au--qld-darling-downs,AU: QLD: Darling Downs,Millmerran,Millmerran Post Office,-27.87346,151.27113
+au--qld-granite-belt,AU: QLD: Granite Belt,Stanthorpe,Stanthorpe Post Office,-28.65563,151.93392
+au--qld-maranoa,AU: QLD: Maranoa,Surat,Surat Post Office,-27.15237,149.0705
+au--qld-warrego,AU: QLD: Warrego,Wyandra,Wyandra Post Office,-27.24661,145.98064
+au--qld-channel-country,AU: QLD: Channel Country,Windorah,Windorah Post Office,-25.42145,142.65444
+au--qld-wide-bay,AU: QLD: Wide Bay,Tiaro,Tiaro Post Office,-25.72701,152.58355
+au--qld-burnett,AU: QLD: Burnett,Bundaberg,Bundaberg Train Station,-24.86826,152.34534
+au--qld-capricornia,AU: QLD: Capricornia,Rockhampton,Rockhampton Train Station,-23.39,150.5122
+au--qld-central-highlands,AU: QLD: Central Highlands,Emerald,Emerald Post Office,-23.52538,148.16072
+au--qld-central-west,AU: QLD: Central West,Barcaldine,Barcaldine Post Office,-23.55327,145.28386
+au--qld-whitsundays,AU: QLD: Whitsundays,Mackay,Mackay Post Office,-21.14325,149.18717
+au--qld-townsville,AU: QLD: Townsville,Townsville,Townsville Train Station,-19.26937,146.80803
+au--qld-flinders,AU: QLD: Flinders,Hughenden,Hughenden Post Office,-20.84224,144.20023
+au--qld-north-west,AU: QLD: North West,Cloncurry,Cloncurry Post Office,-20.70543,140.50562
+au--qld-far-north-coast,AU: QLD: Far North Coast,Cairns,Cairns Post Office,-16.91238,145.74068
+au--qld-gulf-country,AU: QLD: Gulf Country,Normanton,Normanton Post Office,-17.66943,141.07944
+au--qld-cape-york,AU: QLD: Cape York,Laura,Laura Police Station,-15.5601,144.4468
