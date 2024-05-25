@@ -32,7 +32,8 @@ ready(() => {
   const GRAPH_CODES = [
     "au-east",
     "au-west",
-    "au-north-west"
+    "au-north-west",
+    "au-north"
   ];
 
   const GRAPH_INFO_MAP = {
@@ -59,6 +60,14 @@ ready(() => {
       farEdgesCsvFilename: "au_north_west_localities_transit_times_floyd_warshall_generated.csv",
       defaultCoords: {lat: -17.958, lng: 122.245},
       defaultZoom: 7
+    },
+    "au-north": {
+      name: "AU North",
+      nodesCsvFilename: "au_north_localities.csv",
+      nearbyEdgesCsvFilename: "au_north_localities_transit_times.csv",
+      farEdgesCsvFilename: "au_north_localities_transit_times_floyd_warshall_generated.csv",
+      defaultCoords: {lat: -18.854, lng: 132.891},
+      defaultZoom: 6
     }
   };
 
