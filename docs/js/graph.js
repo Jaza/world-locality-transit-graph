@@ -31,7 +31,8 @@ ready(() => {
 
   const GRAPH_CODES = [
     "au-east",
-    "au-west"
+    "au-west",
+    "au-north-west"
   ];
 
   const GRAPH_INFO_MAP = {
@@ -50,6 +51,14 @@ ready(() => {
       farEdgesCsvFilename: "au_west_localities_transit_times_floyd_warshall_generated.csv",
       defaultCoords: {lat: -28.176, lng: 118.081},
       defaultZoom: 6
+    },
+    "au-north-west": {
+      name: "AU North West",
+      nodesCsvFilename: "au_north_west_localities.csv",
+      nearbyEdgesCsvFilename: "au_north_west_localities_transit_times.csv",
+      farEdgesCsvFilename: "au_north_west_localities_transit_times_floyd_warshall_generated.csv",
+      defaultCoords: {lat: -17.958, lng: 122.245},
+      defaultZoom: 7
     }
   };
 
@@ -173,7 +182,7 @@ ready(() => {
         skipEmptyLines: 'greedy',
         complete: (results) => {
           if (!results.data.length) {
-            alert('Error: far edges file is empty, not loading far edges');
+            console.log('Warning: far edges file is empty, not loading far edges');
             return;
           }
 
@@ -226,7 +235,7 @@ ready(() => {
         skipEmptyLines: 'greedy',
         complete: (results) => {
           if (!results.data.length) {
-            alert('Error: nearby edges file is empty, not loading nearby edges');
+            console.log('Warning: nearby edges file is empty, not loading nearby edges');
             return;
           }
 
@@ -283,7 +292,7 @@ ready(() => {
         skipEmptyLines: 'greedy',
         complete: (results) => {
           if (!results.data.length) {
-            alert('Error: nodes file is empty, not loading nodes');
+            console.log('Warning: nodes file is empty, not loading nodes');
             return;
           }
 
