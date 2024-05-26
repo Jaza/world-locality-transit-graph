@@ -33,7 +33,8 @@ ready(() => {
     "au-east",
     "au-west",
     "au-north-west",
-    "au-north"
+    "au-north",
+    "au-tas"
   ];
 
   const GRAPH_INFO_MAP = {
@@ -68,6 +69,14 @@ ready(() => {
       farEdgesCsvFilename: "au_north_localities_transit_times_floyd_warshall_generated.csv",
       defaultCoords: {lat: -18.854, lng: 132.891},
       defaultZoom: 6
+    },
+    "au-tas": {
+      name: "AU Tasmania",
+      nodesCsvFilename: "au_tas_localities.csv",
+      nearbyEdgesCsvFilename: "au_tas_localities_transit_times.csv",
+      farEdgesCsvFilename: "au_tas_localities_transit_times_floyd_warshall_generated.csv",
+      defaultCoords: {lat: -42.208, lng: 146.492},
+      defaultZoom: 8
     }
   };
 
