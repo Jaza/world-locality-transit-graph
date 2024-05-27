@@ -23,7 +23,8 @@ ready(() => {
     '<a href="https://www.openstreetmap.org/">OpenStreetMap</a> ' +
     'contributors, ' +
     '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-    'Imagery &copy; <a href="https://www.mapbox.com/">Mapbox</a>'
+    'Imagery &copy; <a href="https://www.mapbox.com/">Mapbox</a>', +
+    'Source <a href="https://github.com/Jaza/world-locality-transit-graph">code on GitHub</a>'
   );
   const CSV_URL_PREFIX = (
     "https://raw.githubusercontent.com/Jaza/world-locality-transit-graph/master/csv/"
