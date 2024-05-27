@@ -60,6 +60,8 @@ Built as a static site, using [Leaflet](https://leafletjs.com/) as the map engin
 [Mapbox](https://www.mapbox.com/) for map tiles. Graph nodes and edges are stored in
 CSV files in the `csv/` directory of this repo.
 
+So far, there is only data for Australia. More world regions coming soon.
+
 ## GitHub Pages
 
 The live site is deployed on [GitHub Pages](https://pages.github.com/).
