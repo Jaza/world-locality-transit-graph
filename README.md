@@ -6,6 +6,55 @@ the world.
 See the [World Locality Transit Graph](https://jaza.github.io/world-locality-transit-graph/)
 in action.
 
+A "locality", for the purposes of this graph, is:
+
+- In a large metropolitan area: a group of neighbourhoods / suburbs, e.g. "inner city",
+  "southern suburbs"; such a locality should (as a rough guide) be 15-30 minutes transit
+  time from its adjacent metropolitan localities
+- In a (small urban area or) semi-rural area: the whole main town / city, and usually
+  also neighbouring towns / countryside, e.g. "foobar valley", "fizzbuzz peninsula";
+  such a locality should (as a rough guide) be 1-2 hours transit time from its adjacent
+  semi-rural localities
+- In a remote rural area: all of the towns / countryside within a large area, e.g.
+  "far north", "highlands"; such a locality should (as a rough guide) be 3-5 hours
+  transit time from all adjacent localities
+
+Additionally, regardless of whether it's big-city or middle-of-nowhere:
+
+- Someone who lives in one locality, should consider anyone living in the same locality
+  as being "in my area" (folks in a city of several million people have quite a
+  different definition of "in my area", compared to folks whose next-door neighbour is
+  over the horizon!)
+- Each locality should have its own identity, both geographical and cultural; a person
+  who lives in a locality should feel some connection (could be positive or negative!)
+  to their locality's identity
+
+Each locality is represented as a node in the graph. Two localities should be connected
+as "nearby edges" (i.e. there should be an edge connecting their nodes in the graph) if
+and only if:
+
+- They are geographically adjacent
+- It's possible to travel between them using one or more spontaneous transport modes,
+  e.g. private car, some trains / buses / ferries, walking, bicycle, taxi (**not**
+  non-spontaneous transport, i.e. not transport that has to be booked in advance, that
+  may have infrequent service, and that may not be available 24/7, e.g. flights, some
+  trains / buses / ferries)
+- Travel between them using the fastest available spontaneous transport mode is no more
+  than approximately 5 hours (under ideal conditions, i.e. very low traffic, no adverse
+  weather, no roadwork / trackwork)
+
+There is also an edge for every single possible pair of localities (in each connected
+graph), which can be seen in the "all edges" map view. These edges are calculated and
+generated in advance, using the
+[Floyd-Warshall CSV Generator](https://github.com/Jaza/floyd-warshall-csv-generator).
+
+Due to the "5-hour max transit time" rule, and due to the "only spontaneous transport
+modes" rule, it's actually multiple graphs, not just one graph. This is because there
+is often no way to travel between two localities while adhering to those rules,
+usually due to a body of water being in the way, but sometimes due to a land route
+being extremely long and desolate (e.g. crossing the Nullarbor Plain between South
+Australia and Western Australia takes at least 12 hours of non-stop driving).
+
 Built as a static site, using [Leaflet](https://leafletjs.com/) as the map engine,
 [OpenStreetMap](https://www.openstreetmap.org/) for map data, and
 [Mapbox](https://www.mapbox.com/) for map tiles. Graph nodes and edges are stored in
