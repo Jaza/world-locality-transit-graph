@@ -6,6 +6,8 @@ the world.
 See the [World Locality Transit Graph](https://jaza.github.io/world-locality-transit-graph/)
 in action.
 
+## About the graph
+
 A "locality", for the purposes of this graph, is:
 
 - In a large metropolitan area: a group of neighbourhoods / suburbs, e.g. "inner city",
@@ -44,8 +46,8 @@ and only if:
   weather, no roadwork / trackwork)
 
 There is also an edge for every single possible pair of localities (in each connected
-graph), which can be seen in the "all edges" map view. These edges are calculated and
-generated in advance, using the
+graph), with a transit time of up to 5.5 hours, which can be seen in the "all edges" map
+view. These edges are calculated and generated in advance, using the
 [Floyd-Warshall CSV Generator](https://github.com/Jaza/floyd-warshall-csv-generator).
 
 Due to the "5-hour max transit time" rule, and due to the "only spontaneous transport
@@ -54,6 +56,18 @@ is often no way to travel between two localities while adhering to those rules,
 usually due to a body of water being in the way, but sometimes due to a land route
 being extremely long and desolate (e.g. crossing the Nullarbor Plain between South
 Australia and Western Australia takes at least 12 hours of non-stop driving).
+
+Why these rules? Because, being a "transit graph", the idea is that it only models
+"local" travel, i.e. travel that someone would undertake with little or no notice,
+at little or no financial cost, ideally (for metropolitan localities) local enough that
+one could still make it back home for the night, or (for rural and semi-rural
+localities) at least local enough that one could easily complete the journey one-way in
+a single day.
+
+So, the aim of this graph is to model, for each locality, all of the other nearby
+localities that are "close enough", in terms of transit time, for casual travel -
+perhaps to catch up with friends / family, perhaps for local tourism, perhaps for
+shopping - to be feasible on a regular basis.
 
 Built as a static site, using [Leaflet](https://leafletjs.com/) as the map engine,
 [OpenStreetMap](https://www.openstreetmap.org/) for map data, and
