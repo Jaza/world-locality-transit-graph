@@ -30,6 +30,8 @@ ready(() => {
     "https://raw.githubusercontent.com/Jaza/world-locality-transit-graph/master/csv/"
   );
 
+  const MAX_TRANSIT_TIME_MINS = 330;
+
   const GRAPH_CODES = [
     "au-east",
     "au-west",
@@ -153,7 +155,13 @@ ready(() => {
         edgeLocalities = new Set();
       }
 
-      if (!(edgeLocalities.has(`${slugA};${slugB}`) || edgeLocalities.has(`${slugB};${slugA}`))) {
+      if (
+        !(
+          edgeLocalities.has(`${slugA};${slugB}`) ||
+          edgeLocalities.has(`${slugB};${slugA}`)
+        ) &&
+        parseInt(result.transit_time_mins) <= MAX_TRANSIT_TIME_MINS
+      ) {
         edgeLocalities.add(`${slugA};${slugB}`);
 
         const latLonA = nodeLatsLons[slugA];
