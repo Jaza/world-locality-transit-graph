@@ -5,15 +5,29 @@ nz--auckland-east-auckland,NZ: Auckland: East Auckland,Howick,Howick Post Office
 nz--auckland-north-shore,NZ: Auckland: North Shore,Glenfield,Glenfield Post Office,-36.78182,174.72164
 nz--auckland-east-coast-bays,NZ: Auckland: East Coast Bays,Murrays Bay,Murrays Bay School,-36.73299,174.74682
 nz--auckland-west-auckland,NZ: Auckland: West Auckland,Henderson,Henderson Post Office,-36.87899,174.63225
-nz--hibiscus-coast,NZ: Hibiscus Coast,Orewa,Orewa Post Office,-36.58633,174.69547
-nz--waitakere-west-coast,NZ: Waitākere - West Coast,Waimauku,Waimauku Post Office,-36.76844,174.49279
-nz--kowhai-coast,NZ: Kowhai Coast,Warkworth,Warkworth Post Office,-36.3978,174.66383
-nz--pukekohe,NZ: Pukekohe,Pukekohe,Pukekohe Post Office,-37.20071,174.90231
-nz--whangarei,NZ: Whangārei,Whangārei,Whangārei Post Office,-35.72565,174.32221
-nz--far-north,NZ: Far North,Kaitaia,Kaitaia Post Office,-35.11418,173.26425
-nz--waiheke-island,NZ: Waiheke Island,Oneroa,Waiheke Post Office,-36.78217,175.00951
-nz--hamilton,NZ: Hamilton,Hamilton,Hamilton Post Office,-37.7918,175.29345
-nz--taupo,NZ: Taupō,Taupō,Taupō Post Office,-38.68821,176.07138
-nz--tokoroa,NZ: Tokoroa,Tokoroa,Tokoroa Post Office,-38.21942,175.86744
-nz--coromandel-peninsula,NZ: Coromandel Peninsula,Thames,Thames Post Office,-37.1386,175.54226
-nz--king-country,NZ: King Country,Te Kūiti,Te Kūiti Post Office,-38.33501,175.16596
+nz--auckland-hibiscus-coast,NZ: Auckland: Hibiscus Coast,Orewa,Orewa Post Office,-36.58633,174.69547
+nz--auckland-waitakere-west-coast,NZ: Auckland: Waitākere - West Coast,Waimauku,Waimauku Post Office,-36.76844,174.49279
+nz--auckland-kowhai-coast,NZ: Auckland: Kowhai Coast,Warkworth,Warkworth Post Office,-36.3978,174.66383
+nz--auckland-waikato-pukekohe,NZ: Auckland / Waikato: Pukekohe,Pukekohe,Pukekohe Post Office,-37.20071,174.90231
+nz--northland-whangarei,NZ: Northland: Whangārei,Whangārei,Whangārei Post Office,-35.72565,174.32221
+nz--northland-far-north,NZ: Northland: Far North,Kaitaia,Kaitaia Post Office,-35.11418,173.26425
+nz--auckland-waiheke-island,NZ: Auckland: Waiheke Island,Oneroa,Waiheke Post Office,-36.78217,175.00951
+nz--waikato-hamilton,NZ: Waikato: Hamilton,Hamilton,Hamilton Post Office,-37.7918,175.29345
+nz--waikato-taupo,NZ: Waikato: Taupō,Taupō,Taupō Post Office,-38.68821,176.07138
+nz--waikato-tokoroa,NZ: Waikato: Tokoroa,Tokoroa,Tokoroa Post Office,-38.21942,175.86744
+nz--waikato-coromandel-peninsula,NZ: Waikato: Coromandel Peninsula,Thames,Thames Post Office,-37.1386,175.54226
+nz--waikato-king-country,NZ: Waikato: King Country,Te Kūiti,Te Kūiti Post Office,-38.33501,175.16596
+nz--bay-of-plenty-tauranga,NZ: Bay of Plenty: Tauranga,Tauranga,Tauranga Post Office,-37.69295,176.16208
+nz--bay-of-plenty-rotorua,NZ: Bay of Plenty: Rotorua,Rotorua,Rotorua Post Office,-38.14027,176.25072
+nz--bay-of-plenty-whakatane,NZ: Bay of Plenty: Whakatāne,Whakatāne,Whakatāne Post Office,-37.95149,176.99558
+nz--gisborne-poverty-bay,NZ: Gisborne: Poverty Bay,Gisborne,Gisborne Post Office,-38.66553,178.02437
+nz--gisborne-bay-of-plenty-east-cape,NZ: Gisborne / Bay of Plenty: East Cape,Te Araroa,Te Araroa Post Office,-37.63358,178.36935
+nz--hawkes-bay-napier-hastings,NZ: Hawke’s Bay: Napier-Hastings,Taradale,Taradale Post Office,-39.53623,176.84801
+nz--hawkes-bay-wairoa,NZ: Hawke’s Bay: Wairoa,Wairoa,Wairoa Post Office,-39.03324,177.41899
+nz--taranaki-new-plymouth,NZ: Taranaki: New Plymouth,New Plymouth,New Plymouth Post Office,-39.05681,174.07068
+nz--taranaki-south-taranaki,NZ: Taranaki: South Taranaki,Hāwera,Hāwera Post Office,-39.58846,174.28157
+nz--manawatu-whanganui-palmerston-north,NZ: Manawatū-Whanganui: Palmerston North,Palmerston North,Terrace End Post Office,-40.34757,175.62778
+nz--manawatu-whanganui-whanganui,NZ: Manawatū-Whanganui: Whanganui,Whanganui,Whanganui Post Office,-39.93681,175.05271
+nz--manawatu-whanganui-ruapehu,NZ: Manawatū-Whanganui: Ruapehu,Ohakune,Ohakune Post Office,-39.41771,175.39869
+nz--manawatu-whanganui-tararua,NZ: Manawatū-Whanganui: Tararua,Dannevirke,Dannevirke Post Office,-40.20981,176.09662
+nz--manawatu-whanganui-king-country,NZ: Manawatū-Whanganui: King Country,Taumarunui,Taumarunui Post Office,-38.88439,175.2639
