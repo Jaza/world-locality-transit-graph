@@ -1,0 +1,10 @@
+locality_a,locality_b,transit_time_mins
+nz--auckland-central-auckland,nz--auckland-south-auckland,18
+nz--auckland-central-auckland,nz--auckland-east-auckland,20
+nz--auckland-central-auckland,nz--auckland-north-shore,20
+nz--auckland-central-auckland,nz--auckland-east-coast-bays,24
+nz--auckland-central-auckland,nz--auckland-west-auckland,20
+nz--auckland-south-auckland,nz--auckland-east-auckland,20
+nz--auckland-south-auckland,nz--auckland-west-auckland,28
+nz--auckland-north-shore,nz--auckland-east-coast-bays,12
+nz--auckland-north-shore,nz--auckland-west-auckland,24
