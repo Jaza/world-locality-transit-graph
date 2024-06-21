@@ -16,7 +16,7 @@ nz--waikato-hamilton,NZ: Waikato: Hamilton,Hamilton,Hamilton Post Office,-37.791
 nz--waikato-taupo,NZ: Waikato: Taupō,Taupō,Taupō Post Office,-38.68821,176.07138
 nz--waikato-tokoroa,NZ: Waikato: Tokoroa,Tokoroa,Tokoroa Post Office,-38.21942,175.86744
 nz--waikato-coromandel-peninsula,NZ: Waikato: Coromandel Peninsula,Thames,Thames Post Office,-37.1386,175.54226
-nz--waikato-king-country,NZ: Waikato: King Country,Te Kūiti,Te Kūiti Post Office,-38.33501,175.16596
+nz--waikato-manawatu-whanganui-king-country,NZ: Waikato / Manawatū-Whanganui: King Country,Mapiu,Mapiu School,-38.5755,175.21487
 nz--bay-of-plenty-tauranga,NZ: Bay of Plenty: Tauranga,Tauranga,Tauranga Post Office,-37.69295,176.16208
 nz--bay-of-plenty-rotorua,NZ: Bay of Plenty: Rotorua,Rotorua,Rotorua Post Office,-38.14027,176.25072
 nz--bay-of-plenty-whakatane,NZ: Bay of Plenty: Whakatāne,Whakatāne,Whakatāne Post Office,-37.95149,176.99558
@@ -28,6 +28,12 @@ nz--taranaki-new-plymouth,NZ: Taranaki: New Plymouth,New Plymouth,New Plymouth P
 nz--taranaki-south-taranaki,NZ: Taranaki: South Taranaki,Hāwera,Hāwera Post Office,-39.58846,174.28157
 nz--manawatu-whanganui-palmerston-north,NZ: Manawatū-Whanganui: Palmerston North,Palmerston North,Terrace End Post Office,-40.34757,175.62778
 nz--manawatu-whanganui-whanganui,NZ: Manawatū-Whanganui: Whanganui,Whanganui,Whanganui Post Office,-39.93681,175.05271
-nz--manawatu-whanganui-ruapehu,NZ: Manawatū-Whanganui: Ruapehu,Ohakune,Ohakune Post Office,-39.41771,175.39869
-nz--manawatu-whanganui-tararua,NZ: Manawatū-Whanganui: Tararua,Dannevirke,Dannevirke Post Office,-40.20981,176.09662
-nz--manawatu-whanganui-king-country,NZ: Manawatū-Whanganui: King Country,Taumarunui,Taumarunui Post Office,-38.88439,175.2639
+nz--manawatu-whanganui-waikato-tongariro,NZ: Manawatū-Whanganui / Waikato: Tongariro,Waiouru,Waiouru Train Station,-39.48081,175.66702
+nz--manawatu-whanganui-hawkes-bay-tararua,NZ: Manawatū-Whanganui / Hawke’s Bay: Tararua,Dannevirke,Dannevirke Post Office,-40.20981,176.09662
+nz--wellington-city,NZ: Wellington: City,Wellington,New Zealand Parliament Buildings,-41.2778,174.77636
+nz--wellington-lower-hutt,NZ: Wellington: Lower Hutt,Lower Hutt,Lower Hutt Post Office,-41.20858,174.90461
+nz--wellington-porirua,NZ: Wellington: Porirua,Porirua,Porirua Post Office,-41.13709,174.84165
+nz--wellington-upper-hutt,NZ: Wellington: Upper Hutt,Upper Hutt,Upper Hutt Post Office,-41.12396,175.07374
+nz--wellington-kapiti-coast,NZ: Wellington: Kāpiti Coast,Paraparaumu,Paraparaumu Post Office,-40.8939,174.98113
+nz--wellington-manawatu-whanganui-wairarapa,NZ: Wellington / Manawatū-Whanganui: Wairarapa,Masterton,Masterton Post Office,-40.95079,175.66045
+nz--manawatu-whanganui-horowhenua,NZ: Manawatū-Whanganui: Horowhenua,Levin,Levin Post Office,-40.6227,175.28546
