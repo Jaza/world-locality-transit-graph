@@ -38,7 +38,8 @@ ready(() => {
     "au-north-west",
     "au-north",
     "au-tas",
-    "nz-north-island"
+    "nz-north-island",
+    "nz-south-island"
   ];
 
   const GRAPH_INFO_MAP = {
@@ -88,6 +89,14 @@ ready(() => {
       nearbyEdgesCsvFilename: "nz_north_island_localities_transit_times.csv",
       farEdgesCsvFilename: "nz_north_island_localities_transit_times_floyd_warshall_generated.csv",
       defaultCoords: {lat: -38.720, lng: 175.847},
+      defaultZoom: 7
+    },
+    "nz-south-island": {
+      name: "NZ South Island",
+      nodesCsvFilename: "nz_south_island_localities.csv",
+      nearbyEdgesCsvFilename: "nz_south_island_localities_transit_times.csv",
+      farEdgesCsvFilename: "nz_south_island_localities_transit_times_floyd_warshall_generated.csv",
+      defaultCoords: {lat: -43.914, lng: 170.431},
       defaultZoom: 7
     }
   };
