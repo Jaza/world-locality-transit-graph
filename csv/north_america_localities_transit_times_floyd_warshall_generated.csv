@@ -1,0 +1,16 @@
+locality_a,locality_b,transit_time_mins
+us--ny-new-york-city-downtown-manhattan,us--ny-new-york-city-upper-east-side,26.0
+us--ny-new-york-city-downtown-manhattan,us--ny-new-york-city-upper-manhattan,47.0
+us--ny-new-york-city-downtown-manhattan,us--ny-new-york-city-midtown-manhattan,14.0
+us--ny-new-york-city-downtown-manhattan,us--ny-new-york-city-uptown-manhattan,35.0
+us--ny-new-york-city-downtown-manhattan,us--ny-new-york-city-upper-west-side,26.0
+us--ny-new-york-city-upper-east-side,us--ny-new-york-city-upper-manhattan,26.0
+us--ny-new-york-city-midtown-manhattan,us--ny-new-york-city-upper-east-side,12.0
+us--ny-new-york-city-upper-east-side,us--ny-new-york-city-uptown-manhattan,14.0
+us--ny-new-york-city-upper-east-side,us--ny-new-york-city-upper-west-side,6.0
+us--ny-new-york-city-midtown-manhattan,us--ny-new-york-city-upper-manhattan,33.0
+us--ny-new-york-city-upper-manhattan,us--ny-new-york-city-uptown-manhattan,12.0
+us--ny-new-york-city-upper-manhattan,us--ny-new-york-city-upper-west-side,21.0
+us--ny-new-york-city-midtown-manhattan,us--ny-new-york-city-uptown-manhattan,21.0
+us--ny-new-york-city-midtown-manhattan,us--ny-new-york-city-upper-west-side,12.0
+us--ny-new-york-city-upper-west-side,us--ny-new-york-city-uptown-manhattan,9.0
