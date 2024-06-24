@@ -62,3 +62,9 @@ us--ny-new-york-city-southeast-bronx,us--ny-new-york-city-uptown-manhattan,18
 us--ny-new-york-city-southeast-bronx,us--ny-new-york-city-upper-east-side,18
 us--ny-new-york-city-southeast-bronx,us--ny-new-york-city-northwestern-queens,18
 us--ny-new-york-city-southeast-bronx,us--ny-new-york-city-northeastern-queens,14
+us--ny-new-york-city-staten-island-north-shore,us--ny-new-york-city-staten-island-mid-island,12
+us--ny-new-york-city-staten-island-mid-island,us--ny-new-york-city-staten-island-south-shore,16
+us--ny-new-york-city-staten-island-south-shore,us--ny-new-york-city-staten-island-north-shore,20
+us--ny-new-york-city-staten-island-north-shore,us--ny-new-york-city-southwestern-brooklyn,16
+us--ny-new-york-city-staten-island-mid-island,us--ny-new-york-city-southwestern-brooklyn,18
+us--ny-new-york-city-staten-island-south-shore,us--ny-new-york-city-southwestern-brooklyn,24
