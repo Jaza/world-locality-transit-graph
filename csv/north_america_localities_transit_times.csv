@@ -94,3 +94,16 @@ us--nj-bayonne,us--nj-jersey-city-hoboken,14
 us--nj-jersey-city-hoboken,us--ny-new-york-city-downtown-manhattan,10
 us--ny-new-york-city-staten-island-north-shore,us--ny-new-york-city-downtown-manhattan,28
 us--ny-new-york-city-staten-island-south-shore,us--nj-bayonne,22
+us--nj-jersey-city-hoboken,us--nj-north-hudson,18
+us--nj-north-hudson,us--nj-hackensack,22
+us--nj-north-hudson,us--nj-the-palisades,26
+us--nj-jersey-city-hoboken,us--ny-new-york-city-northwestern-brooklyn,18
+us--nj-jersey-city-hoboken,us--ny-new-york-city-northern-brooklyn,24
+us--nj-jersey-city-hoboken,us--ny-new-york-city-midtown-manhattan,16
+us--nj-jersey-city-hoboken,us--ny-new-york-city-upper-west-side,24
+us--nj-north-hudson,us--ny-new-york-city-downtown-manhattan,24
+us--nj-north-hudson,us--ny-new-york-city-midtown-manhattan,14
+us--nj-north-hudson,us--ny-new-york-city-upper-west-side,22
+us--nj-north-hudson,us--ny-new-york-city-northwestern-queens,30
+us--nj-north-hudson,us--ny-new-york-city-uptown-manhattan,26
+us--nj-north-hudson,us--ny-new-york-city-upper-manhattan,22

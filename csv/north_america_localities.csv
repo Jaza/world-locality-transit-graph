@@ -48,10 +48,13 @@ us--nj-elizabeth,US: NJ: Elizabeth,Elizabeth,Elizabeth train station,40.6675,-74
 us--nj-northern-jersey-shore,US: NJ: Northern Jersey Shore,Elberon,Elberon train station,40.2653,-73.9976
 us--nj-new-brunswick,US: NJ: New Brunswick,New Brunswick,New Brunswick train station,40.4968,-74.4463
 us--nj-north-jersey-skylands,US: NJ: North Jersey Skylands,Sparta,Sparta Post Office,41.03666,-74.63698
-us--nj-raritan-valley,US: NJ: Raritan Valley,Flemington,Flemington Post Office,40.512,-74.85961
+us--nj-western-raritan-valley,US: NJ: Western Raritan Valley,Flemington,Flemington Post Office,40.512,-74.85961
 us--ny-lower-hudson-valley,US: NY: Lower Hudson Valley,Peekskill,Peekskill train station,41.2846,-73.9321
 us--ny-middle-hudson-valley,US: NY: Middle Hudson Valley,Marlboro,Marlboro Post Office,41.60645,-73.97504
 us--ny-catskills,US: NY: Catskills,Woodstock,Woodstock Post Office,42.04116,-74.12981
 us--ny-neversink-valley,US: NY: Neversink Valley,Monticello,Monticello Post Office,41.65601,-74.68988
 us--pa-poconos,US: PA: Poconos,Mount Pocono,Mount Pocono Post Office,41.13089,-75.36174
 us--ct-litchfield-hills,US: CT: Litchfield Hills,Cornwall,Cornwall Post Office,41.84502,-73.33609
+us--nj-passaic,US: NJ: Passaic,Passaic,Passaic train station,40.8496,-74.1339
+us--nj-far-northern-jersey-shore,US: NJ: Far Northern Jersey Shore,Keansburg,Keansburg Post Office,40.44401,-74.12903
+us--nj-eastern-raritan-valley,US: NJ: Eastern Raritan Valley,Jamesburg,Jamesburg Post Office,40.34856,-74.4354
