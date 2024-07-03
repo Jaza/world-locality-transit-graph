@@ -40,7 +40,8 @@ ready(() => {
     "au-tas",
     "nz-north-island",
     "nz-south-island",
-    "north-america"
+    "north-america",
+    "europe"
   ];
 
   const GRAPH_INFO_MAP = {
@@ -106,6 +107,14 @@ ready(() => {
       nearbyEdgesCsvFilename: "north_america_localities_transit_times.csv",
       farEdgesCsvFilename: "north_america_localities_transit_times_floyd_warshall_generated.csv",
       defaultCoords: {lat: 37.475, lng: -92.856},
+      defaultZoom: 5
+    },
+    "europe": {
+      name: "Europe",
+      nodesCsvFilename: "europe_localities.csv",
+      nearbyEdgesCsvFilename: "europe_localities_transit_times.csv",
+      farEdgesCsvFilename: "europe_localities_transit_times_floyd_warshall_generated.csv",
+      defaultCoords: {lat: 48.546, lng: 15.688},
       defaultZoom: 5
     }
   };
