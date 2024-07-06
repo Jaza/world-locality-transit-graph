@@ -1,5 +1,13 @@
 slug,name,area_of_reference,point_of_reference,lat,lon
-gb--london-central-london,GB: London: Central London,Westminster,Charing Cross train station,51.5075,-0.1237
+gb--london-city,GB: London: City,Moorgate,Moorgate train station,51.51826,-0.08908
+gb--london-east-end,GB: London: East End,Stepney Green,Halley Primary School,51.51807,-0.03738
+gb--london-west-end,GB: London: West End,Soho,Oxford Circus tube station,51.51522,-0.14101
+gb--london-chelsea,GB: London: Chelsea,Chelsea,Chelsea fire station,51.48708,-0.17032
+gb--london-hampstead,GB: London: Hampstead,West Hampstead,Finchley Road & Frognal tube station,51.5502,-0.1836
+gb--london-hackney,GB: London: Hackney,Hackney,Hackney Central tube station,51.54708,-0.05694
+gb--london-southwark,GB: London: Southwark,Kennington,Kennington tube station,51.4883,-0.106
+gb--london-peckham,GB: London: Peckham,Peckham,Queens Road Peckham train station,51.47364,-0.05736
+gb--london-putney,GB: London: Putney,Putney,Putney train station,51.461,-0.2154
 gb--london-bromley,GB: London: Bromley,Bromley,Bromley North train station,51.4092,0.0177
 gb--london-croydon,GB: London: Croydon,Croydon,West Croydon train station,51.3788,-0.1021
 gb--london-ealing,GB: London: Ealing,Ealing,Ealing Broadway train station,51.515,-0.3005
@@ -14,15 +22,14 @@ gb--london-stratford,GB: London: Stratford,Stratford,Stratford train station,51.
 gb--london-ilford,GB: London: Ilford,Ilford,Ilford train station,51.559,0.069
 gb--london-sutton,GB: London: Sutton,Sutton,Sutton train station,51.3597,-0.1909
 gb--london-woolwich,GB: London: Woolwich,Woolwich,Woolwich train station,51.492,0.0707
-gb--london-east-end,GB: London: East End,Canary Wharf,Canary Wharf tube station,51.50353,-0.01867
 gb--london-brent-cross,GB: London: Brent Cross,Brent Cross,Brent Cross tube station,51.5769,-0.2139
 gb--london-bexleyheath,GB: London: Bexleyheath,Bexleyheath,Bexleyheath train station,51.4636,0.1329
 gb--london-orpington,GB: London: Orpington,Orpington,Orpington train station,51.3737,0.0887
 gb--london-enfield,GB: London: Enfield,Enfield Town,Enfield Town train station,51.6518,-0.0787
-gb--london-lewisham,GB: London: Lewisham,Lewisham,Lewisham train station,51.4657,-0.0139
+gb--london-greenwich,GB: London: Greenwich,Greenwich,St Alfrege church,51.48052,-0.00974
 gb--london-wimbledon,GB: London: Wimbledon,Wimbledon,Wimbledon train station,51.4217,-0.2053
 gb--london-brixton,GB: London: Brixton,Brixton,Brixton train station,51.463,-0.1136
-gb--london-islington,GB: London: Islington,Holloway,Nag’s Head Market,51.55816,-0.11809
+gb--london-holloway,GB: London: Holloway,Holloway,Nag’s Head Market,51.55816,-0.11809
 gb--london-waltham-forest,GB: London: Waltham Forest,Walthamstow,Walthamstow Central train station,51.58287,-0.02003
 gb--london-barnet,GB: London: Barnet,Chipping Barnet,High Barnet tube station,51.65041,-0.1939
 gb--berkshire-reading,GB: Berkshire: Reading,Reading,Reading train station,51.4594,-0.9723
