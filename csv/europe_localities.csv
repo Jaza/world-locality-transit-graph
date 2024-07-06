@@ -1,63 +1,31 @@
 slug,name,area_of_reference,point_of_reference,lat,lon
-gb--london-city,GB: London: City,Moorgate,Moorgate train station,51.51826,-0.08908
-gb--london-east-end,GB: London: East End,Stepney Green,Halley Primary School,51.51807,-0.03738
-gb--london-west-end,GB: London: West End,Soho,Oxford Circus tube station,51.51522,-0.14101
-gb--london-chelsea,GB: London: Chelsea,Chelsea,Chelsea fire station,51.48708,-0.17032
-gb--london-hampstead,GB: London: Hampstead,West Hampstead,Finchley Road & Frognal tube station,51.5502,-0.1836
-gb--london-hackney,GB: London: Hackney,Hackney,Hackney Central tube station,51.54708,-0.05694
-gb--london-southwark,GB: London: Southwark,Kennington,Kennington tube station,51.4883,-0.106
-gb--london-peckham,GB: London: Peckham,Peckham,Queens Road Peckham train station,51.47364,-0.05736
-gb--london-putney,GB: London: Putney,Putney,Putney train station,51.461,-0.2154
-gb--london-bromley,GB: London: Bromley,Bromley,Bromley North train station,51.4092,0.0177
-gb--london-croydon,GB: London: Croydon,Croydon,West Croydon train station,51.3788,-0.1021
-gb--london-ealing,GB: London: Ealing,Ealing,Ealing Broadway train station,51.515,-0.3005
-gb--london-shepherds-bush,GB: London: Shepherd’s Bush,Shepherd’s Bush,Shepherd’s Bush train station,51.5057,-0.2179
-gb--london-wood-green,GB: London: Wood Green,Wood Green,Wood Green tube station,51.59743,-0.10979
-gb--london-harrow,GB: London: Harrow,Harrow,Harrow on the Hill train station,51.57927,-0.33666
-gb--london-romford,GB: London: Romford,Romford,Romford train station,51.57467,0.18221
-gb--london-uxbridge,GB: London: Uxbridge,Uxbridge,Uxbridge tube station,51.54666,-0.47751
-gb--london-hounslow,GB: London: Hounslow,Hounslow,Hounslow Central tube station,51.4714,-0.3663
-gb--london-kingston,GB: London: Kingston,Kingston upon Thames,Kingston train station,51.41293,-0.30188
-gb--london-stratford,GB: London: Stratford,Stratford,Stratford train station,51.5413,-0.0035
-gb--london-ilford,GB: London: Ilford,Ilford,Ilford train station,51.559,0.069
-gb--london-sutton,GB: London: Sutton,Sutton,Sutton train station,51.3597,-0.1909
-gb--london-woolwich,GB: London: Woolwich,Woolwich,Woolwich train station,51.492,0.0707
-gb--london-brent-cross,GB: London: Brent Cross,Brent Cross,Brent Cross tube station,51.5769,-0.2139
-gb--london-bexleyheath,GB: London: Bexleyheath,Bexleyheath,Bexleyheath train station,51.4636,0.1329
-gb--london-orpington,GB: London: Orpington,Orpington,Orpington train station,51.3737,0.0887
-gb--london-enfield,GB: London: Enfield,Enfield Town,Enfield Town train station,51.6518,-0.0787
-gb--london-greenwich,GB: London: Greenwich,Greenwich,St Alfrege church,51.48052,-0.00974
-gb--london-wimbledon,GB: London: Wimbledon,Wimbledon,Wimbledon train station,51.4217,-0.2053
-gb--london-brixton,GB: London: Brixton,Brixton,Brixton train station,51.463,-0.1136
-gb--london-holloway,GB: London: Holloway,Holloway,Nag’s Head Market,51.55816,-0.11809
-gb--london-waltham-forest,GB: London: Waltham Forest,Walthamstow,Walthamstow Central train station,51.58287,-0.02003
-gb--london-barnet,GB: London: Barnet,Chipping Barnet,High Barnet tube station,51.65041,-0.1939
+gb--london-central-london,GB: London: Central London,Chancery Lane,Chancery Lane Tube Station,51.5181,-0.1124
+gb--london-inner-east,GB: London: Inner East,West Ham,West Ham train station,51.5283,0.0045
+gb--london-inner-north-east,GB: London: Inner North East,Walthamstow,Walthamstow Central train station,51.5829,-0.0201
+gb--london-inner-north,GB: London: Inner North,Harringay,Harringay train station,51.5776,-0.1054
+gb--london-inner-north-west,GB: London: Inner North West,Brent Cross,Brent Cross tube station,51.5769,-0.2139
+gb--london-inner-west,GB: London: Inner West,Shepherd’s Bush,Shepherd’s Bush train station,51.50578,-0.21795
+gb--london-inner-south-west,GB: London: Inner South West,Putney,Putney train station,51.461,-0.2154
+gb--london-inner-south,GB: London: Inner South,Brixton,Brixton train station,51.463,-0.1136
+gb--london-inner-south-east,GB: London: Inner South East,Lewisham,Lewisham train station,51.4658,-0.014
+gb--london-essex-outer-east,GB: London-Essex: Outer East,Elm Park,Elm Park tube station,51.5496,0.1974
+gb--london-essex-outer-north-east,GB: London-Essex: Outer North East,Debden,Debden tube station,51.6453,0.0835
+gb--london-hertfordshire-outer-north,GB: London-Hertfordshire: Outer North,Oakwood,Oakwood tube station,51.6474,-0.1313
+gb--london-hertfordshire-outer-north-west,GB: London-Hertfordshire: Outer North West,Northwood,Northwood tube station,51.6108,-0.4238
+gb--london-outer-west,GB: London: Outer West,Cranford,Cranford library,51.47814,-0.40649
+gb--london-surrey-outer-south-west,GB: London-Surrey: Outer South West,Cobham,ACS International School Cobham,51.34816,-0.40174
+gb--london-surrey-outer-south,GB: London-Surrey: Outer South,Coulsdon,Coulsdon Town train station,51.3221,-0.1343
+gb--london-kent-outer-south-east,GB: London-Kent: Outer South East,Foots Cray,Foots Cray Baptish church,51.42046,0.11502
+gb--essex-thurrock,GB: Essex: Thurrock,Orsett,Orsett village hall,51.5112,0.36224
+gb--hertfordshire-essex-east-hertfordshire,GB: Hertfordshire-Essex: East Hertfordshire,Ware,Ware train station,51.8082,-0.0296
+gb--hertfordshire-bedfordshire-st-albans-luton,GB: Hertfordshire-Bedfordshire: St Albans-Luton,Flamstead,Flamstead village school,51.8164,-0.43598
+gb--buckinghamshire-south-buckinghamshire,GB: Buckinghamshire: South Buckinghamshire,Great Missenden,Great Missenden train station,51.7035,-0.7095
+gb--berkshire-windsor-slough-maidenhead,GB: Berkshire: Windsor-Slough-Maidenhead,Dorney Reach,Dorney village hall,51.50719,-0.68098
 gb--berkshire-reading,GB: Berkshire: Reading,Reading,Reading train station,51.4594,-0.9723
-gb--bedfordshire-luton,GB: Bedfordshire: Luton,Luton,Luton train station,51.8826,-0.414
-gb--essex-basildon,GB: Essex: Basildon,Basildon,Basildon train station,51.5681,0.4565
-gb--west-sussex-crawley,GB: West Sussex: Crawley,Crawley,Crawley train station,51.1121,-0.1866
-gb--kent-medway,GB: Kent: Medway,Chatham,Chatham train station,51.3806,0.5212
-gb--kent-maidstone,GB: Kent: Maidstone,Maidstone,Maidstone East train station,51.2776,0.5199
-gb--hertfordshire-watford,GB: Hertfordshire: Watford,Watford,Watford High Street train station,51.6524,-0.3924
-gb--hertfordshire-st-albans-hemel,GB: Hertfordshire: St Albans-Hemel,Gorhambury,Gorhambury House,51.75835,-0.38776
-gb--surrey-guildford,GB: Surrey: Guildford,Guildford,Guildford train station,51.2373,-0.5812
+gb--surrey-west-surrey,GB: Surrey: West Surrey,Wood Street,Wood Street post office,51.25048,-0.62773
+gb--surrey-west-sussex-east-surrey,GB: Surrey-West Sussex: East Surrey,Horley,Horley train station,51.1688,-0.161
+gb--kent-north-west-kent,GB: Kent: North West Kent,Longfield,Longfield train station,51.3964,0.3001
+gb--kent-south-west-kent,GB: Kent: South West Kent,Hildenborough,Hildenborough train station,51.2147,0.2278
+gb--kent-medway-maidstone,GB: Kent: Medway-Maidstone,Chatham,Beechen Hall,51.32668,0.54028
 gb--essex-chelmsford,GB: Essex: Chelmsford,Chelmsford,Chelmsford train station,51.7366,0.4687
-gb--hertfordshire-stevenage,GB: Hertfordshire: Stevenage,Stevenage,Stevenage train station,51.9018,-0.2071
-gb--essex-hertfordshire-harlow-hoddesdon,GB: Hertfordshire-Essex: Harlow-Hoddesdon,Roydon,Roydon train station,51.77549,0.03551
-gb--berkshire-windsor-slough,GB: Berkshire: Windsor-Slough,Eton,Agar’s Plough playing field,51.49721,-0.60334
-gb--buckinghamshire-aylesbury,GB: Buckinghamshire: Aylesbury,Aylesbury,Aylesbury train station,51.8135,-0.8142
-gb--kent-royal-tunbridge-wells,GB: Kent: Tunbridge Wells,Royal Tunbridge Wells,Tunbridge Wells train station,51.1301,0.263
-gb--buckinghamshire-wycombe,GB: Buckinghamshire: Wycombe,High Wycombe,High Wycombe train station,51.6294,-0.7446
-gb--surrey-woking,GB: Surrey: Woking,Woking,Woking train station,51.3185,-0.5574
-gb--hertfordshire-hatfield-welwyn,GB: Hertfordshire: Hatfield-Welwyn,Hatfield,Woodhall Lodge,51.77639,-0.20335
-gb--essex-brentwood,GB: Essex: Brentwood,Brentwood,Brentwood train station,51.6136,0.3005
-gb--essex-grays,GB: Essex: Grays,Grays,Grays train station,51.4765,0.3218
-gb--kent-dartford-gravesend,GB: Kent: Dartford-Gravesend,Swanscombe,Swanscombe train station,51.449,0.3115
-gb--kent-sevenoaks,GB: Kent: Sevenoaks,Sevenoaks,Sevenoaks train station,51.27643,0.1819
-gb--surrey-redhill,GB: Surrey: Redhill,Redhill,Redhill train station,51.2402,-0.1656
-gb--hertfordshire-stortford,GB: Hertfordshire: Stortford,Bishop’s Stortford,Bishop’s Stortford train station,51.8666,0.1656
-gb--surrey-surrey-heath,GB: Surrey: Surrey Heath,Camberley,Camberley train station,51.3366,-0.744
-gb--surrey-elmbridge,GB: Surrey: Elmbridge,Cobham,ACS International School Cobham,51.34816,-0.40174
-gb--surrey-staines,GB: Surrey: Staines,Staines,Staines train station,51.4325,-0.5031
-gb--essex-epping,GB: Essex: Epping,Debden,Debden tube station,51.6453,0.0835
-gb--surrey-leatherhead,GB: Surrey: Leatherhead,Leatherhead,Leatherhead train station,51.2992,-0.333
+gb--essex-southend,GB: Essex: Southend,Southend-on-Sea,Southend Central train station,51.5375,0.7117
