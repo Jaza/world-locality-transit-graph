@@ -11,8 +11,8 @@ gb--london-inner-south-east,GB: London: Inner South East,Lewisham,Lewisham train
 gb--london-essex-outer-east,GB: London-Essex: Outer East,Elm Park,Elm Park tube station,51.5496,0.1974
 gb--london-essex-outer-north-east,GB: London-Essex: Outer North East,Debden,Debden tube station,51.6453,0.0835
 gb--london-hertfordshire-outer-north,GB: London-Hertfordshire: Outer North,Oakwood,Oakwood tube station,51.6474,-0.1313
-gb--london-hertfordshire-outer-north-west,GB: London-Hertfordshire: Outer North West,Northwood,Northwood tube station,51.6108,-0.4238
-gb--london-outer-west,GB: London: Outer West,Cranford,Cranford library,51.47814,-0.40649
+gb--london-hertfordshire-buckinghamshire-outer-north-west,GB: London-Hertfordshire-Buckinghamshire: Outer North West,Northwood,Northwood tube station,51.6108,-0.4238
+gb--london-buckinghamshire-berkshire-outer-west,GB: London-Buckinghamshire-Berkshire: Outer West,Harlington,Harlington school,51.4969,-0.4355
 gb--london-surrey-outer-south-west,GB: London-Surrey: Outer South West,Cobham,ACS International School Cobham,51.34816,-0.40174
 gb--london-surrey-outer-south,GB: London-Surrey: Outer South,Coulsdon,Coulsdon Town train station,51.3221,-0.1343
 gb--london-kent-outer-south-east,GB: London-Kent: Outer South East,Foots Cray,Foots Cray Baptish church,51.42046,0.11502
