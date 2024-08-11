@@ -5,6 +5,8 @@ ready(() => {
   const TOGGLE_EDGES_WRAPPER_ID = "toggle-edges-wrapper";
   const TOGGLE_NEARBY_EDGES_ID = "toggle-nearby-edges";
   const TOGGLE_ALL_EDGES_ID = "toggle-all-edges";
+  const TOGGLE_BOUNDING_POLYGON_WRAPPER_ID = "toggle-bounding-polygon-wrapper";
+  const TOGGLE_BOUNDING_POLYGON_ID = "toggle-bounding-polygon";
   const GRAPH_SELECT_ID = "graph-select";
   const LEAFLET_MAP_URL = (
     "//api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}" +
@@ -50,6 +52,7 @@ ready(() => {
       nodesCsvFilename: "au_east_localities.csv",
       nearbyEdgesCsvFilename: "au_east_localities_transit_times.csv",
       farEdgesCsvFilename: "au_east_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "au_east_bounding_polygon.csv",
       defaultCoords: {lat: -28.009906, lng: 145.4592851},
       defaultZoom: 5
     },
@@ -58,6 +61,7 @@ ready(() => {
       nodesCsvFilename: "au_west_localities.csv",
       nearbyEdgesCsvFilename: "au_west_localities_transit_times.csv",
       farEdgesCsvFilename: "au_west_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "au_west_bounding_polygon.csv",
       defaultCoords: {lat: -28.176, lng: 118.081},
       defaultZoom: 6
     },
@@ -66,6 +70,7 @@ ready(() => {
       nodesCsvFilename: "au_north_west_localities.csv",
       nearbyEdgesCsvFilename: "au_north_west_localities_transit_times.csv",
       farEdgesCsvFilename: "au_north_west_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "au_north_west_bounding_polygon.csv",
       defaultCoords: {lat: -17.958, lng: 122.245},
       defaultZoom: 7
     },
@@ -74,6 +79,7 @@ ready(() => {
       nodesCsvFilename: "au_north_localities.csv",
       nearbyEdgesCsvFilename: "au_north_localities_transit_times.csv",
       farEdgesCsvFilename: "au_north_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "au_north_bounding_polygon.csv",
       defaultCoords: {lat: -18.854, lng: 132.891},
       defaultZoom: 6
     },
@@ -82,6 +88,7 @@ ready(() => {
       nodesCsvFilename: "au_tas_localities.csv",
       nearbyEdgesCsvFilename: "au_tas_localities_transit_times.csv",
       farEdgesCsvFilename: "au_tas_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "au_tas_bounding_polygon.csv",
       defaultCoords: {lat: -42.208, lng: 146.492},
       defaultZoom: 8
     },
@@ -90,6 +97,7 @@ ready(() => {
       nodesCsvFilename: "nz_north_island_localities.csv",
       nearbyEdgesCsvFilename: "nz_north_island_localities_transit_times.csv",
       farEdgesCsvFilename: "nz_north_island_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "nz_north_island_bounding_polygon.csv",
       defaultCoords: {lat: -38.720, lng: 175.847},
       defaultZoom: 7
     },
@@ -98,6 +106,7 @@ ready(() => {
       nodesCsvFilename: "nz_south_island_localities.csv",
       nearbyEdgesCsvFilename: "nz_south_island_localities_transit_times.csv",
       farEdgesCsvFilename: "nz_south_island_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "nz_south_island_bounding_polygon.csv",
       defaultCoords: {lat: -43.914, lng: 170.431},
       defaultZoom: 7
     },
@@ -106,6 +115,7 @@ ready(() => {
       nodesCsvFilename: "north_america_localities.csv",
       nearbyEdgesCsvFilename: "north_america_localities_transit_times.csv",
       farEdgesCsvFilename: "north_america_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "north_america_bounding_polygon.csv",
       defaultCoords: {lat: 37.475, lng: -92.856},
       defaultZoom: 5
     },
@@ -114,6 +124,7 @@ ready(() => {
       nodesCsvFilename: "europe_localities.csv",
       nearbyEdgesCsvFilename: "europe_localities_transit_times.csv",
       farEdgesCsvFilename: "europe_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "europe_bounding_polygon.csv",
       defaultCoords: {lat: 48.546, lng: 15.688},
       defaultZoom: 5
     }
@@ -125,6 +136,7 @@ ready(() => {
   let nodeNames = null;
   let nearbyEdges = null;
   let farEdges = null;
+  let boundingPolygon = null;
   let edgeLocalities = null;
 
   const getCsvUrlPrefix = () => {
@@ -158,7 +170,9 @@ ready(() => {
     this.classList.add("active");
     document.getElementById(TOGGLE_ALL_EDGES_ID).classList.remove("active");
 
-    farEdges.removeFrom(map);
+    if (farEdges) {
+      farEdges.removeFrom(map);
+    }
 
     return false;
   };
@@ -171,9 +185,91 @@ ready(() => {
     this.classList.add("active");
     document.getElementById(TOGGLE_NEARBY_EDGES_ID).classList.remove("active");
 
-    farEdges.addTo(map);
+    if (farEdges) {
+      farEdges.addTo(map);
+    }
 
     return false;
+  };
+
+  const onToggleBoundingPolygonCheckboxClick = function(e) {
+    if (document.getElementById(TOGGLE_BOUNDING_POLYGON_ID).checked) {
+      boundingPolygon.addTo(map);
+    }
+    else {
+      boundingPolygon.removeFrom(map);
+    }
+  };
+
+  const loadBoundingPolygonFromFile = (code, results) => {
+    const latLons = [];
+
+    while (results.length) {
+      const result = results.pop();
+      latLons.push([result.lat, result.lon]);
+    }
+
+    if (!boundingPolygon) {
+      boundingPolygon = L.layerGroup();
+    }
+
+    const polygon = L.polygon(latLons);
+    boundingPolygon.addLayer(polygon);
+
+    const toggleNearbyEdgesLink = document.createElement("a");
+    toggleNearbyEdgesLink.text = "Nearby edges";
+    toggleNearbyEdgesLink.href = "#";
+    toggleNearbyEdgesLink.id = TOGGLE_NEARBY_EDGES_ID;
+    toggleNearbyEdgesLink.classList.add("button");
+    toggleNearbyEdgesLink.classList.add("first");
+    toggleNearbyEdgesLink.classList.add("active");
+    toggleNearbyEdgesLink.onclick = onToggleNearbyEdgesLinkClick;
+
+    const toggleAllEdgesLink = document.createElement("a");
+    toggleAllEdgesLink.text = "All edges";
+    toggleAllEdgesLink.href = "#";
+    toggleAllEdgesLink.id = TOGGLE_ALL_EDGES_ID;
+    toggleAllEdgesLink.classList.add("button");
+    toggleAllEdgesLink.classList.add("last");
+    toggleAllEdgesLink.onclick = onToggleAllEdgesLinkClick;
+
+    const toggleEdgesWrapper = document.createElement("p");
+    toggleEdgesWrapper.appendChild(toggleNearbyEdgesLink);
+    toggleEdgesWrapper.appendChild(toggleAllEdgesLink);
+    toggleEdgesWrapper.id = TOGGLE_EDGES_WRAPPER_ID;
+    document.querySelector(TOGGLE_EDGES_CONTAINER_NAME).appendChild(toggleEdgesWrapper);
+
+    const toggleBoundingPolygonLabel = document.createElement("label");
+    toggleBoundingPolygonLabel.id = TOGGLE_BOUNDING_POLYGON_WRAPPER_ID;
+
+    const toggleBoundingPolygonCheckbox = document.createElement("input");
+    toggleBoundingPolygonCheckbox.type = "checkbox";
+    toggleBoundingPolygonCheckbox.id = TOGGLE_BOUNDING_POLYGON_ID;
+    toggleBoundingPolygonLabel.appendChild(toggleBoundingPolygonCheckbox);
+    toggleBoundingPolygonLabel.innerHTML += "Show bounding polygon";
+    toggleBoundingPolygonLabel.onclick = onToggleBoundingPolygonCheckboxClick;
+
+    document.querySelector(GRAPH_SELECT_CONTAINER_NAME).appendChild(toggleBoundingPolygonLabel);
+  };
+
+  const loadBoundingPolygonFromUrl = (code, url) => {
+    Papa.parse(
+      url,
+      {
+        download: true,
+        header: true,
+        dynamicTyping: true,
+        skipEmptyLines: 'greedy',
+        complete: (results) => {
+          if (!results.data.length) {
+            console.log('Warning: bounding polygon file is empty, not loading bounding polygon');
+            return;
+          }
+
+          loadBoundingPolygonFromFile(code, results.data);
+        }
+      }
+    );
   };
 
   const loadFarEdgesFromFile = (code, results) => {
@@ -210,29 +306,6 @@ ready(() => {
         farEdges.addLayer(edge);
       }
     }
-
-    const toggleNearbyEdgesLink = document.createElement("a");
-    toggleNearbyEdgesLink.text = "Nearby edges";
-    toggleNearbyEdgesLink.href = "#";
-    toggleNearbyEdgesLink.id = TOGGLE_NEARBY_EDGES_ID;
-    toggleNearbyEdgesLink.classList.add("button");
-    toggleNearbyEdgesLink.classList.add("first");
-    toggleNearbyEdgesLink.classList.add("active");
-    toggleNearbyEdgesLink.onclick = onToggleNearbyEdgesLinkClick;
-
-    const toggleAllEdgesLink = document.createElement("a");
-    toggleAllEdgesLink.text = "All edges";
-    toggleAllEdgesLink.href = "#";
-    toggleAllEdgesLink.id = TOGGLE_ALL_EDGES_ID;
-    toggleAllEdgesLink.classList.add("button");
-    toggleAllEdgesLink.classList.add("last");
-    toggleAllEdgesLink.onclick = onToggleAllEdgesLinkClick;
-
-    const toggleEdgesWrapper = document.createElement("p");
-    toggleEdgesWrapper.appendChild(toggleNearbyEdgesLink);
-    toggleEdgesWrapper.appendChild(toggleAllEdgesLink);
-    toggleEdgesWrapper.id = TOGGLE_EDGES_WRAPPER_ID;
-    document.querySelector(TOGGLE_EDGES_CONTAINER_NAME).appendChild(toggleEdgesWrapper);
   };
 
   const loadFarEdgesFromUrl = (code, url) => {
@@ -282,10 +355,15 @@ ready(() => {
       nearbyEdges.addLayer(edge);
     }
 
-    nearbyEdges.addTo(map);
+    if (nearbyEdges) {
+      nearbyEdges.addTo(map);
+    }
 
     const url = `${getCsvUrlPrefix()}${GRAPH_INFO_MAP[code].farEdgesCsvFilename}`;
     loadFarEdgesFromUrl(code, url);
+
+    const polygonUrl = `${getCsvUrlPrefix()}${GRAPH_INFO_MAP[code].boundingPolygonCsvFilename}`;
+    loadBoundingPolygonFromUrl(code, polygonUrl);
   };
 
   const loadNearbyEdgesFromUrl = (code, url) => {
@@ -297,11 +375,6 @@ ready(() => {
         dynamicTyping: true,
         skipEmptyLines: 'greedy',
         complete: (results) => {
-          if (!results.data.length) {
-            console.log('Warning: nearby edges file is empty, not loading nearby edges');
-            return;
-          }
-
           loadNearbyEdgesFromFile(code, results.data);
         }
       }
@@ -401,6 +474,10 @@ ready(() => {
       farEdges.clearLayers();
     }
 
+    if (boundingPolygon) {
+      boundingPolygon.clearLayers();
+    }
+
     if (edgeLocalities) {
       edgeLocalities = null;
     }
@@ -409,6 +486,12 @@ ready(() => {
 
     if (toggleEdgesWrapper) {
       toggleEdgesWrapper.remove();
+    }
+
+    const toggleBoundingPolygonWrapper = document.getElementById(TOGGLE_BOUNDING_POLYGON_WRAPPER_ID);
+
+    if (toggleBoundingPolygonWrapper) {
+      toggleBoundingPolygonWrapper.remove();
     }
 
     if (this.value) {
@@ -440,7 +523,7 @@ ready(() => {
     selectEl.onchange = onGraphSelectChange;
 
     const selectWrapperEl = document.createElement("div");
-    selectWrapperEl.appendChild(selectEl)
+    selectWrapperEl.appendChild(selectEl);
 
     document.querySelector(GRAPH_SELECT_CONTAINER_NAME).appendChild(selectWrapperEl);
   };
