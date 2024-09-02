@@ -1,60 +1,37 @@
 slug,name,area_of_reference,point_of_reference,lat,lon
-us--ny-new-york-city-downtown-manhattan,US: NY: New York City: Downtown Manhattan,SoHo,Spring Street subway station,40.7223,-73.9972
-us--ny-new-york-city-midtown-manhattan,US: NY: New York City: Midtown Manhattan,Times Square,Times Square-42nd Street subway station,40.7556,-73.9858
-us--ny-new-york-city-upper-east-side,US: NY: New York City: Upper East Side,Yorkville,86th Street (Lexington Avenue) subway station,40.7793,-73.9556
-us--ny-new-york-city-upper-west-side,US: NY: New York City: Upper West Side,Upper West Side,86th Street (Broadway) subway station,40.7884,-73.9769
-us--ny-new-york-city-uptown-manhattan,US: NY: New York City: Uptown Manhattan,Harlem,125th Street (Lenox Avenue) subway station,40.8074,-73.9452
-us--ny-new-york-city-upper-manhattan,US: NY: New York City: Upper Manhattan,Washington Heights,168th Street subway station,40.8408,-73.9395
-us--ny-new-york-city-central-brooklyn,US: NY: New York City: Central Brooklyn,Prospect Park,Parkside Avenue subway station,40.6552,-73.9619
-us--ny-new-york-city-eastern-brooklyn,US: NY: New York City: Eastern Brooklyn,Brownsville,New Lots Avenue (Canarsie Line) subway station,40.6589,-73.8994
-us--ny-new-york-city-northern-brooklyn,US: NY: New York City: Northern Brooklyn,East Williamsburg,Montrose Avenue subway station,40.7075,-73.94
-us--ny-new-york-city-northwestern-brooklyn,US: NY: New York City: Northwestern Brooklyn,Downtown Brooklyn,Hoyt-Schermerhorn Streets subway station,40.6885,-73.985
-us--ny-new-york-city-southern-brooklyn,US: NY: New York City: Southern Brooklyn,Marine Park,Good Shepherd Catholic Church,40.60514,-73.94033
-us--ny-new-york-city-southwestern-brooklyn,US: NY: New York City: Southwestern Brooklyn,Sunset Park,Eighth Avenue (Sea Branch Line) subway station,40.6352,-74.0115
-us--ny-new-york-city-central-queens,US: NY: New York City: Central Queens,Middle Village,St Margaret Catholic Church,40.7158,-73.87235
-us--ny-new-york-city-northwestern-queens,US: NY: New York City: Northwestern Queens,Astoria,Broadway (Astoria) subway station,40.7618,-73.9254
-us--ny-new-york-city-southwestern-queens,US: NY: New York City: Southwestern Queens,Ozone Park,Aqueduct Racetrack subway station,40.6722,-73.8359
-us--ny-new-york-city-northeastern-queens,US: NY: New York City: Northeastern Queens,Broadway-Flushing,Bowne Park,40.7706,-73.8074
-us--ny-new-york-city-southeastern-queens,US: NY: New York City: Southeastern Queens,St Albans,St Albans train station,40.6913,-73.7656
+us--ny-new-york-city-lower-manhattan,US: NY: New York City: Lower Manhattan,Union Square,14th Street-Union Square subway station,40.734808,-73.98998
+us--ny-new-york-city-mid-manhattan,US: NY: New York City: Mid Manhattan,Upper East Side,Neue Galerie New York,40.781232,-73.960251
+us--ny-new-york-city-upper-manhattan,US: NY: New York City: Upper Manhattan,Hamilton Heights,145th Street (IND Lines) subway station,40.82427,-73.9447
+us--ny-new-york-city-inner-brooklyn,US: NY: New York City: Inner Brooklyn,South Slope,Prospect Avenue subway station,40.66554,-73.99283
+us--ny-new-york-city-outer-brooklyn,US: NY: New York City: Outer Brooklyn,Brownsville,Saratoga Avenue (IRT New Lots Line) subway station,40.661507,-73.916305
+us--ny-new-york-city-inner-queens,US: NY: New York City: Inner Queens,Elmhurst,Maspeth High School,40.729308,-73.888088
+us--ny-new-york-city-outer-queens,US: NY: New York City: Outer Queens,Fresh Meadows,Brinckerhoff Cemetery,40.732043,-73.788251
 us--ny-new-york-city-the-rockaways,US: NY: New York City: The Rockaways,Rockaway Beach,Rockaway Park-Beach 116th Street subway station,40.58075,-73.83617
-us--ny-new-york-city-southwest-bronx,US: NY: New York City: Southwest Bronx,Claremont Village,William Hodson Community Center,40.83419,-73.90818
-us--ny-new-york-city-northwest-bronx,US: NY: New York City: Northwest Bronx,Kingsbridge,238th Street subway station,40.885,-73.9007
-us--ny-new-york-city-southeast-bronx,US: NY: New York City: Southeast Bronx,Westchester Square,Zerega Avenue subway station,40.8368,-73.8468
-us--ny-new-york-city-northeast-bronx,US: NY: New York City: Northeast Bronx,Williamsbridge,P.S. 078 Anne Hutchinson,40.87842,-73.85076
+us--ny-new-york-city-inner-bronx,US: NY: New York City: Inner Bronx,Soundview,Morrison Avenue-Soundview subway station,40.82958,-73.87465
+us--ny-new-york-city-outer-bronx,US: NY: New York City: Outer Bronx,Norwood,Norwood-205th Street Street subway station,40.87484,-73.87887
 us--ny-new-york-city-pelham-islands,US: NY: New York City: Pelham Islands,City Island,City Island Post Office,40.84363,-73.7854
 us--ny-new-york-city-staten-island-north-shore,US: NY: New York City: Staten Island North Shore,West New Brighton,Staten Island Zoo,40.62542,-74.11466
-us--ny-new-york-city-staten-island-mid-island,US: NY: New York City: Staten Island Mid-Island,Grant City,Grant City train station,40.57917,-74.10935
 us--ny-new-york-city-staten-island-south-shore,US: NY: New York City: Staten Island South Shore,Huguenot,Huguenot train station,40.5335,-74.192
-us--nj-jersey-city-hoboken,US: NJ: Jersey City-Hoboken,Jersey City,Christ Hospital,40.73383,-74.05023
-us--nj-north-hudson,US: NJ: North Hudson,West New York,West New York Public Library,40.78818,-74.01544
-us--nj-bayonne,US: NJ: Bayonne,Bayonne,34th Street (Hudson-Bergen) light rail station,40.6718,-74.1077
+us--nj-jersey-city,US: NJ: Jersey City,Jersey City,Christ Hospital,40.73383,-74.05023
+us--nj-union-city,US: NJ: Union City,Union City,Bergenline Avenue light rail station,40.782199,-74.022081
 us--nj-newark,US: NJ: Newark,Newark,Newark Penn Station,40.7346,-74.1639
-us--nj-the-palisades,US: NJ: The Palisades,Tenafly,Tenafly historic train station,40.92445,-73.96477
-us--ny-yonkers,US: NY: Yonkers,Yonkers,James L Fleming Park,40.9324,-73.8825
-us--ny-mt-vernon-new-rochelle,US: NY: Mt Vernon-New Rochelle,Pelham,Pelham Train Station,40.9099,-73.8089
-us--ny-nassau-county-north-shore,US: NY: Nassau County North Shore,Glen Cove,Glen Cove train station,40.8657,-73.6165
-us--ny-nassau-county-hub,US: NY: Nassau County Hub,Westbury,Westbury train station,40.7534,-73.5861
-us--ny-nassau-county-south-shore,US: NY: Nassau County South Shore,Freeport,Freeport train station,40.6576,-73.5822
-us--nj-hackensack,US: NJ: Hackensack,Hackensack,Anderson Street train station,40.8943,-74.0442
-us--ny-west-central-suffolk-county,US: NY: West Central Suffolk County,Hauppauge,Hauppauge high school,40.8246,-73.2007
-us--ny-east-central-suffolk-county,US: NY: East Central Suffolk County,Yaphank,Yaphank train station,40.8255,-72.9159
+us--nj-the-palisades,US: NJ: The Palisades,Bergenfield,Bergenfield Post Office,40.928162,-73.997587
+us--ny-inner-long-island,US: NY: Inner Long Island,Westbury,Westbury train station,40.7534,-73.5861
+us--ny-outer-long-island,US: NY: Outer Long Island,Yaphank,Yaphank train station,40.8255,-72.9159
 us--ny-north-fork-long-island,US: NY: North Fork Long Island,Southold,Southold train station,41.0662,-72.4278
 us--ny-the-hamptons,US: NY: The Hamptons,East Hampton,East Hampton train station,40.965,-72.1935
-us--ny-lower-westchester-county,US: NY: Lower Westchester County,White Plains,White Plains train station,41.0332,-73.7752
+us--ny-lower-westchester-county,US: NY: Lower Westchester County,Crestwood,Crestwood train station,40.95908,-73.82096
 us--ny-lower-rockland-county,US: NY: Lower Rockland County,Spring Valley,Spring Valley train station,41.1119,-74.0441
-us--nj-chemical-coast,US: NJ: Chemical Coast,Avenel,Avenel train station,40.5777,-74.2776
-us--nj-paterson,US: NJ: Paterson,Paterson,Paterson train station,40.9152,-74.1673
+us--nj-passaic-valley,US: NJ: Passaic Valley,Paterson,Paterson train station,40.9152,-74.1673
 us--nj-elizabeth,US: NJ: Elizabeth,Elizabeth,Elizabeth train station,40.6675,-74.2155
 us--nj-northern-jersey-shore,US: NJ: Northern Jersey Shore,Elberon,Elberon train station,40.2653,-73.9976
-us--nj-new-brunswick,US: NJ: New Brunswick,New Brunswick,New Brunswick train station,40.4968,-74.4463
 us--nj-north-jersey-skylands,US: NJ: North Jersey Skylands,Sparta,Sparta Post Office,41.03666,-74.63698
-us--nj-western-raritan-valley,US: NJ: Western Raritan Valley,Flemington,Flemington Post Office,40.512,-74.85961
+us--nj-raritan-valley,US: NJ: Raritan Valley,White house,White house train station,40.615537,-74.770744
 us--ny-lower-hudson-valley,US: NY: Lower Hudson Valley,Peekskill,Peekskill train station,41.2846,-73.9321
-us--ny-middle-hudson-valley,US: NY: Middle Hudson Valley,Marlboro,Marlboro Post Office,41.60645,-73.97504
+us--ny-mid-hudson-valley,US: NY: Mid Hudson Valley,Marlboro,Marlboro Post Office,41.60645,-73.97504
 us--ny-catskills,US: NY: Catskills,Woodstock,Woodstock Post Office,42.04116,-74.12981
 us--ny-neversink-valley,US: NY: Neversink Valley,Monticello,Monticello Post Office,41.65601,-74.68988
 us--pa-poconos,US: PA: Poconos,Mount Pocono,Mount Pocono Post Office,41.13089,-75.36174
 us--ct-litchfield-hills,US: CT: Litchfield Hills,Cornwall,Cornwall Post Office,41.84502,-73.33609
-us--nj-passaic,US: NJ: Passaic,Passaic,Passaic train station,40.8496,-74.1339
-us--nj-far-northern-jersey-shore,US: NJ: Far Northern Jersey Shore,Keansburg,Keansburg Post Office,40.44401,-74.12903
-us--nj-eastern-raritan-valley,US: NJ: Eastern Raritan Valley,Jamesburg,Jamesburg Post Office,40.34856,-74.4354
+us--nj-raritan-bay,US: NJ: Raritan Bay,Keansburg,Keansburg Post Office,40.44401,-74.12903
+us--nj-central-jersey,US: NJ: Central Jersey,New Brunswick,Jersey Avenue train station,40.47718,-74.46791
