@@ -1,19 +1,13 @@
 slug,name,area_of_reference,point_of_reference,lat,lon
 gb--london-central-london,GB: London: Central London,Chancery Lane,Chancery Lane Tube Station,51.5181,-0.1124
-gb--london-inner-east,GB: London: Inner East,West Ham,West Ham train station,51.5283,0.0045
-gb--london-inner-north-east,GB: London: Inner North East,Walthamstow,Walthamstow Central train station,51.5829,-0.0201
-gb--london-inner-north,GB: London: Inner North,Harringay,Harringay train station,51.5776,-0.1054
-gb--london-inner-north-west,GB: London: Inner North West,Brent Cross,Brent Cross tube station,51.5769,-0.2139
-gb--london-inner-west,GB: London: Inner West,Shepherd’s Bush,Shepherd’s Bush train station,51.50578,-0.21795
-gb--london-inner-south-west,GB: London: Inner South West,Putney,Putney train station,51.461,-0.2154
-gb--london-inner-south,GB: London: Inner South,Brixton,Brixton train station,51.463,-0.1136
-gb--london-inner-south-east,GB: London: Inner South East,Lewisham,Lewisham train station,51.4658,-0.014
+gb--london-east-london,GB: London: East London,West Ham,West Ham train station,51.5283,0.0045
+gb--london-north-london,GB: London: North London,Harringay,Harringay train station,51.5776,-0.1054
+gb--london-west-london,GB: London: West London,Shepherd’s Bush,Shepherd’s Bush train station,51.50578,-0.21795
+gb--london-south-london,GB: London: South London,Brixton,Brixton train station,51.463,-0.1136
 gb--london-essex-outer-east,GB: London-Essex: Outer East,Elm Park,Elm Park tube station,51.5496,0.1974
-gb--london-essex-outer-north-east,GB: London-Essex: Outer North East,Debden,Debden tube station,51.6453,0.0835
 gb--london-hertfordshire-outer-north,GB: London-Hertfordshire: Outer North,Oakwood,Oakwood tube station,51.6474,-0.1313
 gb--london-hertfordshire-buckinghamshire-outer-north-west,GB: London-Hertfordshire-Buckinghamshire: Outer North West,Northwood,Northwood tube station,51.6108,-0.4238
 gb--london-buckinghamshire-berkshire-outer-west,GB: London-Buckinghamshire-Berkshire: Outer West,Harlington,Harlington school,51.4969,-0.4355
-gb--london-surrey-outer-south-west,GB: London-Surrey: Outer South West,Cobham,ACS International School Cobham,51.34816,-0.40174
 gb--london-surrey-outer-south,GB: London-Surrey: Outer South,Coulsdon,Coulsdon Town train station,51.3221,-0.1343
 gb--london-kent-outer-south-east,GB: London-Kent: Outer South East,Foots Cray,Foots Cray Baptish church,51.42046,0.11502
 gb--essex-thurrock,GB: Essex: Thurrock,Orsett,Orsett village hall,51.5112,0.36224
