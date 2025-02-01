@@ -116,8 +116,8 @@ ready(() => {
       nearbyEdgesCsvFilename: "north_america_localities_transit_times.csv",
       farEdgesCsvFilename: "north_america_localities_transit_times_floyd_warshall_generated.csv",
       boundingPolygonCsvFilename: "north_america_bounding_polygon.csv",
-      defaultCoords: {lat: 37.475, lng: -92.856},
-      defaultZoom: 5
+      defaultCoords: {lat: 53.49, lng: -101.25},
+      defaultZoom: 3
     },
     "europe": {
       name: "Europe",
