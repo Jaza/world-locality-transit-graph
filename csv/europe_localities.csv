@@ -8,24 +8,22 @@ gb--london-inner-west,GB: London: Inner West,Shepherd’s Bush,Shepherd’s Bush
 gb--london-inner-south-west,GB: London: Inner South West,Putney,Putney train station,51.461,-0.2154
 gb--london-inner-south,GB: London: Inner South,Brixton,Brixton train station,51.463,-0.1136
 gb--london-inner-south-east,GB: London: Inner South East,Lewisham,Lewisham train station,51.4658,-0.014
-gb--london-essex-outer-east,GB: London-Essex: Outer East,Elm Park,Elm Park tube station,51.5496,0.1974
-gb--london-essex-outer-north-east,GB: London-Essex: Outer North East,Debden,Debden tube station,51.6453,0.0835
-gb--london-hertfordshire-outer-north,GB: London-Hertfordshire: Outer North,Oakwood,Oakwood tube station,51.6474,-0.1313
-gb--london-hertfordshire-buckinghamshire-outer-north-west,GB: London-Hertfordshire-Buckinghamshire: Outer North West,Northwood,Northwood tube station,51.6108,-0.4238
-gb--london-buckinghamshire-berkshire-outer-west,GB: London-Buckinghamshire-Berkshire: Outer West,Harlington,Harlington school,51.4969,-0.4355
-gb--london-surrey-outer-south-west,GB: London-Surrey: Outer South West,Cobham,ACS International School Cobham,51.34816,-0.40174
-gb--london-surrey-outer-south,GB: London-Surrey: Outer South,Coulsdon,Coulsdon Town train station,51.3221,-0.1343
-gb--london-kent-outer-south-east,GB: London-Kent: Outer South East,Foots Cray,Foots Cray Baptish church,51.42046,0.11502
-gb--essex-thurrock,GB: Essex: Thurrock,Orsett,Orsett village hall,51.5112,0.36224
+gb--london-outer-east,GB: London: Outer East,Dagenham,Dagenham East tube station,51.54395,0.16492
+gb--essex-epping-forest,GB: Essex: Epping Forest,Theydon Bois,Theydon Bois tube station,51.671753,0.103297
+gb--london-outer-north,GB: London: Outer North,Oakwood,Oakwood tube station,51.6474,-0.1313
+gb--hertfordshire-watford,GB: Hertfordshire: Watford,Watford,Watford train station,51.65699,-0.4184
+gb--london-outer-west,GB: London: Outer West,Hayes,Hayes and Harlington train station,51.50291,-0.41918
+gb--surrey-walton,GB: Surrey: Walton,Walton,Walton-on-Thames train station,51.37287,-0.41441
+gb--london-outer-south,GB: London: Outer South,Croydon,East Croydon train station,51.37581,-0.09276
+gb--essex-grays,GB: Essex: Grays,Grays,Grays train station,51.47636,0.32187
 gb--hertfordshire-essex-east-hertfordshire,GB: Hertfordshire-Essex: East Hertfordshire,Ware,Ware train station,51.8082,-0.0296
-gb--hertfordshire-bedfordshire-st-albans-luton,GB: Hertfordshire-Bedfordshire: St Albans-Luton,Flamstead,Flamstead village school,51.8164,-0.43598
-gb--buckinghamshire-south-buckinghamshire,GB: Buckinghamshire: South Buckinghamshire,Great Missenden,Great Missenden train station,51.7035,-0.7095
+gb--buckinghamshire-aylesbury,GB: Buckinghamshire: Aylesbury,Aylesbury,Aylesbury train station,51.81337,-0.81436
 gb--berkshire-windsor-slough-maidenhead,GB: Berkshire: Windsor-Slough-Maidenhead,Dorney Reach,Dorney village hall,51.50719,-0.68098
 gb--berkshire-reading,GB: Berkshire: Reading,Reading,Reading train station,51.4594,-0.9723
-gb--surrey-west-surrey,GB: Surrey: West Surrey,Wood Street,Wood Street post office,51.25048,-0.62773
-gb--surrey-west-sussex-east-surrey,GB: Surrey-West Sussex: East Surrey,Horley,Horley train station,51.1688,-0.161
-gb--kent-north-west-kent,GB: Kent: North West Kent,Longfield,Longfield train station,51.3964,0.3001
-gb--kent-south-west-kent,GB: Kent: South West Kent,Hildenborough,Hildenborough train station,51.2147,0.2278
+gb--surrey-woking-guildford,GB: Surrey: Woking-Guildford,Woking,Worplesdon train station,51.28787,-0.58247
+gb--west-sussex-surrey-crawley,GB: West Sussex-Surrey: Crawley,Crawley,Crawley train station,51.11199,-0.18657
+gb--kent-dartford,GB: Kent: Dartford,Dartford,Dartford train station,51.44739,0.21906
+gb--kent-tunbridge-sevenoaks,GB: Kent: Tunbridge-Sevenoaks,Tonbridge,Tonbridge train station,51.19147,0.26994
 gb--kent-medway-maidstone,GB: Kent: Medway-Maidstone,Chatham,Beechen Hall,51.32668,0.54028
 gb--essex-chelmsford,GB: Essex: Chelmsford,Chelmsford,Chelmsford train station,51.7366,0.4687
 gb--essex-southend,GB: Essex: Southend,Southend-on-Sea,Southend Central train station,51.5375,0.7117
@@ -33,3 +31,4 @@ gb--kent-ashford,GB: Kent: Ashford,Ashford,Ashford train station,51.1434,0.8751
 gb--essex-colchester,GB: Essex: Colchester,Colchester,Colchester train station,51.9007,0.8924
 gb--cambridgeshire-huntingdonshire,GB: Cambridgeshire: Huntingdonshire,St Neots,St Neots train station,52.23164,-0.24711
 gb--buckinghamshire-milton-keynes,GB: Buckinghamshire: Milton Keynes,Milton Keynes,Milton Keynes Central train station,52.0343,-0.775
+gb--bedfordshire-luton,GB: Bedfordshire: Luton,Luton,Luton train station,51.8825,-0.41409

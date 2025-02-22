@@ -37,13 +37,14 @@ ready(() => {
   const GRAPH_CODES = [
     "au-east",
     "au-west",
-    "au-north-west",
     "au-north",
+    "au-north-west",
     "au-tas",
+    "europe",
+    "north-america",
     "nz-north-island",
     "nz-south-island",
-    "north-america",
-    "europe"
+    "south-america"
   ];
 
   const GRAPH_INFO_MAP = {
@@ -65,15 +66,6 @@ ready(() => {
       defaultCoords: {lat: -28.176, lng: 118.081},
       defaultZoom: 6
     },
-    "au-north-west": {
-      name: "AU North West",
-      nodesCsvFilename: "au_north_west_localities.csv",
-      nearbyEdgesCsvFilename: "au_north_west_localities_transit_times.csv",
-      farEdgesCsvFilename: "au_north_west_localities_transit_times_floyd_warshall_generated.csv",
-      boundingPolygonCsvFilename: "au_north_west_bounding_polygon.csv",
-      defaultCoords: {lat: -17.958, lng: 122.245},
-      defaultZoom: 7
-    },
     "au-north": {
       name: "AU North",
       nodesCsvFilename: "au_north_localities.csv",
@@ -83,6 +75,15 @@ ready(() => {
       defaultCoords: {lat: -18.854, lng: 132.891},
       defaultZoom: 6
     },
+    "au-north-west": {
+      name: "AU North West",
+      nodesCsvFilename: "au_north_west_localities.csv",
+      nearbyEdgesCsvFilename: "au_north_west_localities_transit_times.csv",
+      farEdgesCsvFilename: "au_north_west_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "au_north_west_bounding_polygon.csv",
+      defaultCoords: {lat: -17.958, lng: 122.245},
+      defaultZoom: 7
+    },
     "au-tas": {
       name: "AU Tasmania",
       nodesCsvFilename: "au_tas_localities.csv",
@@ -91,6 +92,24 @@ ready(() => {
       boundingPolygonCsvFilename: "au_tas_bounding_polygon.csv",
       defaultCoords: {lat: -42.208, lng: 146.492},
       defaultZoom: 8
+    },
+    "europe": {
+      name: "Europe",
+      nodesCsvFilename: "europe_localities.csv",
+      nearbyEdgesCsvFilename: "europe_localities_transit_times.csv",
+      farEdgesCsvFilename: "europe_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "europe_bounding_polygon.csv",
+      defaultCoords: {lat: 48.546, lng: 15.688},
+      defaultZoom: 5
+    },
+    "north-america": {
+      name: "North America",
+      nodesCsvFilename: "north_america_localities.csv",
+      nearbyEdgesCsvFilename: "north_america_localities_transit_times.csv",
+      farEdgesCsvFilename: "north_america_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "north_america_bounding_polygon.csv",
+      defaultCoords: {lat: 53.49, lng: -101.25},
+      defaultZoom: 3
     },
     "nz-north-island": {
       name: "NZ North Island",
@@ -110,23 +129,14 @@ ready(() => {
       defaultCoords: {lat: -43.914, lng: 170.431},
       defaultZoom: 7
     },
-    "north-america": {
-      name: "North America",
-      nodesCsvFilename: "north_america_localities.csv",
-      nearbyEdgesCsvFilename: "north_america_localities_transit_times.csv",
-      farEdgesCsvFilename: "north_america_localities_transit_times_floyd_warshall_generated.csv",
-      boundingPolygonCsvFilename: "north_america_bounding_polygon.csv",
-      defaultCoords: {lat: 53.49, lng: -101.25},
+    "south-america": {
+      name: "South America",
+      nodesCsvFilename: "south_america_localities.csv",
+      nearbyEdgesCsvFilename: "south_america_localities_transit_times.csv",
+      farEdgesCsvFilename: "south_america_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "south_america_bounding_polygon.csv",
+      defaultCoords: {lat: -26.71, lng: -62.93},
       defaultZoom: 3
-    },
-    "europe": {
-      name: "Europe",
-      nodesCsvFilename: "europe_localities.csv",
-      nearbyEdgesCsvFilename: "europe_localities_transit_times.csv",
-      farEdgesCsvFilename: "europe_localities_transit_times_floyd_warshall_generated.csv",
-      boundingPolygonCsvFilename: "europe_bounding_polygon.csv",
-      defaultCoords: {lat: 48.546, lng: 15.688},
-      defaultZoom: 5
     }
   };
 
