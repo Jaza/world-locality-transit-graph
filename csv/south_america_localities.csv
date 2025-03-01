@@ -39,8 +39,34 @@ ar--mendoza-santa-rosa-la-paz,AR: Mendoza: Santa Rosa-La Paz,La Dormida,Plaza de
 ar--mendoza-lavalle,AR: Mendoza: Lavalle,Villa Tulumaya,Plaza Juan Galo Lavalle,-32.721367,-68.595929
 ar--mendoza-general-alvear,AR: Mendoza: General Alvear,General Alvear,Plaza Carlos Maria de Alvear,-34.977456,-67.696413
 cl--o-higgins-rancagua,CL: O’Higgins: Rancagua,Rancagua,Plaza de Los Héroes,-34.170285,-70.740774
-cl--o-higgins-san-fernando,CL: O’Higgins: San Fernando,San Fernando,Plaza de Armas de San Fernando,-34.583859,-70.989157
+cl--o-higgins-colchagua,CL: O’Higgins: Colchagua,San Fernando,Plaza de Armas de San Fernando,-34.583859,-70.989157
 cl--o-higgins-pichilemu,CL: O’Higgins: Pichilemu,Pichilemu,Plaza Arturo Prat,-34.385038,-72.00506
-cl--o-higgins-rengo,CL: O’Higgins: Rengo,Rengo,Plaza de Armas de Rengo,-34.408879,-70.861645
-cl--o-higgins-san-vicente-de-tagua-tagua,CL: O’Higgins: San Vicente de Tagua Tagua,San Vicente de Tagua Tagua,Plaza de Armas de San Vicente de Tagua Tagua,-34.439252,-71.076887
-cl--o-higgins-santa-cruz,CL: O’Higgins: Santa Cruz,Santa Cruz,Plaza de Armas de Santa Cruz,-34.64031,-71.366104
+cl--maule-talca,CL: Maule: Talca,Talca,Plaza de Armas de Talca,-35.42652,-71.66607
+cl--maule-curico,CL: Maule: Curicó,Curicó,Plaza de Curicó,-34.985333,-71.239386
+cl--maule-linares,CL: Maule: Linares,Linares,Plaza de Armas de Linares,-35.84547,-71.59801
+cl--maule-constitucion,CL: Maule: Constitución,Constitución,Plaza de Armas de Constitución,-35.331864,-72.411886
+cl--maule-parral,CL: Maule: Parral,Parral,Plaza de Parral,-36.14149,-71.82226
+cl--maule-cauquenes,CL: Maule: Cauquenes,Cauquenes,Plaza de Armas de Cauquenes,-35.96711,-72.31553
+cl--coquimbo-la-serena,CL: Coquimbo: La Serena,La Serena,Plaza de Armas de La Serena,-29.90271,-71.25205
+cl--coquimbo-coquimbo,CL: Coquimbo: Coquimbo,Coquimbo,Plaza de Armas de Coquimbo,-29.953213,-71.337984
+cl--coquimbo-ovalle,CL: Coquimbo: Ovalle,Ovalle,Plaza de Armas de Ovalle,-30.603081,-71.202993
+cl--coquimbo-illapel,CL: Coquimbo: Illapel,Illapel,Plaza de Illapel,-31.632771,-71.168329
+ar--san-juan-san-juan-ciudad,AR: San Juan: San Juan Ciudad,San Juan,Plaza 25 de Mayo,-31.53715,-68.52499
+ar--san-juan-chimbas,AR: San Juan: Chimbas,Villa Paula Albarracín de Sarmiento,Plaza Paula Albarracín de Sarmiento,-31.493114,-68.53265
+ar--san-juan-rawson,AR: San Juan: Rawson,Villa Krause,Plaza Centenario,-31.581904,-68.542253
+ar--san-juan-rivadavia,AR: San Juan: Rivadavia,Rivadavia,Parque de Rivadavia,-31.532332,-68.592287
+ar--san-juan-santa-lucia,AR: San Juan: Santa Lucía,Santa Lucía,Plaza Santa Lucía,-31.540436,-68.497964
+ar--san-juan-pocito,AR: San Juan: Pocito,Villa Aberastain,Plaza Libertad,-31.658007,-68.57946
+ar--san-juan-caucete,AR: San Juan: Caucete,Caucete,Plaza Manuel Belgrano,-31.651459,-68.282111
+ar--san-juan-albardon,AR: San Juan: Albardón,Villa General San Martín,Plaza San Martín,-31.439598,-68.520516
+ar--san-juan-sarmiento,AR: San Juan: Sarmiento,Villa Media Agua,Plaza Dominguito,-31.981356,-68.426821
+ar--san-juan-jachal,AR: San Juan: Jáchal,San José de Jáchal,Plaza San Martín,-30.241639,-68.746637
+cl--biobio-concepcion-centro,CL: Biobío: Concepción Centro,Concepción,Plaza Carlos Condell,-36.827059,-73.050274
+cl--biobio-talcahuano,CL: Biobío: Talcahuano,Talcahuano,Plaza de Armas de Talcahuano,-36.714501,-73.114153
+cl--biobio-coronel,CL: Biobío: Coronel,Coronel,Estación de tren Coronel,-37.02456,-73.15088
+cl--nuble-chillan,CL: Ñuble: Chillán,Chillán,Plaza de Armas de Chillán,-36.60665,-72.10329
+cl--biobio-los-angeles,CL: Biobío: Los Ángeles,Los Ángeles,Plaza de Armas de Los Ángeles,-37.470741,-72.351633
+cl--nuble-quirihue,CL: Ñuble: Quirihue,Quirihue,Plaza de Armas de Quirihue,-36.282704,-72.540858
+cl--biobio-arauco,CL: Biobío: Arauco,Lebu,Plaza de Armas de Lebu,-37.610284,-73.65611
+cl--biobio-chiguayante,CL: Biobío: Chiguayante,Chiguayante,Estación de tren Chiguayante,-36.91533,-73.02904
+cl--biobio-tome,CL: Biobío: Tomé,Tomé,Plaza Arturo Prat,-36.617125,-72.957426
