@@ -11,7 +11,6 @@ cl--region-metropolitana-melipilla,CL: Región Metropolitana: Melipilla,Melipill
 cl--region-metropolitana-talagante,CL: Región Metropolitana: Talagante,Talagante,Plaza de Armas de Talagante,-33.66451,-70.93029
 cl--region-metropolitana-curacavi,CL: Región Metropolitana: Curacaví,Curacaví,Plaza de Armas de Curacaví,-33.402171,-71.12949
 cl--region-metropolitana-lampa,CL: Región Metropolitana: Lampa,Lampa,Plaza de Armas de Lampa,-33.286497,-70.872846
-cl--region-metropolitana-farellones,CL: Región Metropolitana: Farellones,Farellones,Retén Farellones,-33.352286,-70.315783
 cl--valparaiso ciudad-de-valparaiso,CL: Valparaíso: Ciudad de Valparaíso,Valparaíso,Plaza O’Higgins de Valparaíso,-33.048024,-71.607481
 cl--valparaiso-vina-del-mar,CL: Valparaíso: Viña del Mar,Viña del Mar,Plaza Vergara,-33.024549,-71.551777
 cl--valparaiso-renaca,CL: Valparaíso: Reñaca,Reñaca,Mall Plaza Reñaca,-32.970933,-71.543124
@@ -31,5 +30,17 @@ ar--mendoza-el-challao,AR: Mendoza: El Challao,El Challao,Santuario de la Virgen
 ar--mendoza-maipu,AR: Mendoza: Maipú,Maipú,Plaza 12 de Febrero,-32.98456,-68.78823
 ar--mendoza-lujan-de-cuyo,AR: Mendoza: Luján de Cuyo,Luján de Cuyo,Plaza de Luján de Cuyo,-33.039235,-68.879675
 ar--mendoza-chacras-de-coria,AR: Mendoza: Chacras de Coria,Chacras de Coria,Plaza General Espejo,-32.986395,-68.882174
-ar--mendoza-potrerillos,AR: Mendoza: Potrerillos,Potrerillos,Posta Potrerillos,-32.960722,-69.197814
 ar--mendoza-uspallata,AR: Mendoza: Uspallata,Uspallata,Terminal de Omnibus Uspallata,-32.590704,-69.347388
+ar--mendoza-san-martin,AR: Mendoza: San Martín,San Martín,Plaza San Martín,-33.080372,-68.470552
+ar--mendoza-tunuyan,AR: Mendoza: Tunuyán,Tunuyán,Plaza General San Martín,-33.581237,-69.015437
+ar--mendoza-san-rafael,AR: Mendoza: San Rafael,San Rafael,Plaza San Martín,-34.612932,-68.330508
+ar--mendoza-malargue,AR: Mendoza: Malargüe,Malargüe,Plaza General San Martín,-35.468373,-69.584838
+ar--mendoza-santa-rosa-la-paz,AR: Mendoza: Santa Rosa-La Paz,La Dormida,Plaza de La Dormida,-33.346694,-67.917244
+ar--mendoza-lavalle,AR: Mendoza: Lavalle,Villa Tulumaya,Plaza Juan Galo Lavalle,-32.721367,-68.595929
+ar--mendoza-general-alvear,AR: Mendoza: General Alvear,General Alvear,Plaza Carlos Maria de Alvear,-34.977456,-67.696413
+cl--o-higgins-rancagua,CL: O’Higgins: Rancagua,Rancagua,Plaza de Los Héroes,-34.170285,-70.740774
+cl--o-higgins-san-fernando,CL: O’Higgins: San Fernando,San Fernando,Plaza de Armas de San Fernando,-34.583859,-70.989157
+cl--o-higgins-pichilemu,CL: O’Higgins: Pichilemu,Pichilemu,Plaza Arturo Prat,-34.385038,-72.00506
+cl--o-higgins-rengo,CL: O’Higgins: Rengo,Rengo,Plaza de Armas de Rengo,-34.408879,-70.861645
+cl--o-higgins-san-vicente-de-tagua-tagua,CL: O’Higgins: San Vicente de Tagua Tagua,San Vicente de Tagua Tagua,Plaza de Armas de San Vicente de Tagua Tagua,-34.439252,-71.076887
+cl--o-higgins-santa-cruz,CL: O’Higgins: Santa Cruz,Santa Cruz,Plaza de Armas de Santa Cruz,-34.64031,-71.366104
