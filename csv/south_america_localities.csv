@@ -30,16 +30,16 @@ ar--mendoza-el-challao,AR: Mendoza: El Challao,El Challao,Santuario de la Virgen
 ar--mendoza-maipu,AR: Mendoza: Maipú,Maipú,Plaza 12 de Febrero,-32.98456,-68.78823
 ar--mendoza-lujan-de-cuyo,AR: Mendoza: Luján de Cuyo,Luján de Cuyo,Plaza de Luján de Cuyo,-33.039235,-68.879675
 ar--mendoza-chacras-de-coria,AR: Mendoza: Chacras de Coria,Chacras de Coria,Plaza General Espejo,-32.986395,-68.882174
-ar--mendoza-uspallata,AR: Mendoza: Uspallata,Uspallata,Terminal de Omnibus Uspallata,-32.590704,-69.347388
+ar--mendoza-alta-montana,AR: Mendoza: Alta Montaña,Uspallata,Terminal de Omnibus Uspallata,-32.590704,-69.347388
 ar--mendoza-san-martin,AR: Mendoza: San Martín,San Martín,Plaza San Martín,-33.080372,-68.470552
-ar--mendoza-tunuyan,AR: Mendoza: Tunuyán,Tunuyán,Plaza General San Martín,-33.581237,-69.015437
+ar--mendoza-valle-de-uco,AR: Mendoza: Valle de Uco,Tunuyán,Plaza General San Martín,-33.581237,-69.015437
 ar--mendoza-san-rafael,AR: Mendoza: San Rafael,San Rafael,Plaza San Martín,-34.612932,-68.330508
 ar--mendoza-malargue,AR: Mendoza: Malargüe,Malargüe,Plaza General San Martín,-35.468373,-69.584838
 ar--mendoza-santa-rosa-la-paz,AR: Mendoza: Santa Rosa-La Paz,La Dormida,Plaza de La Dormida,-33.346694,-67.917244
 ar--mendoza-lavalle,AR: Mendoza: Lavalle,Villa Tulumaya,Plaza Juan Galo Lavalle,-32.721367,-68.595929
 ar--mendoza-general-alvear,AR: Mendoza: General Alvear,General Alvear,Plaza Carlos Maria de Alvear,-34.977456,-67.696413
 cl--o-higgins-rancagua,CL: O’Higgins: Rancagua,Rancagua,Plaza de Los Héroes,-34.170285,-70.740774
-cl--o-higgins-colchagua,CL: O’Higgins: Colchagua,San Fernando,Plaza de Armas de San Fernando,-34.583859,-70.989157
+cl--o-higgins-valle-de-colchagua,CL: O’Higgins: Valle de Colchagua,San Fernando,Plaza de Armas de San Fernando,-34.583859,-70.989157
 cl--o-higgins-pichilemu,CL: O’Higgins: Pichilemu,Pichilemu,Plaza Arturo Prat,-34.385038,-72.00506
 cl--maule-talca,CL: Maule: Talca,Talca,Plaza de Armas de Talca,-35.42652,-71.66607
 cl--maule-curico,CL: Maule: Curicó,Curicó,Plaza de Curicó,-34.985333,-71.239386
@@ -70,3 +70,20 @@ cl--nuble-quirihue,CL: Ñuble: Quirihue,Quirihue,Plaza de Armas de Quirihue,-36.
 cl--biobio-arauco,CL: Biobío: Arauco,Lebu,Plaza de Armas de Lebu,-37.610284,-73.65611
 cl--biobio-chiguayante,CL: Biobío: Chiguayante,Chiguayante,Estación de tren Chiguayante,-36.91533,-73.02904
 cl--biobio-tome,CL: Biobío: Tomé,Tomé,Plaza Arturo Prat,-36.617125,-72.957426
+ar--san-juan-calingasta,AR: San Juan: Calingasta,Tamberías,Plaza Domingo Faustino Sarmiento,-31.458041,-69.421695
+cl--coquimbo-vicuna,CL: Coquimbo: Vicuña,Vicuña,Plaza de Armas de Vicuña,-30.03406,-70.71275
+cl--araucania-temuco,CL: Araucanía: Temuco,Temuco,Plaza Teodoro Schmidt,-38.735712,-72.590468
+cl--araucania-angol,CL: Araucanía: Angol,Angol,Plaza de Armas de Angol,-37.79884,-72.70866
+cl--araucania-villarrica-pucon,CL: Araucanía: Villarrica-Pucón,Molco,La sureña de Molco,-39.298391,-72.102936
+cl--araucania-curacautin,CL: Araucanía: Curacautín,Curacautín,Plaza de Armas de Curacautín,-38.437266,-71.88833
+cl--araucania-nueva-imperial,CL: Araucanía: Nueva Imperial,Nueva Imperial,Plaza de Armas de Nueva Imperial,-38.745285,-72.95203
+cl--biobio-antuco,CL: Biobío: Antuco,Antuco,Plaza de Armas de Antuco,-37.329905,-71.679225
+ar--neuquen-neuquen-ciudad,AR: Neuquén: Neuquén Ciudad,Neuquén,Monumento a San Martín,-38.951844,-68.059182
+ar--neuquen-plottier,AR: Neuquén: Plottier,Plottier,Plaza San Martín,-38.95224,-68.22703
+ar--neuquen-centenario,AR: Neuquén: Centenario,Centenario,Plaza San Martín,-38.83007,-68.12159
+ar--neuquen-zapala,AR: Neuquén: Zapala,Zapala,Monumento a los Primeros Pobladores,-38.900648,-70.066895
+ar--neuquen-cutral-co,AR: Neuquén: Cutral Co,Cutral Co,Plaza San Martín,-38.937877,-69.229392
+ar--neuquen-san-martin-de-los-andes,AR: Neuquén: San Martín de los Andes,San Martín de los Andes,Plaza San Martín,-40.156799,-71.352553
+ar--neuquen-rincon-de-los-sauces,AR: Neuquén: Rincón de los Sauces,Rincón de los Sauces,Plaza San Martín,-37.39012,-68.92533
+ar--neuquen-junin-de-los-andes,AR: Neuquén: Junín de los Andes,Junín de los Andes,Plaza San Martín,-39.95086,-71.070932
+ar--neuquen-chos-malal,AR: Neuquén: Chos Malal,Chos Malal,Plaza Sarmiento,-37.3785,-70.271988
