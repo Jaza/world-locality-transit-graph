@@ -61,7 +61,7 @@ cl--biobio-arauco,CL: Biobío: Arauco,Lebu,Plaza de Armas de Lebu,-37.610284,-73
 cl--biobio-chiguayante,CL: Biobío: Chiguayante,Chiguayante,Estación de tren Chiguayante,-36.91533,-73.02904
 cl--biobio-tome,CL: Biobío: Tomé,Tomé,Plaza Arturo Prat,-36.617125,-72.957426
 ar--san-juan-calingasta,AR: San Juan: Calingasta,Tamberías,Plaza Domingo Faustino Sarmiento,-31.458041,-69.421695
-cl--coquimbo-vicuna,CL: Coquimbo: Vicuña,Vicuña,Plaza de Armas de Vicuña,-30.03406,-70.71275
+cl--coquimbo-valle-del-elqui,CL: Coquimbo: Valle del Elqui,Vicuña,Plaza de Armas de Vicuña,-30.03406,-70.71275
 cl--araucania-temuco,CL: Araucanía: Temuco,Temuco,Plaza Teodoro Schmidt,-38.735712,-72.590468
 cl--araucania-angol,CL: Araucanía: Angol,Angol,Plaza de Armas de Angol,-37.79884,-72.70866
 cl--araucania-villarrica-pucon,CL: Araucanía: Villarrica-Pucón,Molco,La sureña de Molco,-39.298391,-72.102936
@@ -118,3 +118,18 @@ cl--tierra-del-fuego-porvenir,CL: Tierra del Fuego: Porvenir,Porvenir,Plaza de P
 ar--tierra-del-fuego-ushuaia,AR: Tierra del Fuego: Ushuaia,Ushuaia,Plaza Eva Perón,-54.806846,-68.303939
 ar--tierra-del-fuego-rio-grande,AR: Tierra del Fuego: Río Grande,Río Grande,Plaza Almirante Brown,-53.786331,-67.696348
 ar--tierra-del-fuego-tolhuin,AR: Tierra del Fuego: Tolhuin,Tolhuin,Plaza Cívica Corazón de la Isla,-54.511382,-67.195226
+cl--atacama-copiapo,CL: Atacama: Copiapó,Copiapó,Plaza de Armas de Copiapó,-27.366579,-70.332338
+cl--atacama-vallenar,CL: Atacama: Vallenar,Vallenar,Plaza Ambrosio O’Higgins,-28.575055,-70.761652
+cl--atacama-caldera,CL: Atacama: Caldera,Caldera,Plaza Carlos Condeil de Caldera,-27.067498,-70.822361
+cl--atacama-chanaral,CL: Atacama: Chañaral,Chañaral,Plaza de Armas de Chañaral,-26.347929,-70.62236
+ar--la-rioja-la-rioja-ciudad,AR: La Rioja: La Rioja Ciudad,La Rioja,Plaza 25 de Mayo,-29.412699,-66.855862
+ar--la-rioja-chilecito,AR: La Rioja: Chilecito,Chilecito,Plaza Caudillos Federales,-29.164992,-67.49544
+ar--la-rioja-chamical,AR: La Rioja: Chamical,Chamical,Plaza San Martín,-30.359476,-66.312951
+ar--la-rioja-aimogasta,AR: La Rioja: Aimogasta,Aimogasta,Plaza San Martín,-28.55363,-66.8135
+ar--la-rioja-chepes,AR: La Rioja: Chepes,Chepes,Estación de tren Chepes,-31.341208,-66.592072
+ar--catamarca-san-fernando-del-valle-de-catamarca,AR: Catamarca: San Fernando del Valle de Catamarca,San Fernando del Valle de Catamarca,Plaza 25 de Mayo,-28.46893,-65.77905
+ar--catamarca-belen,AR: Catamarca: Belén,Belén,Plaza de Belén,-27.64956,-67.02647
+ar--catamarca-andalgala,AR: Catamarca: Andalgalá,Andalgalá,Plaza 9 de Julio,-27.583017,-66.315504
+ar--catamarca-tinogasta,AR: Catamarca: Tinogasta,Tinogasta,Plaza de Tinogasta,-28.065462,-67.564491
+ar--catamarca-santa-maria,AR: Catamarca: Santa María,Santa María,Plaza Manuel Belgrano,-26.694518,-66.04811
+ar--catamarca-antofagasta-de-la-sierra,AR: Catamarca: Antofagasta de la Sierra,Antofagasta de la Sierra,Plaza Principal,-26.05912,-67.406691
