@@ -1,8 +1,10 @@
 slug,name,area_of_reference,point_of_reference,lat,lon
 cl--region-metropolitana-santiago-centro,CL: Región Metropolitana: Santiago Centro,Santiago Centro,Plaza de Armas de Santiago,-33.43779,-70.65054
 cl--region-metropolitana-santiago-oriente,CL: Región Metropolitana: Santiago Oriente,Las Condes,Estación de metro Manquehue,-33.40951,-70.56978
-cl--region-metropolitana-santiago-sur,CL: Región Metropolitana: Santiago Sur,La Granja,Estación de metro Santa Rosa,-33.54246,-70.63415
-cl--region-metropolitana-santiago-poniente,CL: Región Metropolitana: Santiago Poniente,Pudahuel,Estación de metro Laguna Sur,-33.46219,-70.7379
+cl--region-metropolitana-santiago-suroriente,CL: Región Metropolitana: Santiago Suroriente,Lo Cañas,Terminal María Angélica,-33.5182,-70.556699
+cl--region-metropolitana-santiago-sur,CL: Región Metropolitana: Santiago Sur,La Cisterna,Estación de metro La Cisterna,-33.53733,-70.66445
+cl--region-metropolitana-santiago-surponiente,CL: Región Metropolitana: Santiago Surponiente,Maipú,Estación de metro Plaza de Maipú,-33.509961,-70.757318
+cl--region-metropolitana-santiago-norponiente,CL: Región Metropolitana: Santiago Norponiente,Cerro Navia,Escuela Ciudad Santo Domingo De Guzmán,-33.430649,-70.72998
 cl--region-metropolitana-santiago-norte,CL: Región Metropolitana: Santiago Norte,Conchalí,Estación de metro Cardenal Caro,-33.37334,-70.68634
 cl--region-metropolitana-cajon-del-maipo,CL: Región Metropolitana: Cajón del Maipo,San José de Maipo,Plaza de Armas de San José de Maipo,-33.640361,-70.352883
 cl--region-metropolitana-colina,CL: Región Metropolitana: Colina,Colina,Plaza de Armas de Colina,-33.202656,-70.674995
@@ -49,13 +51,13 @@ ar--san-juan-sarmiento,AR: San Juan: Sarmiento,Villa Media Agua,Plaza Dominguito
 ar--san-juan-jachal,AR: San Juan: Jáchal,San José de Jáchal,Plaza San Martín,-30.241639,-68.746637
 cl--biobio-concepcion-centro,CL: Biobío: Concepción Centro,Concepción,Plaza Carlos Condell,-36.827059,-73.050274
 cl--biobio-talcahuano,CL: Biobío: Talcahuano,Talcahuano,Plaza de Armas de Talcahuano,-36.714501,-73.114153
-cl--biobio-coronel,CL: Biobío: Coronel,Coronel,Estación de tren Coronel,-37.02456,-73.15088
+cl--biobio-coronel-lota,CL: Biobío: Coronel-Lota,Coronel,Estación de tren Coronel,-37.02456,-73.15088
 cl--nuble-chillan,CL: Ñuble: Chillán,Chillán,Plaza de Armas de Chillán,-36.60665,-72.10329
 cl--biobio-los-angeles,CL: Biobío: Los Ángeles,Los Ángeles,Plaza de Armas de Los Ángeles,-37.470741,-72.351633
 cl--nuble-quirihue,CL: Ñuble: Quirihue,Quirihue,Plaza de Armas de Quirihue,-36.282704,-72.540858
 cl--biobio-arauco,CL: Biobío: Arauco,Lebu,Plaza de Armas de Lebu,-37.610284,-73.65611
-cl--biobio-chiguayante,CL: Biobío: Chiguayante,Chiguayante,Estación de tren Chiguayante,-36.91533,-73.02904
-cl--biobio-tome,CL: Biobío: Tomé,Tomé,Plaza Arturo Prat,-36.617125,-72.957426
+cl--biobio-chiguayante-hualqui,CL: Biobío: Chiguayante-Hualqui,Chiguayante,Estación de tren La Leonera,-36.95129,-73.01321
+cl--biobio-tome-penco,CL: Biobío: Tomé-Penco,Tomé,Escuela Básica Punta de Parra,-36.67282,-72.96126
 ar--san-juan-calingasta,AR: San Juan: Calingasta,Tamberías,Plaza Domingo Faustino Sarmiento,-31.458041,-69.421695
 cl--coquimbo-valle-del-elqui,CL: Coquimbo: Valle del Elqui,Vicuña,Plaza de Armas de Vicuña,-30.03406,-70.71275
 cl--araucania-temuco,CL: Araucanía: Temuco,Temuco,Plaza Teodoro Schmidt,-38.735712,-72.590468
@@ -152,7 +154,6 @@ ar--jujuy-ledesma,AR: Jujuy: Ledesma,Libertador General San Martín,Plaza San Ma
 ar--jujuy-humahuaca,AR: Jujuy: Humahuaca,Humahuaca,Plaza San Martín,-23.205913,-65.347468
 ar--jujuy-susques,AR: Jujuy: Susques,Susques,Hospital Nuestra Señora de Belén,-23.400318,-66.367443
 cl--tarapaca-iquique,CL: Tarapacá: Iquique,Iquique,Plaza Prat,-20.214064,-70.152426
-cl--tarapaca-alto-hospicio,CL: Tarapacá: Alto Hospicio,Alto Hospicio,Plaza de Armas de Alto Hospicio,-20.267265,-70.103062
 cl--tarapaca-pica,CL: Tarapacá: Pica,Pica,Plaza Pica,-20.491163,-69.32924
 cl--arica-parinacota-arica,CL: Arica-Parinacota: Arica,Arica,Plaza Vicuña Mackenna,-18.478271,-70.32221
 cl--arica-parinacota-putre,CL: Arica-Parinacota: Putre,Putre,Plaza de Putre,-18.196349,-69.559223
