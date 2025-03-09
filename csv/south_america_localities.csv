@@ -44,10 +44,6 @@ cl--coquimbo-coquimbo,CL: Coquimbo: Coquimbo,Coquimbo,Plaza de Armas de Coquimbo
 cl--coquimbo-ovalle,CL: Coquimbo: Ovalle,Ovalle,Plaza de Armas de Ovalle,-30.603081,-71.202993
 cl--coquimbo-illapel,CL: Coquimbo: Illapel,Illapel,Plaza de Illapel,-31.632771,-71.168329
 ar--san-juan-san-juan-ciudad,AR: San Juan: San Juan Ciudad,San Juan,Plaza 25 de Mayo,-31.53715,-68.52499
-ar--san-juan-chimbas,AR: San Juan: Chimbas,Villa Paula Albarracín de Sarmiento,Plaza Paula Albarracín de Sarmiento,-31.493114,-68.53265
-ar--san-juan-rawson,AR: San Juan: Rawson,Villa Krause,Plaza Centenario,-31.581904,-68.542253
-ar--san-juan-rivadavia,AR: San Juan: Rivadavia,Rivadavia,Parque de Rivadavia,-31.532332,-68.592287
-ar--san-juan-santa-lucia,AR: San Juan: Santa Lucía,Santa Lucía,Plaza Santa Lucía,-31.540436,-68.497964
 ar--san-juan-caucete,AR: San Juan: Caucete,Caucete,Plaza Manuel Belgrano,-31.651459,-68.282111
 ar--san-juan-sarmiento,AR: San Juan: Sarmiento,Villa Media Agua,Plaza Dominguito,-31.981356,-68.426821
 ar--san-juan-jachal,AR: San Juan: Jáchal,San José de Jáchal,Plaza San Martín,-30.241639,-68.746637
@@ -72,6 +68,7 @@ ar--neuquen-cutral-co,AR: Neuquén: Cutral Có,Cutral Có,Plaza San Martín,-38.
 ar--neuquen-san-martin-junin-de-los-andes,AR: Neuquén: San Martín-Junín de los Andes,Lácar,Aeropuerto Aviador Carlos Campos,-40.0752,-71.13399
 ar--neuquen-rincon-de-los-sauces,AR: Neuquén: Rincón de los Sauces,Rincón de los Sauces,Plaza San Martín,-37.39012,-68.92533
 ar--neuquen-chos-malal,AR: Neuquén: Chos Malal,Chos Malal,Plaza Sarmiento,-37.3785,-70.271988
+ar--neuquen-villa-la-angostura,AR: Neuquén: Villa La Angostura,Villa La Angostura,Plaza San Martín,-40.76189,-71.64792
 cl--los-rios-valdivia,CL: Los Ríos: Valdivia,Valdivia,Plaza de la República,-39.8142,-73.245898
 cl--los-rios-ranco,CL: Los Ríos: Ranco,Pindaco,Escuela Particular Nueva Pindaco,-40.286806,-72.782278
 cl--los-rios-panguipulli,CL: Los Ríos: Panguipulli,Panguipulli,Plaza Prat,-39.641979,-72.333373
@@ -80,7 +77,8 @@ cl--los-lagos-puerto-montt,CL: Los Lagos: Puerto Montt,Puerto Montt,Plaza de Arm
 cl--chiloe-ancud,CL: Chiloé: Ancud,Ancud,Plaza de Armas de Ancud,-41.868135,-73.828747
 cl--chiloe-castro,CL: Chiloé: Castro,Castro,Plaza de Armas de Castro,-42.4823,-73.76435
 cl--chiloe-quellon,CL: Chiloé: Quellón,Quellón,Plaza de Armas de Quellón,-43.119941,-73.620415
-cl--los-lagos-chaiten-futaleufu,CL: Los Lagos: Chaitén-Futaleufú,Villa Santa Lucía,Capilla Villa Santa Lucía,-43.415154,-72.367297
+cl--los-lagos-chaiten,CL: Los Lagos: Chaitén,Chaitén,Plaza Chaitén,-42.9166,-72.70855
+cl--los-lagos-futaleufu,CL: Los Lagos: Futaleufú,Futaleufú,Plaza Futaleufú,-43.18579,-71.86672
 ar--rio-negro-san-carlos-de-bariloche,AR: Río Negro: San Carlos de Bariloche,San Carlos de Bariloche,Museo Perito Moreno,-41.133297,-71.309499
 ar--rio-negro-cipolletti-general-roca,AR: Río Negro: Cipolletti-General Roca,Allen,Estación de tren Allen,-38.97673,-67.82575
 ar--rio-negro-viedma,AR: Río Negro: Viedma,Viedma,Plaza San Martín,-40.80838,-62.99479
@@ -139,11 +137,7 @@ cl--antofagasta-calama,CL: Antofagasta: Calama,Calama,Plaza 23 de Marzo,-22.4624
 cl--antofagasta-tocopilla,CL: Antofagasta: Tocopilla,Tocopilla,Plaza Cuatro Caminos,-22.088714,-70.196087
 cl--antofagasta-mejillones,CL: Antofagasta: Mejillones,Mejillones,Plaza Mejillones,-23.100721,-70.448719
 cl--antofagasta-san-pedro-de-atacama,CL: Antofagasta: San Pedro de Atacama,San Pedro de Atacama,Plaza San Pedro de Atacama,-22.91082,-68.20018
-ar--salta-salta-centro,AR: Salta: Salta Centro,Salta,Plaza 9 de Julio,-24.78922,-65.41034
-ar--salta-norte,AR: Salta: Salta Norte,Universidad Nacional de Salta,Capilla Universidad Nacional de Salta,-24.72686,-65.409744
-ar--salta-sur,AR: Salta: Salta Sur,San Remo,Plaza San Remo,-24.829911,-65.424217
-ar--salta-este,AR: Salta: Salta Este,Salta,Plaza Glorias del Automovilismo Argentino,-24.793967,-65.375015
-ar--salta-oeste,AR: Salta: Salta Oeste,Los Pinos,Centro Cívico Grand Bourg,-24.78145,-65.45105
+ar--salta-salta-ciudad,AR: Salta: Salta Ciudad,Salta,Plaza 9 de Julio,-24.78922,-65.41034
 ar--salta-cachi,AR: Salta: Cachi,Cachi,Plaza 9 de Julio,-25.119848,-66.161953
 ar--salta-los-andes,AR: Salta: Los Andes,San Antonio de los Cobres,Estación de tren San Antonio de los Cobres,-24.226941,-66.316127
 ar--salta-metan,AR: Salta: Metán,San José de Metán,Plaza San Martín,-25.49695,-64.97085
@@ -153,13 +147,10 @@ ar--salta-oran,AR: Salta: Orán,San Ramón de la Nueva Orán,Plaza General Pizar
 ar--salta-iruya,AR: Salta: Iruya,Iruya,Plaza Virgen del Rosario,-22.792233,-65.216394
 ar--salta-cafayate,AR: Salta: Cafayate,Cafayate,Plaza 20 de Febrero,-26.072883,-65.976044
 ar--jujuy-san-salvador-de-jujuy,AR: Jujuy: San Salvador de Jujuy,San Salvador de Jujuy,Palacio de Gobierno de Jujuy,-24.186657,-65.299441
-ar--jujuy-palpala,AR: Jujuy: Palpalá,Palpalá,Plaza San Martín,-24.253455,-65.205156
-ar--jujuy-perico,AR: Jujuy: Perico,Perico,Plaza San Martín,-24.376053,-65.118037
 ar--jujuy-san-pedro-de-jujuy,AR: Jujuy: San Pedro de Jujuy,San Pedro de Jujuy,Plaza Belgrano,-24.231659,-64.867991
 ar--jujuy-ledesma,AR: Jujuy: Ledesma,Libertador General San Martín,Plaza San Martín,-23.81518,-64.7929
 ar--jujuy-humahuaca,AR: Jujuy: Humahuaca,Humahuaca,Plaza San Martín,-23.205913,-65.347468
 ar--jujuy-susques,AR: Jujuy: Susques,Susques,Hospital Nuestra Señora de Belén,-23.400318,-66.367443
-ar--jujuy-la-quiaca,AR: Jujuy: La Quiaca,La Quiaca,Plaza Centenario,-22.104453,-65.596447
 cl--tarapaca-iquique,CL: Tarapacá: Iquique,Iquique,Plaza Prat,-20.214064,-70.152426
 cl--tarapaca-alto-hospicio,CL: Tarapacá: Alto Hospicio,Alto Hospicio,Plaza de Armas de Alto Hospicio,-20.267265,-70.103062
 cl--tarapaca-pica,CL: Tarapacá: Pica,Pica,Plaza Pica,-20.491163,-69.32924
@@ -169,7 +160,7 @@ bo--potosi-potosi-ciudad,BO: Potosí: Potosí Ciudad,Potosí,Plaza 10 de Noviemb
 bo--potosi-llallagua,BO: Potosí: Llallagua,Llallagua,Plaza 6 de Agosto,-18.423049,-66.585485
 bo--potosi-tupiza,BO: Potosí: Tupiza,Tupiza,Plaza Independencia,-21.44407,-65.72067
 bo--potosi-uyuni,BO: Potosí: Uyuni,Uyuni,Plaza Central de Uyuni,-20.460987,-66.821659
-bo--potosi-villazon,BO: Potosí: Villazón,Villazón,Plaza 6 de Agosto,-22.09098,-65.59565
+bo-ar--potosi-jujuy-villazon-la-quiaca,BO-AR: Potosí-Jujuy: Villazón-La Quiaca,Villazón,Plaza 6 de Agosto,-22.09098,-65.59565
 bo--oruro-oruro-ciudad,BO: Oruro: Oruro Ciudad,Oruro,Plaza 10 de Febrero,-17.969571,-67.114765
 bo--oruro-challapata,BO: Oruro: Challapata,Challapata,Plaza Eduardo Abaroa,-18.90242,-66.77471
 bo--oruro-sabaya,BO: Oruro: Sabaya,Sabaya,Plaza Central de Sabaya,-19.015003,-68.372973
@@ -181,7 +172,6 @@ bo--la-paz-patacamaya,BO: La Paz: Patacamaya,Patacamaya,Plaza Calama,-17.23292,-
 bo--la-paz-caranavi,BO: La Paz: Caranavi,Caranavi,Plaza Simón Bolívar,-15.833787,-67.565897
 bo--la-paz-copacabana,BO: La Paz: Copacabana,Copacabana,Plaza 2 de Febrero,-16.165378,-69.085422
 bo--la-paz-achacachi,BO: La Paz: Achacachi,Achacachi,Plaza Mariscal Antonio José de Sucre,-16.044045,-68.685011
-pe--tacna-tacna-centro,PE: Tacna: Tacna Centro,Tacna,Paseo Cívico de Tacna,-18.013958,-70.25119
-pe--tacna-ciudad-nueva-pocollay,PE: Tacna: Ciudad Nueva-Pocollay,Primavera,Plaza Cívica de Primavera,-17.990262,-70.225741
-pe--tacna-coronel-gregorio-albarracin-lanchipa,PE: Tacna: Coronel Gregorio Albarracín Lanchipa,Alfonso Ugarte,Plaza Jorge Chavez,-18.039825,-70.254103
+pe--tacna-tacna-ciudad,PE: Tacna: Tacna Ciudad,Tacna,Paseo Cívico de Tacna,-18.013958,-70.25119
 pe--tacna-tarata,PE: Tacna: Tarata,Tarata,Plaza de Armas de Tarata,-17.474644,-70.032129
+pe-bo--puno-la-paz-desaguadero,PE-BO: Puno-La Paz: Desaguadero,Desaguadero,Plaza de Armas de Desaguadero,-16.564925,-69.040253
