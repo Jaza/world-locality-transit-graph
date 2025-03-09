@@ -91,7 +91,7 @@ ar--rio-negro-choele-choel,AR: Río Negro: Choele Choel,Choele Choel,Biblioteca 
 cl--aysen-coyhaique,CL: Aysén: Coyhaique,Coyhaique,Plaza de Armas de Coyhaique,-45.57115,-72.06855
 cl--aysen-puerto-aysen,CL: Aysén: Puerto Aysén,Puerto Aysén,Plaza de Armas de Puerto Aysén,-45.406755,-72.697756
 cl--aysen-puerto-cisnes,CL: Aysén: Puerto Cisnes,Puerto Cisnes,Plaza de Puerto Cisnes,-44.727402,-72.680558
-cl--aysen-chile-chico,CL: Aysén: Chile Chico,Chile Chico,Plaza de Chile Chico,-46.53759,-71.72939
+cl-ar--aysen-santa-cruz-chile-chico-los-antiguos,CL-AR: Aysén-Santa Cruz: Chile Chico-Los Antiguos,Chile Chico,Complejo Fronterizo Jeinimeni,-46.56415,-71.67144
 cl--aysen-cochrane,CL: Aysén: Cochrane,Cochrane,Plaza de Armas de Cochrane,-47.25387,-72.57332
 cl--aysen-villa-o-higgins,CL: Aysén: Villa O’Higgins,Villa O’Higgins,Plaza de Armas de Villa O’Higgins,-48.468465,-72.559311
 cl--aysen-tortel,CL: Aysén: Tortel,Caleta Tortel,Oficina de Informaciones de Caleta Tortel,-47.795713,-73.531746
@@ -143,7 +143,7 @@ ar--salta-salta-ciudad,AR: Salta: Salta Ciudad,Salta,Plaza 9 de Julio,-24.78922,
 ar--salta-cachi,AR: Salta: Cachi,Cachi,Plaza 9 de Julio,-25.119848,-66.161953
 ar--salta-los-andes,AR: Salta: Los Andes,San Antonio de los Cobres,Estación de tren San Antonio de los Cobres,-24.226941,-66.316127
 ar--salta-metan,AR: Salta: Metán,San José de Metán,Plaza San Martín,-25.49695,-64.97085
-ar--salta-rivadavia,AR: Salta: Rivadavia,Rivadavia,Plaza Evita,-24.18488,-62.88842
+ar--salta-rivadavia,AR: Salta: Rivadavia,Coronel Juan Solá,Plaza Central de Morillo,-23.47044,-62.88785
 ar--salta-tartagal,AR: Salta: Tartagal,Tartagal,Plaza San Martín,-22.516715,-63.805665
 ar--salta-oran,AR: Salta: Orán,San Ramón de la Nueva Orán,Plaza General Pizarro,-23.128624,-64.321496
 ar--salta-iruya,AR: Salta: Iruya,Iruya,Plaza Virgen del Rosario,-22.792233,-65.216394
@@ -164,11 +164,11 @@ bo--potosi-uyuni,BO: Potosí: Uyuni,Uyuni,Plaza Central de Uyuni,-20.460987,-66.
 bo-ar--potosi-jujuy-villazon-la-quiaca,BO-AR: Potosí-Jujuy: Villazón-La Quiaca,Villazón,Plaza 6 de Agosto,-22.09098,-65.59565
 bo--oruro-oruro-ciudad,BO: Oruro: Oruro Ciudad,Oruro,Plaza 10 de Febrero,-17.969571,-67.114765
 bo--oruro-challapata,BO: Oruro: Challapata,Challapata,Plaza Eduardo Abaroa,-18.90242,-66.77471
-bo--oruro-sabaya,BO: Oruro: Sabaya,Sabaya,Plaza Central de Sabaya,-19.015003,-68.372973
+bo-cl--oruro-tarapaca-pisiga-colchane,BO-CL: Oruro-Tarapacá: Pisiga-Colchane,Pisiga,Plaza Central de Pisiga,-19.273547,-68.616303
 bo--la-paz-la-paz-ciudad,BO: La Paz: La Paz Ciudad,La Paz,Plaza Murillo,-16.495683,-68.133591
 bo--la-paz-el-alto,BO: La Paz: El Alto,El Alto,Plaza 10 de Noviembre,-16.523418,-68.150859
 bo--la-paz-viacha,BO: La Paz: Viacha,Viacha,Plaza Mariscal José Ballivián,-16.653487,-68.301648
-bo--la-paz-charana,BO: La Paz: Charaña,Charaña,Estación de tren Charaña,-17.594505,-69.446168
+bo-cl--la-paz-arica-parinacota-charana-visviri,BO-CL: La Paz-Arica-Parinacota: Charaña-Visviri,Charaña,Estación de tren Charaña,-17.594505,-69.446168
 bo--la-paz-patacamaya,BO: La Paz: Patacamaya,Patacamaya,Plaza Calama,-17.23292,-67.920281
 bo--la-paz-caranavi,BO: La Paz: Caranavi,Caranavi,Plaza Simón Bolívar,-15.833787,-67.565897
 bo--la-paz-copacabana,BO: La Paz: Copacabana,Copacabana,Plaza 2 de Febrero,-16.165378,-69.085422
