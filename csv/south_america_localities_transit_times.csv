@@ -29,3 +29,22 @@ cl--region-metropolitana-santiago-surponiente,cl--region-metropolitana-curacavi,
 cl--region-metropolitana-santiago-norte,cl--region-metropolitana-curacavi,35
 cl--region-metropolitana-valle-del-maipo,cl--region-metropolitana-melipilla,55
 cl--region-metropolitana-melipilla,cl--region-metropolitana-curacavi,52
+cl--valparaiso ciudad-de-valparaiso,cl--valparaiso-vina-del-mar,10
+cl--valparaiso-vina-del-mar,cl--valparaiso-renaca-concon,18
+cl--valparaiso-vina-del-mar,cl--valparaiso-quilpue-villa-alemana,23
+cl--valparaiso-quilpue-villa-alemana,cl--valparaiso-quillota,36
+cl--valparaiso-renaca-concon,cl--valparaiso-quillota,40
+cl--valparaiso ciudad-de-valparaiso,cl--valparaiso-placilla-casablanca,24
+cl--valparaiso-quilpue-villa-alemana,cl--valparaiso-placilla-casablanca,32
+cl--valparaiso-placilla-casablanca,cl--region-metropolitana-curacavi,26
+cl--valparaiso-placilla-casablanca,cl--valparaiso-san-antonio-algarrobo,44
+cl--region-metropolitana-curacavi,cl--valparaiso-san-antonio-algarrobo,53
+cl--region-metropolitana-melipilla,cl--valparaiso-san-antonio-algarrobo,42
+cl--region-metropolitana-colina,cl--valparaiso-san-felipe-los-andes,48
+cl--valparaiso-quillota,cl--valparaiso-san-felipe-los-andes,61
+cl--valparaiso-quillota,cl--region-metropolitana-colina,80
+cl--valparaiso-quillota,cl--region-metropolitana-santiago-norte,76
+cl--valparaiso-quillota,cl--valparaiso-la-ligua,47
+cl--valparaiso-san-felipe-los-andes,cl--valparaiso-la-ligua,73
+cl--valparaiso-san-felipe-los-andes,ar--mendoza-alta-montana,210
+ar--mendoza-alta-montana,ar--mendoza-maipu-lujan-de-cuyo,93
