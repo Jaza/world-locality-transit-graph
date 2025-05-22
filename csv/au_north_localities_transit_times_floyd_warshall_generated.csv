@@ -1,13 +1,2 @@
 locality_a,locality_b,transit_time_mins
-au--nt-alice-springs,au--nt-katherine,603.0
-au--nt-alice-springs,au--nt-darwin,797.0
-au--nt-alice-springs,au--nt-barkly,291.0
-au--nt-katherine,au--nt-alice-springs,603.0
-au--nt-katherine,au--nt-darwin,194.0
-au--nt-katherine,au--nt-barkly,312.0
-au--nt-darwin,au--nt-alice-springs,797.0
 au--nt-darwin,au--nt-katherine,194.0
-au--nt-darwin,au--nt-barkly,506.0
-au--nt-barkly,au--nt-alice-springs,291.0
-au--nt-barkly,au--nt-katherine,312.0
-au--nt-barkly,au--nt-darwin,506.0

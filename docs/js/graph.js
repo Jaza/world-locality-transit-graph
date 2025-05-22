@@ -35,11 +35,17 @@ ready(() => {
   const MAX_TRANSIT_TIME_MINS = 330;
 
   const GRAPH_CODES = [
+    "au-arnhem-land",
+    "au-barkly",
+    "au-cape-york",
     "au-east",
-    "au-west",
+    "au-east-kimberley",
     "au-north",
-    "au-north-west",
+    "au-pilbara",
+    "au-red-centre",
     "au-tas",
+    "au-west",
+    "au-west-kimberley",
     "europe",
     "north-america",
     "nz-north-island",
@@ -48,6 +54,33 @@ ready(() => {
   ];
 
   const GRAPH_INFO_MAP = {
+    "au-arnhem-land": {
+      name: "AU Arnhem Land",
+      nodesCsvFilename: "au_arnhem_land_localities.csv",
+      nearbyEdgesCsvFilename: "au_arnhem_land_localities_transit_times.csv",
+      farEdgesCsvFilename: "au_arnhem_land_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "au_arnhem_land_bounding_polygon.csv",
+      defaultCoords: {lat: -13.769, lng: 135.319},
+      defaultZoom: 7
+    },
+    "au-barkly": {
+      name: "AU Barkly",
+      nodesCsvFilename: "au_barkly_localities.csv",
+      nearbyEdgesCsvFilename: "au_barkly_localities_transit_times.csv",
+      farEdgesCsvFilename: "au_barkly_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "au_barkly_bounding_polygon.csv",
+      defaultCoords: {lat: -19.856, lng: 134.398},
+      defaultZoom: 7
+    },
+    "au-cape-york": {
+      name: "AU Cape York",
+      nodesCsvFilename: "au_cape_york_localities.csv",
+      nearbyEdgesCsvFilename: "au_cape_york_localities_transit_times.csv",
+      farEdgesCsvFilename: "au_cape_york_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "au_cape_york_bounding_polygon.csv",
+      defaultCoords: {lat: -12.631, lng: 142.690},
+      defaultZoom: 7
+    },
     "au-east": {
       name: "AU East",
       nodesCsvFilename: "au_east_localities.csv",
@@ -57,14 +90,14 @@ ready(() => {
       defaultCoords: {lat: -28.009906, lng: 145.4592851},
       defaultZoom: 5
     },
-    "au-west": {
-      name: "AU West",
-      nodesCsvFilename: "au_west_localities.csv",
-      nearbyEdgesCsvFilename: "au_west_localities_transit_times.csv",
-      farEdgesCsvFilename: "au_west_localities_transit_times_floyd_warshall_generated.csv",
-      boundingPolygonCsvFilename: "au_west_bounding_polygon.csv",
-      defaultCoords: {lat: -28.176, lng: 118.081},
-      defaultZoom: 6
+    "au-east-kimberley": {
+      name: "AU East Kimberley",
+      nodesCsvFilename: "au_east_kimberley_localities.csv",
+      nearbyEdgesCsvFilename: "au_east_kimberley_localities_transit_times.csv",
+      farEdgesCsvFilename: "au_east_kimberley_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "au_east_kimberley_bounding_polygon.csv",
+      defaultCoords: {lat: -16.357, lng: 128.079},
+      defaultZoom: 7
     },
     "au-north": {
       name: "AU North",
@@ -72,16 +105,25 @@ ready(() => {
       nearbyEdgesCsvFilename: "au_north_localities_transit_times.csv",
       farEdgesCsvFilename: "au_north_localities_transit_times_floyd_warshall_generated.csv",
       boundingPolygonCsvFilename: "au_north_bounding_polygon.csv",
-      defaultCoords: {lat: -18.854, lng: 132.891},
-      defaultZoom: 6
+      defaultCoords: {lat: -14.1, lng: 131.1},
+      defaultZoom: 7
     },
-    "au-north-west": {
-      name: "AU North West",
-      nodesCsvFilename: "au_north_west_localities.csv",
-      nearbyEdgesCsvFilename: "au_north_west_localities_transit_times.csv",
-      farEdgesCsvFilename: "au_north_west_localities_transit_times_floyd_warshall_generated.csv",
-      boundingPolygonCsvFilename: "au_north_west_bounding_polygon.csv",
-      defaultCoords: {lat: -17.958, lng: 122.245},
+    "au-pilbara": {
+      name: "AU Pilbara",
+      nodesCsvFilename: "au_pilbara_localities.csv",
+      nearbyEdgesCsvFilename: "au_pilbara_localities_transit_times.csv",
+      farEdgesCsvFilename: "au_pilbara_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "au_pilbara_bounding_polygon.csv",
+      defaultCoords: {lat: -21.782, lng: 118.043},
+      defaultZoom: 7
+    },
+    "au-red-centre": {
+      name: "AU Red Centre",
+      nodesCsvFilename: "au_red_centre_localities.csv",
+      nearbyEdgesCsvFilename: "au_red_centre_localities_transit_times.csv",
+      farEdgesCsvFilename: "au_red_centre_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "au_red_centre_bounding_polygon.csv",
+      defaultCoords: {lat: -24.031, lng: 133.187},
       defaultZoom: 7
     },
     "au-tas": {
@@ -92,6 +134,24 @@ ready(() => {
       boundingPolygonCsvFilename: "au_tas_bounding_polygon.csv",
       defaultCoords: {lat: -42.208, lng: 146.492},
       defaultZoom: 8
+    },
+    "au-west": {
+      name: "AU West",
+      nodesCsvFilename: "au_west_localities.csv",
+      nearbyEdgesCsvFilename: "au_west_localities_transit_times.csv",
+      farEdgesCsvFilename: "au_west_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "au_west_bounding_polygon.csv",
+      defaultCoords: {lat: -28.176, lng: 118.081},
+      defaultZoom: 6
+    },
+    "au-west-kimberley": {
+      name: "AU West Kimberley",
+      nodesCsvFilename: "au_west_kimberley_localities.csv",
+      nearbyEdgesCsvFilename: "au_west_kimberley_localities_transit_times.csv",
+      farEdgesCsvFilename: "au_west_kimberley_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "au_west_kimberley_bounding_polygon.csv",
+      defaultCoords: {lat: -17.958, lng: 122.245},
+      defaultZoom: 7
     },
     "europe": {
       name: "Europe",
