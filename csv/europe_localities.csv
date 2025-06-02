@@ -58,7 +58,7 @@ gb--worcestershire-worcester,GB: Worcestershire: Worcester,Worcester,Worcester F
 gb--east-sussex-eastbourne-hastings,GB: East Sussex: Eastbourne-Hastings,Cooden,Cooden Beach train station,50.83313,0.42641
 gb--kent-canterbury-dover,GB: Kent: Canterbury-Dover,Aylesham,Aylesham train station,51.22718,1.20935
 gb--wiltshire-south-wiltshire,GB: Wiltshire: South Wiltshire,Great Wishford,St Giles Church,51.118694,-1.886301
-gb--somerset-east-somerset,GB: Somerset: East Somerset,Midsomer Norton,Midsomer Norton train station,51.28086,-2.48317
+gb--somerset-bath,GB: Somerset: Bath,Bath,Bath Spa train station,51.37760,-2.35674
 gb--west-sussex-south-downs,GB: West Sussex: South Downs,Midhurst,Midhurst library,50.984191,-0.739657
 gb--warwickshire-south-warwickshire,GB: Warwickshire: South Warwickshire,Shipston-on-Stour,Townsend Hall,52.063062,-1.627178
 gb--herefordshire-hereford,GB: Herefordshire: Hereford,Hereford,Hereford train station,52.06118,-2.70815
@@ -68,3 +68,14 @@ gb--norfolk-suffolk-the-broads,GB: Norfolk-Suffolk: The Broads,Hopton-on-Sea,Hop
 gb--norfolk-suffolk-thetford-forest,GB: Norfolk-Suffolk: Thetford Forest,Thetford,Thetford train station,52.41903,0.74518
 gb--shropshire-shropshire-hills,GB: Shropshire: Shropshire Hills,Ludlow,Ludlow train station,52.37097,-2.71590
 gb--essex-dengie,GB: Essex: Dengie,Southminster,Southminster train station,51.66044,0.83513
+gb--somerset-the-levels,GB: Somerset: The Levels,Somerton,Somerton library,51.054106,-2.730687
+gb--dorset-jurassic-coast,GB: Dorset: Jurassic Coast,Weymouth,Weymouth train station,50.61579,-2.45519
+gb--devon-exeter-torquay,GB: Devon: Exeter-Torquay,Chudleigh,Chudleigh town hall,50.605339,-3.600726
+gb--devon-somerset-exmoor,GB: Devon-Somerset: Exmoor,South Molton,South Molton library,51.017821,-3.832941
+gb--devon-cornwall-plymouth-tamar-valley,GB: Devon-Cornwall: Plymouth-Tamar Valley,Saltash,Saltash train station,50.40696,-4.20922
+gb--devon-somerset-blackdowns,GB: Devon-Somerset: Blackdowns,Honiton,Honiton train station,50.79665,-3.18707
+gb--cornwall-cornish-riviera,GB: Cornwall: Cornish Riviera,St Austell,St Austell train station,50.33948,-4.78944
+gb--cornwall-north-coast,GB: Cornwall: North Coast,Padstow,Padstow library,50.540083,-4.939883
+gb--cornwall-penwith,GB: Cornwall: Penwith,Penzance,Penzance train station,50.12241,-5.53217
+gb--cornwall-camborne-truro,GB: Cornwall: Camborne-Truro,Scorrier,Scorrier chapel,50.254124,-5.195353
+gb--cornwall-devon-marsland,GB: Cornwall-Devon: Marsland,Kilkhampton,Kilkhampton post office,50.874678,-4.484514
