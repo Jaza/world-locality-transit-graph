@@ -41,6 +41,7 @@ ready(() => {
     "au-east",
     "au-east-kimberley",
     "au-north",
+    "au-nsw-far-west",
     "au-pilbara",
     "au-red-centre",
     "au-tas",
@@ -106,6 +107,15 @@ ready(() => {
       farEdgesCsvFilename: "au_north_localities_transit_times_floyd_warshall_generated.csv",
       boundingPolygonCsvFilename: "au_north_bounding_polygon.csv",
       defaultCoords: {lat: -14.1, lng: 131.1},
+      defaultZoom: 7
+    },
+    "au-nsw-far-west": {
+      name: "AU NSW Far West",
+      nodesCsvFilename: "au_nsw_far_west_localities.csv",
+      nearbyEdgesCsvFilename: "au_nsw_far_west_localities_transit_times.csv",
+      farEdgesCsvFilename: "au_nsw_far_west_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "au_nsw_far_west_bounding_polygon.csv",
+      defaultCoords: {lat: -31.51, lng: 143.53},
       defaultZoom: 7
     },
     "au-pilbara": {
