@@ -281,7 +281,7 @@ ready(() => {
     }
   };
 
-  const loadBoundingPolygonFromFile = (code, results) => {
+  const loadBoundingPolygonFromFile = (codes, results) => {
     const latLons = [];
 
     while (results.length) {
@@ -296,45 +296,53 @@ ready(() => {
     const polygon = L.polygon(latLons);
     boundingPolygon.addLayer(polygon);
 
-    const toggleNearbyEdgesLink = document.createElement("a");
-    toggleNearbyEdgesLink.text = "Nearby edges";
-    toggleNearbyEdgesLink.href = "#";
-    toggleNearbyEdgesLink.id = TOGGLE_NEARBY_EDGES_ID;
-    toggleNearbyEdgesLink.classList.add("button");
-    toggleNearbyEdgesLink.classList.add("first");
-    toggleNearbyEdgesLink.classList.add("active");
-    toggleNearbyEdgesLink.onclick = onToggleNearbyEdgesLinkClick;
+    if (!document.getElementById(TOGGLE_EDGES_WRAPPER_ID)) {
+      const toggleNearbyEdgesLink = document.createElement("a");
+      toggleNearbyEdgesLink.text = "Nearby edges";
+      toggleNearbyEdgesLink.href = "#";
+      toggleNearbyEdgesLink.id = TOGGLE_NEARBY_EDGES_ID;
+      toggleNearbyEdgesLink.classList.add("button");
+      toggleNearbyEdgesLink.classList.add("first");
+      toggleNearbyEdgesLink.classList.add("active");
+      toggleNearbyEdgesLink.onclick = onToggleNearbyEdgesLinkClick;
 
-    const toggleAllEdgesLink = document.createElement("a");
-    toggleAllEdgesLink.text = "All edges";
-    toggleAllEdgesLink.href = "#";
-    toggleAllEdgesLink.id = TOGGLE_ALL_EDGES_ID;
-    toggleAllEdgesLink.classList.add("button");
-    toggleAllEdgesLink.classList.add("last");
-    toggleAllEdgesLink.onclick = onToggleAllEdgesLinkClick;
+      const toggleAllEdgesLink = document.createElement("a");
+      toggleAllEdgesLink.text = "All edges";
+      toggleAllEdgesLink.href = "#";
+      toggleAllEdgesLink.id = TOGGLE_ALL_EDGES_ID;
+      toggleAllEdgesLink.classList.add("button");
+      toggleAllEdgesLink.classList.add("last");
+      toggleAllEdgesLink.onclick = onToggleAllEdgesLinkClick;
 
-    const toggleEdgesWrapper = document.createElement("p");
-    toggleEdgesWrapper.appendChild(toggleNearbyEdgesLink);
-    toggleEdgesWrapper.appendChild(toggleAllEdgesLink);
-    toggleEdgesWrapper.id = TOGGLE_EDGES_WRAPPER_ID;
-    document.querySelector(TOGGLE_EDGES_CONTAINER_NAME).appendChild(toggleEdgesWrapper);
+      const toggleEdgesWrapper = document.createElement("p");
+      toggleEdgesWrapper.appendChild(toggleNearbyEdgesLink);
+      toggleEdgesWrapper.appendChild(toggleAllEdgesLink);
+      toggleEdgesWrapper.id = TOGGLE_EDGES_WRAPPER_ID;
+      document.querySelector(TOGGLE_EDGES_CONTAINER_NAME).appendChild(toggleEdgesWrapper);
+    }
 
-    const toggleBoundingPolygonLabel = document.createElement("label");
-    toggleBoundingPolygonLabel.id = TOGGLE_BOUNDING_POLYGON_WRAPPER_ID;
+    if (!document.getElementById(TOGGLE_BOUNDING_POLYGON_WRAPPER_ID)) {
+      const toggleBoundingPolygonLabel = document.createElement("label");
+      toggleBoundingPolygonLabel.id = TOGGLE_BOUNDING_POLYGON_WRAPPER_ID;
 
-    const toggleBoundingPolygonCheckbox = document.createElement("input");
-    toggleBoundingPolygonCheckbox.type = "checkbox";
-    toggleBoundingPolygonCheckbox.id = TOGGLE_BOUNDING_POLYGON_ID;
-    toggleBoundingPolygonLabel.appendChild(toggleBoundingPolygonCheckbox);
-    toggleBoundingPolygonLabel.innerHTML += "Show bounding polygon";
-    toggleBoundingPolygonLabel.onclick = onToggleBoundingPolygonCheckboxClick;
+      const toggleBoundingPolygonCheckbox = document.createElement("input");
+      toggleBoundingPolygonCheckbox.type = "checkbox";
+      toggleBoundingPolygonCheckbox.id = TOGGLE_BOUNDING_POLYGON_ID;
+      toggleBoundingPolygonLabel.appendChild(toggleBoundingPolygonCheckbox);
+      toggleBoundingPolygonLabel.innerHTML += "Show bounding polygon(s)";
+      toggleBoundingPolygonLabel.onclick = onToggleBoundingPolygonCheckboxClick;
 
-    document.querySelector(GRAPH_SELECT_CONTAINER_NAME).appendChild(toggleBoundingPolygonLabel);
+      document.querySelector(GRAPH_SELECT_CONTAINER_NAME).appendChild(toggleBoundingPolygonLabel);
+    }
+
+    if (codes.length > 1) {
+      loadNodesFromUrl(codes.slice(1));
+    }
   };
 
-  const loadBoundingPolygonFromUrl = (code, url) => {
+  const loadBoundingPolygonFromUrl = (codes) => {
     Papa.parse(
-      url,
+      `${getCsvUrlPrefix()}${GRAPH_INFO_MAP[codes[0]].boundingPolygonCsvFilename}`,
       {
         download: true,
         header: true,
@@ -346,13 +354,13 @@ ready(() => {
             return;
           }
 
-          loadBoundingPolygonFromFile(code, results.data);
+          loadBoundingPolygonFromFile(codes, results.data);
         }
       }
     );
   };
 
-  const loadFarEdgesFromFile = (code, results) => {
+  const loadFarEdgesFromFile = (results) => {
     while (results.length) {
       const result = results.pop();
 
@@ -388,9 +396,9 @@ ready(() => {
     }
   };
 
-  const loadFarEdgesFromUrl = (code, url) => {
+  const loadFarEdgesFromUrl = (codes) => {
     Papa.parse(
-      url,
+      `${getCsvUrlPrefix()}${GRAPH_INFO_MAP[codes[0]].farEdgesCsvFilename}`,
       {
         download: true,
         header: true,
@@ -402,13 +410,13 @@ ready(() => {
             return;
           }
 
-          loadFarEdgesFromFile(code, results.data);
+          loadFarEdgesFromFile(results.data);
         }
       }
     );
   };
 
-  const loadNearbyEdgesFromFile = (code, results) => {
+  const loadNearbyEdgesFromFile = (codes, results) => {
     while (results.length) {
       const result = results.pop();
 
@@ -439,29 +447,27 @@ ready(() => {
       nearbyEdges.addTo(map);
     }
 
-    const url = `${getCsvUrlPrefix()}${GRAPH_INFO_MAP[code].farEdgesCsvFilename}`;
-    loadFarEdgesFromUrl(code, url);
+    loadFarEdgesFromUrl(codes);
 
-    const polygonUrl = `${getCsvUrlPrefix()}${GRAPH_INFO_MAP[code].boundingPolygonCsvFilename}`;
-    loadBoundingPolygonFromUrl(code, polygonUrl);
+    loadBoundingPolygonFromUrl(codes);
   };
 
-  const loadNearbyEdgesFromUrl = (code, url) => {
+  const loadNearbyEdgesFromUrl = (codes) => {
     Papa.parse(
-      url,
+      `${getCsvUrlPrefix()}${GRAPH_INFO_MAP[codes[0]].nearbyEdgesCsvFilename}`,
       {
         download: true,
         header: true,
         dynamicTyping: true,
         skipEmptyLines: 'greedy',
         complete: (results) => {
-          loadNearbyEdgesFromFile(code, results.data);
+          loadNearbyEdgesFromFile(codes, results.data);
         }
       }
     );
   };
 
-  const loadNodesFromFile = (code, results) => {
+  const loadNodesFromFile = (codes, results) => {
     while (results.length) {
       const result = results.pop();
 
@@ -492,15 +498,14 @@ ready(() => {
     }
 
     nodes.addTo(map);
-    map.setView(GRAPH_INFO_MAP[code].defaultCoords, GRAPH_INFO_MAP[code].defaultZoom);
+    map.setView(GRAPH_INFO_MAP[codes[0]].defaultCoords, GRAPH_INFO_MAP[codes[0]].defaultZoom);
 
-    const url = `${getCsvUrlPrefix()}${GRAPH_INFO_MAP[code].nearbyEdgesCsvFilename}`;
-    loadNearbyEdgesFromUrl(code, url);
+    loadNearbyEdgesFromUrl(codes);
   };
 
-  const loadNodesFromUrl = (code, url) => {
+  const loadNodesFromUrl = (codes) => {
     Papa.parse(
-      url,
+      `${getCsvUrlPrefix()}${GRAPH_INFO_MAP[codes[0]].nodesCsvFilename}`,
       {
         download: true,
         header: true,
@@ -512,7 +517,7 @@ ready(() => {
             return;
           }
 
-          loadNodesFromFile(code, results.data);
+          loadNodesFromFile(codes, results.data);
         }
       }
     );
@@ -555,7 +560,7 @@ ready(() => {
     }
 
     if (boundingPolygon) {
-      boundingPolygon.clearLayers();
+      boundingPolygon.clearLayers().removeFrom(map);
     }
 
     if (edgeLocalities) {
@@ -574,10 +579,9 @@ ready(() => {
       toggleBoundingPolygonWrapper.remove();
     }
 
-    if (this.value) {
-      const code = this.value;
-      const url = `${getCsvUrlPrefix()}${GRAPH_INFO_MAP[code].nodesCsvFilename}`;
-      loadNodesFromUrl(code, url);
+    if (this.selectedOptions) {
+      const codes = Array.from(this.selectedOptions).map(({ value }) => value);
+      loadNodesFromUrl(codes);
     }
     else {
       map.setView(LEAFLET_DEFAULT_COORDS, LEAFLET_DEFAULT_ZOOM);
@@ -586,11 +590,12 @@ ready(() => {
 
   const initGraphSelect = () => {
     const selectEl = document.createElement("select");
+    selectEl.setAttribute("multiple", "");
     selectEl.id = GRAPH_SELECT_ID;
 
     const defaultOptEl = document.createElement("option");
     defaultOptEl.value = "";
-    defaultOptEl.text = "Choose a region...";
+    defaultOptEl.text = "Choose region(s)...";
     selectEl.appendChild(defaultOptEl);
 
     for (const code of GRAPH_CODES) {
