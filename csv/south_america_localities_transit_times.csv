@@ -53,7 +53,6 @@ ar--mendoza-mendoza-ciudad,ar--mendoza-guaymallen,12
 ar--mendoza-mendoza-ciudad,ar--mendoza-las-heras,10
 ar--mendoza-guaymallen,ar--mendoza-godoy-cruz,11
 ar--mendoza-guaymallen,ar--mendoza-maipu-lujan-de-cuyo,16
-ar--mendoza-guaymallen,ar--mendoza-lavalle,32
 ar--mendoza-guaymallen,ar--mendoza-san-martin,30
 ar--mendoza-san-martin,ar--mendoza-santa-rosa-la-paz,47
 ar--mendoza-maipu-lujan-de-cuyo,ar--mendoza-valle-de-uco,51
@@ -84,9 +83,8 @@ cl--coquimbo-ovalle,cl--coquimbo-coquimbo,67
 cl--coquimbo-ovalle,cl--coquimbo-la-serena,68
 cl--coquimbo-coquimbo,cl--coquimbo-la-serena,18
 cl--coquimbo-la-serena,cl--coquimbo-valle-del-elqui,58
-ar--mendoza-lavalle,ar--san-juan-sarmiento,76
-ar--san-juan-sarmiento,ar--san-juan-san-juan-ciudad,54
-ar--san-juan-sarmiento,ar--san-juan-caucete,44
+ar--mendoza-las-heras,ar--san-juan-san-juan-ciudad,151
+ar--mendoza-las-heras,ar--san-juan-caucete,152
 ar--san-juan-san-juan-ciudad,ar--san-juan-caucete,28
 ar--san-juan-san-juan-ciudad,ar--san-juan-calingasta,161
 ar--mendoza-maipu-lujan-de-cuyo,ar--san-juan-calingasta,205
@@ -190,10 +188,7 @@ ar--catamarca-belen,ar--catamarca-santa-maria,137
 ar--catamarca-santa-maria,ar--salta-cafayate,75
 ar--salta-cafayate,ar--salta-salta-ciudad,198
 ar--salta-salta-ciudad,ar--salta-metan,101
-ar--salta-salta-ciudad,ar--salta-cachi,193
 ar--salta-salta-ciudad,ar--salta-los-andes,254
-ar--salta-cafayate,ar--salta-cachi,225
-ar--salta-cachi,ar--salta-los-andes,201
 ar--salta-los-andes,ar--jujuy-san-salvador-de-jujuy,241
 ar--salta-salta-ciudad,ar--jujuy-san-salvador-de-jujuy,103
 ar--jujuy-san-salvador-de-jujuy,ar--jujuy-san-pedro-de-jujuy,49
@@ -203,7 +198,6 @@ ar--jujuy-san-pedro-de-jujuy,ar--jujuy-ledesma,45
 ar--jujuy-ledesma,ar--salta-oran,82
 ar--salta-oran,ar--salta-rivadavia,135
 ar--salta-oran,ar--salta-tartagal,102
-ar--jujuy-humahuaca,ar--salta-iruya,132
 ar--jujuy-humahuaca,bo-ar--potosi-jujuy-villazon-la-quiaca,150
 ar--salta-salta-ciudad,ar--jujuy-san-pedro-de-jujuy,104
 ar--salta-metan,ar--jujuy-san-pedro-de-jujuy,134

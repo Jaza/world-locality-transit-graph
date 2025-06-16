@@ -30,7 +30,6 @@ ar--mendoza-valle-de-uco,AR: Mendoza: Valle de Uco,Tunuyán,Plaza General San Ma
 ar--mendoza-san-rafael,AR: Mendoza: San Rafael,San Rafael,Plaza San Martín,-34.612932,-68.330508
 ar--mendoza-malargue,AR: Mendoza: Malargüe,Malargüe,Plaza General San Martín,-35.468373,-69.584838
 ar--mendoza-santa-rosa-la-paz,AR: Mendoza: Santa Rosa-La Paz,La Dormida,Plaza de La Dormida,-33.346694,-67.917244
-ar--mendoza-lavalle,AR: Mendoza: Lavalle,Villa Tulumaya,Plaza Juan Galo Lavalle,-32.721367,-68.595929
 ar--mendoza-general-alvear,AR: Mendoza: General Alvear,General Alvear,Plaza Carlos Maria de Alvear,-34.977456,-67.696413
 cl--o-higgins-rancagua,CL: O’Higgins: Rancagua,Rancagua,Plaza de Los Héroes,-34.170285,-70.740774
 cl--o-higgins-valle-de-colchagua,CL: O’Higgins: Valle de Colchagua,San Fernando,Plaza de Armas de San Fernando,-34.583859,-70.989157
@@ -47,7 +46,6 @@ cl--coquimbo-ovalle,CL: Coquimbo: Ovalle,Ovalle,Plaza de Armas de Ovalle,-30.603
 cl--coquimbo-illapel,CL: Coquimbo: Illapel,Illapel,Plaza de Illapel,-31.632771,-71.168329
 ar--san-juan-san-juan-ciudad,AR: San Juan: San Juan Ciudad,San Juan,Plaza 25 de Mayo,-31.53715,-68.52499
 ar--san-juan-caucete,AR: San Juan: Caucete,Caucete,Plaza Manuel Belgrano,-31.651459,-68.282111
-ar--san-juan-sarmiento,AR: San Juan: Sarmiento,Villa Media Agua,Plaza Dominguito,-31.981356,-68.426821
 ar--san-juan-jachal,AR: San Juan: Jáchal,San José de Jáchal,Plaza San Martín,-30.241639,-68.746637
 cl--biobio-concepcion-centro,CL: Biobío: Concepción Centro,Concepción,Plaza Carlos Condell,-36.827059,-73.050274
 cl--biobio-talcahuano,CL: Biobío: Talcahuano,Talcahuano,Plaza de Armas de Talcahuano,-36.714501,-73.114153
@@ -114,13 +112,11 @@ cl--antofagasta-calama-san-pedro-de-atacama,CL: Antofagasta: Calama-San Pedro de
 cl--antofagasta-tocopilla,CL: Antofagasta: Tocopilla,Tocopilla,Plaza Cuatro Caminos,-22.088714,-70.196087
 cl--antofagasta-mejillones,CL: Antofagasta: Mejillones,Mejillones,Plaza Mejillones,-23.100721,-70.448719
 ar--salta-salta-ciudad,AR: Salta: Salta Ciudad,Salta,Plaza 9 de Julio,-24.78922,-65.41034
-ar--salta-cachi,AR: Salta: Cachi,Cachi,Plaza 9 de Julio,-25.119848,-66.161953
 ar--salta-los-andes,AR: Salta: Los Andes,San Antonio de los Cobres,Estación de tren San Antonio de los Cobres,-24.226941,-66.316127
 ar--salta-metan,AR: Salta: Metán,San José de Metán,Plaza San Martín,-25.49695,-64.97085
 ar--salta-rivadavia,AR: Salta: Rivadavia,Coronel Juan Solá,Plaza Central de Morillo,-23.47044,-62.88785
 ar--salta-tartagal,AR: Salta: Tartagal,Tartagal,Plaza San Martín,-22.516715,-63.805665
 ar--salta-oran,AR: Salta: Orán,San Ramón de la Nueva Orán,Plaza General Pizarro,-23.128624,-64.321496
-ar--salta-iruya,AR: Salta: Iruya,Iruya,Plaza Virgen del Rosario,-22.792233,-65.216394
 ar--salta-cafayate,AR: Salta: Cafayate,Cafayate,Plaza 20 de Febrero,-26.072883,-65.976044
 ar--jujuy-san-salvador-de-jujuy,AR: Jujuy: San Salvador de Jujuy,San Salvador de Jujuy,Palacio de Gobierno de Jujuy,-24.186657,-65.299441
 ar--jujuy-san-pedro-de-jujuy,AR: Jujuy: San Pedro de Jujuy,San Pedro de Jujuy,Plaza Belgrano,-24.231659,-64.867991
