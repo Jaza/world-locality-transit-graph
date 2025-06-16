@@ -1,0 +1,7 @@
+locality_a,locality_b,transit_time_mins
+ar--santa-cruz-corpen-aike,ar--santa-cruz-rio-gallegos,161
+ar--santa-cruz-el-calafate,ar--santa-cruz-rio-gallegos,203
+cl--magallanes-puerto-natales,cl--magallanes-punta-arenas,175
+cl--magallanes-punta-arenas,ar--santa-cruz-rio-gallegos,210
+cl--magallanes-puerto-natales,ar--santa-cruz-rio-gallegos,270
+cl--magallanes-puerto-natales,ar--santa-cruz-el-calafate,270

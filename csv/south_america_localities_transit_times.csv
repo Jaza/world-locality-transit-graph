@@ -46,8 +46,7 @@ cl--valparaiso-quillota,cl--region-metropolitana-colina,80
 cl--valparaiso-quillota,cl--region-metropolitana-santiago-norte,76
 cl--valparaiso-quillota,cl--valparaiso-la-ligua,47
 cl--valparaiso-san-felipe-los-andes,cl--valparaiso-la-ligua,73
-cl--valparaiso-san-felipe-los-andes,ar--mendoza-alta-montana,210
-ar--mendoza-alta-montana,ar--mendoza-maipu-lujan-de-cuyo,93
+cl--valparaiso-san-felipe-los-andes,ar--mendoza-maipu-lujan-de-cuyo,303
 ar--mendoza-maipu-lujan-de-cuyo,ar--mendoza-godoy-cruz,12
 ar--mendoza-godoy-cruz,ar--mendoza-mendoza-ciudad,12
 ar--mendoza-mendoza-ciudad,ar--mendoza-guaymallen,12
@@ -78,7 +77,6 @@ cl--o-higgins-pichilemu,cl--maule-constitucion,160
 cl--maule-linares,cl--maule-parral,32
 cl--maule-parral,cl--maule-cauquenes,43
 cl--maule-talca,cl--maule-cauquenes,75
-cl--maule-talca,ar--mendoza-malargue,270
 cl--maule-constitucion,cl--maule-cauquenes,104
 cl--valparaiso-la-ligua,cl--coquimbo-illapel,106
 cl--coquimbo-illapel,cl--coquimbo-ovalle,151
@@ -91,7 +89,7 @@ ar--san-juan-sarmiento,ar--san-juan-san-juan-ciudad,54
 ar--san-juan-sarmiento,ar--san-juan-caucete,44
 ar--san-juan-san-juan-ciudad,ar--san-juan-caucete,28
 ar--san-juan-san-juan-ciudad,ar--san-juan-calingasta,161
-ar--mendoza-alta-montana,ar--san-juan-calingasta,112
+ar--mendoza-maipu-lujan-de-cuyo,ar--san-juan-calingasta,205
 ar--san-juan-san-juan-ciudad,ar--san-juan-jachal,116
 ar--san-juan-calingasta,ar--san-juan-jachal,182
 cl--coquimbo-valle-del-elqui,ar--san-juan-jachal,300
@@ -132,11 +130,6 @@ cl--los-lagos-lago-llanquihue,cl--los-lagos-puerto-montt,26
 cl--los-lagos-puerto-montt,cl--chiloe-ancud,180
 cl--chiloe-ancud,cl--chiloe-castro,75
 cl--chiloe-castro,cl--chiloe-quellon,76
-cl--biobio-los-angeles,cl--biobio-antuco,96
-cl--biobio-antuco,ar--neuquen-chos-malal,270
-cl--araucania-temuco,cl--araucania-lonquimay,150
-cl--araucania-villarrica-pucon,ar--neuquen-san-martin-junin-de-los-andes,290
-cl--araucania-lonquimay,ar--neuquen-zapala,160
 cl--los-lagos-osorno,ar--neuquen-villa-la-angostura,190
 ar--neuquen-villa-la-angostura,ar--rio-negro-san-carlos-de-bariloche,81
 ar--mendoza-malargue,ar--neuquen-chos-malal,290
@@ -160,18 +153,10 @@ ar--rio-negro-san-carlos-de-bariloche,ar--neuquen-neuquen-centenario-plottier,29
 ar--neuquen-san-martin-junin-de-los-andes,ar--neuquen-neuquen-centenario-plottier,264
 ar--chubut-trelew-rawson,ar--chubut-puerto-madryn,60
 ar--chubut-puerto-madryn,ar--rio-negro-san-antonio-oeste,179
-cl--aysen-puerto-aysen,cl--aysen-coyhaique,69
 ar--chubut-sarmiento,ar--chubut-comodoro-rivadavia,117
 ar--chubut-comodoro-rivadavia,ar--chubut-trelew-rawson,238
 ar--chubut-comodoro-rivadavia,ar--santa-cruz-caleta-olivia-pino-truncado,95
 ar--santa-cruz-caleta-olivia-pino-truncado,ar--santa-cruz-puerto-deseado,148
-ar--santa-cruz-corpen-aike,ar--santa-cruz-rio-gallegos,161
-ar--santa-cruz-el-calafate,ar--santa-cruz-rio-gallegos,203
-cl--magallanes-puerto-natales,cl--magallanes-punta-arenas,175
-cl--magallanes-punta-arenas,ar--santa-cruz-rio-gallegos,210
-cl--tierra-del-fuego-porvenir,ar--tierra-del-fuego-rio-grande,194
-ar--tierra-del-fuego-rio-grande,ar--tierra-del-fuego-tolhuin,83
-ar--tierra-del-fuego-tolhuin,ar--tierra-del-fuego-ushuaia,84
 cl--coquimbo-la-serena,cl--atacama-vallenar,144
 cl--atacama-vallenar,cl--atacama-copiapo,105
 cl--atacama-copiapo,cl--atacama-caldera,60

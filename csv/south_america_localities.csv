@@ -25,7 +25,6 @@ ar--mendoza-las-heras,AR: Mendoza: Las Heras,Las Heras,Plaza Marcos Burgos,-32.8
 ar--mendoza-guaymallen,AR: Mendoza: Guaymallén,Villa Nueva,Plaza Mayor,-32.900072,-68.787616
 ar--mendoza-godoy-cruz,AR: Mendoza: Godoy Cruz,Godoy Cruz,Plaza Godoy Cruz,-32.92527,-68.84439
 ar--mendoza-maipu-lujan-de-cuyo,AR: Mendoza: Maipú-Luján de Cuyo,Drummond,Finca Don Miguel,-33.001603,-68.856999
-ar--mendoza-alta-montana,AR: Mendoza: Alta Montaña,Uspallata,Terminal de Omnibus Uspallata,-32.590704,-69.347388
 ar--mendoza-san-martin,AR: Mendoza: San Martín,San Martín,Plaza San Martín,-33.080372,-68.470552
 ar--mendoza-valle-de-uco,AR: Mendoza: Valle de Uco,Tunuyán,Plaza General San Martín,-33.581237,-69.015437
 ar--mendoza-san-rafael,AR: Mendoza: San Rafael,San Rafael,Plaza San Martín,-34.612932,-68.330508
@@ -55,7 +54,6 @@ cl--biobio-talcahuano,CL: Biobío: Talcahuano,Talcahuano,Plaza de Armas de Talca
 cl--biobio-coronel-lota,CL: Biobío: Coronel-Lota,Coronel,Estación de tren Coronel,-37.02456,-73.15088
 cl--nuble-chillan,CL: Ñuble: Chillán,Chillán,Plaza de Armas de Chillán,-36.60665,-72.10329
 cl--biobio-los-angeles,CL: Biobío: Los Ángeles,Los Ángeles,Plaza de Armas de Los Ángeles,-37.470741,-72.351633
-cl--biobio-antuco,CL: Biobío: Antuco,Antuco,Plaza Antuco,-37.32999,-71.67927
 cl--nuble-quirihue,CL: Ñuble: Quirihue,Quirihue,Plaza de Armas de Quirihue,-36.282704,-72.540858
 cl--biobio-arauco,CL: Biobío: Arauco,Lebu,Plaza de Armas de Lebu,-37.610284,-73.65611
 cl--biobio-chiguayante-hualqui,CL: Biobío: Chiguayante-Hualqui,Chiguayante,Estación de tren La Leonera,-36.95129,-73.01321
@@ -66,7 +64,6 @@ cl--araucania-temuco,CL: Araucanía: Temuco,Temuco,Plaza Teodoro Schmidt,-38.735
 cl--araucania-angol,CL: Araucanía: Angol,Angol,Plaza de Armas de Angol,-37.79884,-72.70866
 cl--araucania-villarrica-pucon,CL: Araucanía: Villarrica-Pucón,Molco,La sureña de Molco,-39.298391,-72.102936
 cl--araucania-costa-araucania,CL: Araucanía: Costa Araucanía,Teodoro Schmidt,Plaza Teodoro Schmidt,-38.996751,-73.089203
-cl--araucania-lonquimay,CL: Araucanía: Lonquimay,Lonquimay,Plaza de Lonquimay,-38.45411,-71.37071
 ar--neuquen-neuquen-centenario-plottier,AR: Neuquén: Neuquén-Centenario-Plottier,Gran Neuquén Norte,Plaza NIDO 7 de Mayo,-38.923214,-68.124614
 ar--neuquen-zapala,AR: Neuquén: Zapala,Zapala,Monumento a los Primeros Pobladores,-38.900648,-70.066895
 ar--neuquen-cutral-co,AR: Neuquén: Cutral Có,Cutral Có,Plaza San Martín,-38.937877,-69.229392
@@ -90,25 +87,13 @@ ar--rio-negro-viedma,AR: Río Negro: Viedma,Viedma,Plaza San Martín,-40.80838,-
 ar--rio-negro-san-antonio-oeste,AR: Río Negro: San Antonio Oeste,San Antonio Oeste,Plaza Centenario,-40.730174,-64.939059
 ar--rio-negro-el-bolson,AR: Río Negro: El Bolsón,El Bolsón,Plaza Gobernador Pagano,-41.964901,-71.53482
 ar--rio-negro-choele-choel,AR: Río Negro: Choele Choel,Choele Choel,Biblioteca Popular Nicolás Avellaneda,-39.291954,-65.662228
-cl--aysen-coyhaique,CL: Aysén: Coyhaique,Coyhaique,Plaza de Armas de Coyhaique,-45.57115,-72.06855
-cl--aysen-puerto-aysen,CL: Aysén: Puerto Aysén,Puerto Aysén,Plaza de Armas de Puerto Aysén,-45.406755,-72.697756
-cl--aysen-sur-de-aysen,CL: Aysén: Sur de Aysén,Cochrane,Plaza de Armas de Cochrane,-47.25387,-72.57332
 ar--chubut-trelew-rawson,AR: Chubut: Trelew-Rawson,Trelew,Policia entre Trelew y Rawson,-43.29558,-65.20107
 ar--chubut-comodoro-rivadavia,AR: Chubut: Comodoro Rivadavia,Comodoro Rivadavia,Plaza de la Soberanía,-45.86193,-67.47335
 ar--chubut-puerto-madryn,AR: Chubut: Puerto Madryn,Puerto Madryn,Plaza San Martín,-42.76727,-65.03666
 ar--chubut-esquel,AR: Chubut: Esquel,Esquel,Plaza San Martín,-42.91713,-71.32163
 ar--chubut-sarmiento,AR: Chubut: Sarmiento,Sarmiento,Plaza San Martín,-45.58681,-69.06881
-ar--santa-cruz-rio-gallegos,AR: Santa Cruz: Río Gallegos,Río Gallegos,Plaza San Martín,-51.62323,-69.21606
-ar--santa-cruz-corpen-aike,AR: Santa Cruz: Corpen Aike,Corpen Aike,Ruta Nacional 288,-50.04828,-68.77175
 ar--santa-cruz-caleta-olivia-pino-truncado,AR: Santa Cruz: Caleta Olivia-Pino Truncado,Cañadon Leon,Area Industrial Cañadon Leon,-46.62806,-67.76711
 ar--santa-cruz-puerto-deseado,AR: Santa Cruz: Puerto Deseado,Puerto Deseado,Plaza San Martín,-47.75162,-65.90136
-ar--santa-cruz-el-calafate,AR: Santa Cruz: El Calafate,El Calafate,Paseo del Bosque,-50.33939,-72.27204
-cl--magallanes-punta-arenas,CL: Magallanes: Punta Arenas,Punta Arenas,Plaza de Armas de Punta Arenas,-53.16265,-70.90814
-cl--magallanes-puerto-natales,CL: Magallanes: Puerto Natales,Puerto Natales,Plaza de Armas de Puerto Natales,-51.72636,-72.5062
-cl--tierra-del-fuego-porvenir,CL: Tierra del Fuego: Porvenir,Porvenir,Plaza de Porvenir,-53.295629,-70.368741
-ar--tierra-del-fuego-ushuaia,AR: Tierra del Fuego: Ushuaia,Ushuaia,Plaza Eva Perón,-54.806846,-68.303939
-ar--tierra-del-fuego-rio-grande,AR: Tierra del Fuego: Río Grande,Río Grande,Plaza Almirante Brown,-53.786331,-67.696348
-ar--tierra-del-fuego-tolhuin,AR: Tierra del Fuego: Tolhuin,Tolhuin,Plaza Cívica Corazón de la Isla,-54.511382,-67.195226
 cl--atacama-copiapo,CL: Atacama: Copiapó,Copiapó,Plaza de Armas de Copiapó,-27.366579,-70.332338
 cl--atacama-vallenar,CL: Atacama: Vallenar,Vallenar,Plaza Ambrosio O’Higgins,-28.575055,-70.761652
 cl--atacama-caldera,CL: Atacama: Caldera,Caldera,Plaza Carlos Condeil de Caldera,-27.067498,-70.822361

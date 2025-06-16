@@ -47,11 +47,15 @@ ready(() => {
     "au-tas",
     "au-west",
     "au-west-kimberley",
+    "cl-norte-de-aysen",
+    "cl-sur-de-aysen",
     "europe",
     "north-america",
     "nz-north-island",
     "nz-south-island",
-    "south-america"
+    "patagonia-extremo-sur",
+    "south-america",
+    "tierra-del-fuego"
   ];
 
   const GRAPH_INFO_MAP = {
@@ -163,6 +167,24 @@ ready(() => {
       defaultCoords: {lat: -17.958, lng: 122.245},
       defaultZoom: 7
     },
+    "cl-norte-de-aysen": {
+      name: "CL Norte de Aysén",
+      nodesCsvFilename: "cl_norte_de_aysen_localities.csv",
+      nearbyEdgesCsvFilename: "cl_norte_de_aysen_localities_transit_times.csv",
+      farEdgesCsvFilename: "cl_norte_de_aysen_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "cl_norte_de_aysen_bounding_polygon.csv",
+      defaultCoords: {lat: -45.487, lng: -72.389},
+      defaultZoom: 8
+    },
+    "cl-sur-de-aysen": {
+      name: "CL Sur de Aysén",
+      nodesCsvFilename: "cl_sur_de_aysen_localities.csv",
+      nearbyEdgesCsvFilename: "cl_sur_de_aysen_localities_transit_times.csv",
+      farEdgesCsvFilename: "cl_sur_de_aysen_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "cl_sur_de_aysen_bounding_polygon.csv",
+      defaultCoords: {lat: -47.236, lng: -72.614},
+      defaultZoom: 8
+    },
     "europe": {
       name: "Europe",
       nodesCsvFilename: "europe_localities.csv",
@@ -199,6 +221,15 @@ ready(() => {
       defaultCoords: {lat: -43.914, lng: 170.431},
       defaultZoom: 7
     },
+    "patagonia-extremo-sur": {
+      name: "Patagonia Extremo Sur",
+      nodesCsvFilename: "patagonia_extremo_sur_localities.csv",
+      nearbyEdgesCsvFilename: "patagonia_extremo_sur_localities_transit_times.csv",
+      farEdgesCsvFilename: "patagonia_extremo_sur_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "patagonia_extremo_sur_bounding_polygon.csv",
+      defaultCoords: {lat: -51.456, lng: -71.406},
+      defaultZoom: 7
+    },
     "south-america": {
       name: "South America",
       nodesCsvFilename: "south_america_localities.csv",
@@ -207,6 +238,15 @@ ready(() => {
       boundingPolygonCsvFilename: "south_america_bounding_polygon.csv",
       defaultCoords: {lat: -26.71, lng: -62.93},
       defaultZoom: 3
+    },
+    "tierra-del-fuego": {
+      name: "Tierra del Fuego",
+      nodesCsvFilename: "tierra_del_fuego_localities.csv",
+      nearbyEdgesCsvFilename: "tierra_del_fuego_localities_transit_times.csv",
+      farEdgesCsvFilename: "tierra_del_fuego_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "tierra_del_fuego_bounding_polygon.csv",
+      defaultCoords: {lat: -54.151, lng: -68.599},
+      defaultZoom: 7
     }
   };
 
