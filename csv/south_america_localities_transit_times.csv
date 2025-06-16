@@ -92,7 +92,6 @@ ar--san-juan-san-juan-ciudad,ar--san-juan-calingasta,161
 ar--mendoza-maipu-lujan-de-cuyo,ar--san-juan-calingasta,205
 ar--san-juan-san-juan-ciudad,ar--san-juan-jachal,116
 ar--san-juan-calingasta,ar--san-juan-jachal,182
-cl--coquimbo-valle-del-elqui,ar--san-juan-jachal,300
 cl--biobio-concepcion-centro,cl--biobio-talcahuano,22
 cl--biobio-concepcion-centro,cl--biobio-coronel-lota,40
 cl--biobio-concepcion-centro,cl--biobio-chiguayante-hualqui,22
@@ -165,9 +164,8 @@ cl--atacama-chanaral,cl--antofagasta-taltal,107
 cl--antofagasta-taltal,cl--antofagasta-antofagasta-ciudad,165
 cl--antofagasta-antofagasta-ciudad,cl--antofagasta-mejillones,55
 cl--antofagasta-mejillones,cl--antofagasta-tocopilla,95
-cl--antofagasta-antofagasta-ciudad,cl--antofagasta-calama,151
-cl--antofagasta-calama,cl--antofagasta-san-pedro-de-atacama,79
-cl--antofagasta-tocopilla,cl--antofagasta-calama,124
+cl--antofagasta-antofagasta-ciudad,cl--antofagasta-calama-san-pedro-de-atacama,164
+cl--antofagasta-tocopilla,cl--antofagasta-calama-san-pedro-de-atacama,147
 ar--san-juan-caucete,ar--la-rioja-chepes,132
 ar--la-rioja-chepes,ar--la-rioja-chamical,107
 ar--la-rioja-chamical,ar--la-rioja-la-rioja-ciudad,102
@@ -189,8 +187,6 @@ ar--catamarca-andalgala,ar--catamarca-belen,69
 ar--catamarca-belen,ar--catamarca-tinogasta,117
 ar--san-juan-jachal,ar--la-rioja-la-rioja-ciudad,214
 ar--catamarca-belen,ar--catamarca-santa-maria,137
-ar--catamarca-belen,ar--catamarca-antofagasta-de-la-sierra,220
-ar--catamarca-santa-maria,ar--catamarca-antofagasta-de-la-sierra,270
 ar--catamarca-santa-maria,ar--salta-cafayate,75
 ar--salta-cafayate,ar--salta-salta-ciudad,198
 ar--salta-salta-ciudad,ar--salta-metan,101
@@ -198,10 +194,6 @@ ar--salta-salta-ciudad,ar--salta-cachi,193
 ar--salta-salta-ciudad,ar--salta-los-andes,254
 ar--salta-cafayate,ar--salta-cachi,225
 ar--salta-cachi,ar--salta-los-andes,201
-cl--antofagasta-san-pedro-de-atacama,ar--jujuy-susques,230
-ar--jujuy-susques,ar--salta-los-andes,138
-ar--jujuy-susques,ar--jujuy-san-salvador-de-jujuy,189
-ar--jujuy-susques,ar--jujuy-humahuaca,186
 ar--salta-los-andes,ar--jujuy-san-salvador-de-jujuy,241
 ar--salta-salta-ciudad,ar--jujuy-san-salvador-de-jujuy,103
 ar--jujuy-san-salvador-de-jujuy,ar--jujuy-san-pedro-de-jujuy,49
@@ -218,14 +210,7 @@ ar--salta-metan,ar--jujuy-san-pedro-de-jujuy,134
 ar--jujuy-ledesma,ar--salta-rivadavia,177
 ar--salta-tartagal,ar--salta-rivadavia,128
 cl--antofagasta-tocopilla,cl--tarapaca-iquique,182
-cl--antofagasta-tocopilla,cl--tarapaca-pica,203
-cl--tarapaca-iquique,cl--tarapaca-pica,110
-cl--tarapaca-iquique,bo-cl--oruro-tarapaca-pisiga-colchane,250
-cl--tarapaca-pica,bo-cl--oruro-tarapaca-pisiga-colchane,250
 cl--tarapaca-iquique,cl--arica-parinacota-arica,253
-cl--arica-parinacota-arica,cl--arica-parinacota-putre,144
-cl--tarapaca-pica,cl--arica-parinacota-arica,255
-cl--arica-parinacota-putre,bo-cl--la-paz-arica-parinacota-charana-visviri,170
 bo-ar--potosi-jujuy-villazon-la-quiaca,bo--potosi-tupiza,90
 bo--potosi-tupiza,bo--potosi-uyuni,190
 bo--potosi-tupiza,bo--potosi-potosi-ciudad,250
@@ -236,14 +221,11 @@ bo--oruro-challapata,bo--oruro-oruro-ciudad,140
 bo--oruro-oruro-ciudad,bo--potosi-llallagua,130
 bo--oruro-challapata,bo--potosi-llallagua,150
 bo--potosi-potosi-ciudad,bo--potosi-llallagua,280
-bo--oruro-oruro-ciudad,bo-cl--oruro-tarapaca-pisiga-colchane,210
 bo--oruro-oruro-ciudad,bo--la-paz-patacamaya,130
-bo--la-paz-patacamaya,cl--arica-parinacota-putre,240
 bo--la-paz-patacamaya,bo--la-paz-el-alto,100
 bo--la-paz-el-alto,bo--la-paz-viacha,70
 bo--la-paz-el-alto,bo--la-paz-la-paz-ciudad,30
 bo--la-paz-patacamaya,bo--la-paz-viacha,90
-bo--la-paz-viacha,bo-cl--la-paz-arica-parinacota-charana-visviri,230
 bo--la-paz-la-paz-ciudad,bo--la-paz-caranavi,270
 bo--la-paz-el-alto,bo--la-paz-achacachi,100
 bo--la-paz-viacha,bo--la-paz-achacachi,130
@@ -254,5 +236,3 @@ bo--la-paz-el-alto,pe-bo--puno-la-paz-desaguadero,150
 bo--la-paz-viacha,pe-bo--puno-la-paz-desaguadero,120
 bo--la-paz-copacabana,pe-bo--puno-la-paz-desaguadero,90
 cl--arica-parinacota-arica,pe--tacna-tacna-ciudad,90
-pe--tacna-tacna-ciudad,pe--tacna-tarata,100
-bo-cl--la-paz-arica-parinacota-charana-visviri,pe--tacna-tarata,200

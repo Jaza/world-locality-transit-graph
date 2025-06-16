@@ -108,13 +108,11 @@ ar--catamarca-belen,AR: Catamarca: Belén,Belén,Plaza de Belén,-27.64956,-67.0
 ar--catamarca-andalgala,AR: Catamarca: Andalgalá,Andalgalá,Plaza 9 de Julio,-27.583017,-66.315504
 ar--catamarca-tinogasta,AR: Catamarca: Tinogasta,Tinogasta,Plaza de Tinogasta,-28.065462,-67.564491
 ar--catamarca-santa-maria,AR: Catamarca: Santa María,Santa María,Plaza Manuel Belgrano,-26.694518,-66.04811
-ar--catamarca-antofagasta-de-la-sierra,AR: Catamarca: Antofagasta de la Sierra,Antofagasta de la Sierra,Plaza Principal,-26.05912,-67.406691
 cl--antofagasta-taltal,CL: Antofagasta: Taltal,Taltal,Plaza de Armas de Taltal,-25.40799,-70.4859
 cl--antofagasta-antofagasta-ciudad,CL: Antofagasta: Antofagasta Ciudad,Antofagasta,Plaza Colón,-23.646357,-70.398009
-cl--antofagasta-calama,CL: Antofagasta: Calama,Calama,Plaza 23 de Marzo,-22.462432,-68.927386
+cl--antofagasta-calama-san-pedro-de-atacama,CL: Antofagasta: Calama-San Pedro de Atacama,Calama,Pozo Lastrero 2,-22.63966,-68.58988
 cl--antofagasta-tocopilla,CL: Antofagasta: Tocopilla,Tocopilla,Plaza Cuatro Caminos,-22.088714,-70.196087
 cl--antofagasta-mejillones,CL: Antofagasta: Mejillones,Mejillones,Plaza Mejillones,-23.100721,-70.448719
-cl--antofagasta-san-pedro-de-atacama,CL: Antofagasta: San Pedro de Atacama,San Pedro de Atacama,Plaza San Pedro de Atacama,-22.91082,-68.20018
 ar--salta-salta-ciudad,AR: Salta: Salta Ciudad,Salta,Plaza 9 de Julio,-24.78922,-65.41034
 ar--salta-cachi,AR: Salta: Cachi,Cachi,Plaza 9 de Julio,-25.119848,-66.161953
 ar--salta-los-andes,AR: Salta: Los Andes,San Antonio de los Cobres,Estación de tren San Antonio de los Cobres,-24.226941,-66.316127
@@ -128,11 +126,8 @@ ar--jujuy-san-salvador-de-jujuy,AR: Jujuy: San Salvador de Jujuy,San Salvador de
 ar--jujuy-san-pedro-de-jujuy,AR: Jujuy: San Pedro de Jujuy,San Pedro de Jujuy,Plaza Belgrano,-24.231659,-64.867991
 ar--jujuy-ledesma,AR: Jujuy: Ledesma,Libertador General San Martín,Plaza San Martín,-23.81518,-64.7929
 ar--jujuy-humahuaca,AR: Jujuy: Humahuaca,Humahuaca,Plaza San Martín,-23.205913,-65.347468
-ar--jujuy-susques,AR: Jujuy: Susques,Susques,Hospital Nuestra Señora de Belén,-23.400318,-66.367443
 cl--tarapaca-iquique,CL: Tarapacá: Iquique,Iquique,Plaza Prat,-20.214064,-70.152426
-cl--tarapaca-pica,CL: Tarapacá: Pica,Pica,Plaza Pica,-20.491163,-69.32924
 cl--arica-parinacota-arica,CL: Arica-Parinacota: Arica,Arica,Plaza Vicuña Mackenna,-18.478271,-70.32221
-cl--arica-parinacota-putre,CL: Arica-Parinacota: Putre,Putre,Plaza de Putre,-18.196349,-69.559223
 bo--potosi-potosi-ciudad,BO: Potosí: Potosí Ciudad,Potosí,Plaza 10 de Noviembre,-19.589181,-65.753517
 bo--potosi-llallagua,BO: Potosí: Llallagua,Llallagua,Plaza 6 de Agosto,-18.423049,-66.585485
 bo--potosi-tupiza,BO: Potosí: Tupiza,Tupiza,Plaza Independencia,-21.44407,-65.72067
@@ -140,15 +135,12 @@ bo--potosi-uyuni,BO: Potosí: Uyuni,Uyuni,Plaza Central de Uyuni,-20.460987,-66.
 bo-ar--potosi-jujuy-villazon-la-quiaca,BO-AR: Potosí-Jujuy: Villazón-La Quiaca,Villazón,Plaza 6 de Agosto,-22.09098,-65.59565
 bo--oruro-oruro-ciudad,BO: Oruro: Oruro Ciudad,Oruro,Plaza 10 de Febrero,-17.969571,-67.114765
 bo--oruro-challapata,BO: Oruro: Challapata,Challapata,Plaza Eduardo Abaroa,-18.90242,-66.77471
-bo-cl--oruro-tarapaca-pisiga-colchane,BO-CL: Oruro-Tarapacá: Pisiga-Colchane,Pisiga,Plaza Central de Pisiga,-19.273547,-68.616303
 bo--la-paz-la-paz-ciudad,BO: La Paz: La Paz Ciudad,La Paz,Plaza Murillo,-16.495683,-68.133591
 bo--la-paz-el-alto,BO: La Paz: El Alto,El Alto,Plaza 10 de Noviembre,-16.523418,-68.150859
 bo--la-paz-viacha,BO: La Paz: Viacha,Viacha,Plaza Mariscal José Ballivián,-16.653487,-68.301648
-bo-cl--la-paz-arica-parinacota-charana-visviri,BO-CL: La Paz-Arica-Parinacota: Charaña-Visviri,Charaña,Estación de tren Charaña,-17.594505,-69.446168
 bo--la-paz-patacamaya,BO: La Paz: Patacamaya,Patacamaya,Plaza Calama,-17.23292,-67.920281
 bo--la-paz-caranavi,BO: La Paz: Caranavi,Caranavi,Plaza Simón Bolívar,-15.833787,-67.565897
 bo--la-paz-copacabana,BO: La Paz: Copacabana,Copacabana,Plaza 2 de Febrero,-16.165378,-69.085422
 bo--la-paz-achacachi,BO: La Paz: Achacachi,Achacachi,Plaza Mariscal Antonio José de Sucre,-16.044045,-68.685011
 pe--tacna-tacna-ciudad,PE: Tacna: Tacna Ciudad,Tacna,Paseo Cívico de Tacna,-18.013958,-70.25119
-pe--tacna-tarata,PE: Tacna: Tarata,Tarata,Plaza de Armas de Tarata,-17.474644,-70.032129
 pe-bo--puno-la-paz-desaguadero,PE-BO: Puno-La Paz: Desaguadero,Desaguadero,Plaza de Armas de Desaguadero,-16.564925,-69.040253
