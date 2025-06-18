@@ -43,6 +43,7 @@ ready(() => {
     "au-north",
     "au-nsw-far-west",
     "au-pilbara",
+    "au-qld-north-west",
     "au-red-centre",
     "au-sa-far-north",
     "au-tas",
@@ -130,6 +131,15 @@ ready(() => {
       farEdgesCsvFilename: "au_pilbara_localities_transit_times_floyd_warshall_generated.csv",
       boundingPolygonCsvFilename: "au_pilbara_bounding_polygon.csv",
       defaultCoords: {lat: -21.782, lng: 118.043},
+      defaultZoom: 7
+    },
+    "au-qld-north-west": {
+      name: "AU Qld North west",
+      nodesCsvFilename: "au_qld_north_west_localities.csv",
+      nearbyEdgesCsvFilename: "au_qld_north_west_localities_transit_times.csv",
+      farEdgesCsvFilename: "au_qld_north_west_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "au_qld_north_west_bounding_polygon.csv",
+      defaultCoords: {lat: -20.710, lng: 140.449},
       defaultZoom: 7
     },
     "au-red-centre": {
