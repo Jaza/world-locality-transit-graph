@@ -1,28 +1,20 @@
 slug,name,area_of_reference,point_of_reference,lat,lon
 gb--london-central-london,GB: London: Central London,Chancery Lane,Chancery Lane Tube Station,51.5181,-0.1124
-gb--london-inner-east,GB: London: Inner East,West Ham,West Ham train station,51.5283,0.0045
-gb--london-inner-north-east,GB: London: Inner North East,Walthamstow,Walthamstow Central train station,51.5829,-0.0201
-gb--london-inner-north,GB: London: Inner North,Harringay,Harringay train station,51.5776,-0.1054
-gb--london-inner-north-west,GB: London: Inner North West,Brent Cross,Brent Cross tube station,51.5769,-0.2139
-gb--london-inner-west,GB: London: Inner West,Shepherd’s Bush,Shepherd’s Bush train station,51.50578,-0.21795
-gb--london-inner-south-west,GB: London: Inner South West,Putney,Putney train station,51.461,-0.2154
-gb--london-inner-south,GB: London: Inner South,Brixton,Brixton train station,51.463,-0.1136
-gb--london-inner-south-east,GB: London: Inner South East,Lewisham,Lewisham train station,51.4658,-0.014
-gb--london-outer-east,GB: London: Outer East,Dagenham,Dagenham East tube station,51.54395,0.16492
+gb--london-east-london,GB: London: East London,East Ham,East Ham tube station,51.539366,0.052593
+gb--london-north-london,GB: London: North London,Bowes Park,Bowes Park train station,51.60715,-0.12051
+gb--london-west-london,GB: London: West London,Perivale,Perivale tube station,51.53647,-0.32266
+gb--london-surrey-south-west-london,GB: London-Surrey: South West London,Kingston upon Thames,Kingston train station,51.41285,-0.30191
+gb--london-south-london,GB: London: South London,Anerley Park,Penge West train station,51.417492,-0.060757
 gb--essex-hertfordshire-epping-harlow-stortford,GB: Essex-Hertfordshire: Epping-Harlow-Stortford,Harlow,Harlow Post Office,51.769677,0.094146
-gb--london-outer-north,GB: London: Outer North,Oakwood,Oakwood tube station,51.6474,-0.1313
 gb--hertfordshire-watford-st-albans,GB: Hertfordshire: Watford-St Albans,Bricket Wood,Bricket Wood train station,51.70536,-0.35920
-gb--london-outer-west,GB: London: Outer West,Hayes,Hayes and Harlington train station,51.50291,-0.41918
-gb--surrey-walton,GB: Surrey: Walton,Walton,Walton-on-Thames train station,51.37287,-0.41441
-gb--london-outer-south,GB: London: Outer South,Sanderstead,Sanderstead train station,51.34817,-0.09364
 gb--essex-grays,GB: Essex: Grays,Grays,Grays train station,51.47636,0.32187
 gb--hertfordshire-stevenage-welwyn,GB: Hertfordshire: Stevenage-Welwyn,Knebworth,Knebworth train station,51.86677,-0.18711
 gb--buckinghamshire-chilterns,GB: Buckinghamshire: Chilterns,Princes Risborough,Princes Risborough train station,51.71791,-0.84432
 gb--berkshire-windsor-slough-maidenhead,GB: Berkshire: Windsor-Slough-Maidenhead,Dorney Reach,Dorney village hall,51.50719,-0.68098
 gb--berkshire-reading,GB: Berkshire: Reading,Reading,Reading train station,51.4594,-0.9723
-gb--surrey-surrey-hills,GB: Surrey: Surrey Hills,Shere,Shere Village Hall,51.220642,-0.463555
+gb--surrey-hampshire-guildford-woking-blackwater,GB: Surrey-Hampshire: Guildford-Woking-Blackwater,Normandy,Chapel Farm,51.25897,-0.65448
 gb--west-sussex-surrey-crawley,GB: West Sussex-Surrey: Crawley,Crawley,Crawley train station,51.11199,-0.18657
-gb--kent-dartford,GB: Kent: Dartford,Dartford,Dartford train station,51.44739,0.21906
+gb--kent-dartford-gravesend,GB: Kent: Dartford-Gravesend,Greenhithe,Greenhithe train station,51.45043,0.27985
 gb--kent-east-sussex-tunbridge-sevenoaks,GB: Kent-East Sussex: Tunbridge-Sevenoaks,Tonbridge,Tonbridge train station,51.19141,0.26985
 gb--kent-medway-maidstone,GB: Kent: Medway-Maidstone,Chatham,Beechen Hall,51.32668,0.54028
 gb--essex-chelmsford,GB: Essex: Chelmsford,Chelmsford,Chelmsford train station,51.7366,0.4687
@@ -41,7 +33,7 @@ gb--west-midlands-warwickshire-coventry,GB: West Midlands-Warwickshire: Coventry
 gb--bristol,GB: Bristol,Bristol,Bristol Cathedral,51.451684,-2.600691
 gb--leicestershire,GB: Leicestershire,Leicester,Leicester Cathedral,52.634702,-1.137101
 gb--east-sussex-west-sussex-brighton-worthington,GB: East Sussex-West Sussex: Brighton-Worthington,Shoreham-by-Sea,Shoreham-by-Sea train station,50.83433,-0.27157
-gb--hampshire-southampton,GB: Hampshire: Southampton,Southampton,Southampton Central train station,50.90738,-1.41445
+gb--hampshire-southampton-winchester,GB: Hampshire: Southampton-Winchester,Eastleigh,Eastleigh train station,50.96874,-1.35007
 gb--hampshire-portsmouth,GB: Hampshire: Portsmouth,Portsmouth,Portsmouth and Southsea train station,50.79811,-1.09074
 gb--northamptonshire-northampton,GB: Northamptonshire: Northampton,Northampton,Northampton train station,52.23727,-0.90710
 gb--norfolk-norwich,GB: Norfolk: Norwich,Norwich,Norwich train station,52.62623,1.30767
@@ -52,15 +44,15 @@ gb--oxfordshire,GB: Oxfordshire,Oxford,Oxford Town Hall,51.751546,-1.257076
 gb--shropshire-telford-shrewsbury,GB: Shropshire: Telford-Shrewsbury,Allscott,Allscott Village Green,52.71023,-2.57544
 gb--cambridgeshire-cambridge,GB: Cambridgeshire: Cambridge,Cambridge,The Guildhall,52.204756,0.119326
 gb--suffolk-ipswitch,GB: Suffolk: Ipswitch,Ipswitch,Ipswitch train station,52.05037,1.14472
-gb--gloucestershire,GB: Gloucestershire,Birdlip,Birdlip Primary School,51.827082,-2.104890
-gb--hampshire-north-hampshire,GB: Hampshire: North Hampshire,Micheldever,Micheldever train station,51.18228,-1.26051
+gb--gloucestershire,GB: Gloucestershire,Churchdown,Churchdown Village Junior School,51.878614,-2.171870
+gb--hampshire-basingstoke,GB: Hampshire: Basingstoke,Basingstoke,Basingstoke train station,51.26829,-1.08863
 gb--worcestershire,GB: Worcestershire,Worcester,Worcester Foregate Street train station,52.19336,-2.21997
 gb--east-sussex-eastbourne-hastings,GB: East Sussex: Eastbourne-Hastings,Cooden,Cooden Beach train station,50.83313,0.42641
 gb--kent-canterbury-dover,GB: Kent: Canterbury-Dover,Aylesham,Aylesham train station,51.22718,1.20935
-gb--wiltshire-salisbury,GB: Wiltshire: Salisbury,Salisbury,Salisbury Cathedral,51.06495,-1.79729
+gb--wiltshire-salisbury-plain,GB: Wiltshire: Salisbury Plain,Amesbury,Amesbury library,51.172109,-1.778069
 gb--somerset-bath,GB: Somerset: Bath,Bath,Bath Spa train station,51.37760,-2.35674
 gb--west-sussex-south-downs,GB: West Sussex: South Downs,Midhurst,Midhurst library,50.984191,-0.739657
-gb--warwickshire-south-warwickshire,GB: Warwickshire: South Warwickshire,Shipston-on-Stour,Townsend Hall,52.063062,-1.627178
+gb--warwickshire-stratford,GB: Warwickshire: Stratford,Stratford-upon-Avon,Stratford-upon-Avon train station,52.19439,-1.71649
 gb--herefordshire,GB: Herefordshire,Hereford,Hereford train station,52.06118,-2.70815
 gb--norfolk-cambridgeshire-the-fens,GB: Norfolk-Cambridgeshire: The Fens,Downham Market,Downham Market train station,52.60400,0.36560
 gb--norfolk-norfolk-coast,GB: Norfolk: Norfolk Coast,Wells-next-the-Sea,Wells library,52.954525,0.853688
@@ -78,5 +70,6 @@ gb--cornwall-north-coast,GB: Cornwall: North Coast,Padstow,Padstow library,50.54
 gb--cornwall-penwith,GB: Cornwall: Penwith,Penzance,Penzance train station,50.12241,-5.53217
 gb--cornwall-camborne-truro,GB: Cornwall: Camborne-Truro,Scorrier,Scorrier chapel,50.254124,-5.195353
 gb--cornwall-devon-marsland,GB: Cornwall-Devon: Marsland,Kilkhampton,Kilkhampton post office,50.874678,-4.484514
-gb--isle-of-wight,GB: Isle of Wight,Ryde,Ryde Town Council,50.729877,-1.164572
+gb--isle-of-wight,GB: Isle of Wight,Newport,Newport Law Courts,50.701267,-1.291559
 gb--northamptonshire-north-northamptonshire,GB: Northamptonshire: North Northamptonshire,Corby,Corby Cube,52.487231,-0.704423
+gb--somerset-weston,GB: Somerset: Weston,Weston-super-Mare,Weston-super-Mare train station,51.34435,-2.97197
