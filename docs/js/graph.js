@@ -51,7 +51,7 @@ ready(() => {
     "au-west-kimberley",
     "cl-norte-de-aysen",
     "cl-sur-de-aysen",
-    "europe",
+    "emea",
     "north-america",
     "nz-north-island",
     "nz-south-island",
@@ -205,12 +205,12 @@ ready(() => {
       defaultCoords: {lat: -47.236, lng: -72.614},
       defaultZoom: 8
     },
-    "europe": {
-      name: "Europe",
-      nodesCsvFilename: "europe_localities.csv",
-      nearbyEdgesCsvFilename: "europe_localities_transit_times.csv",
-      farEdgesCsvFilename: "europe_localities_transit_times_floyd_warshall_generated.csv",
-      boundingPolygonCsvFilename: "europe_bounding_polygon.csv",
+    "emea": {
+      name: "EMEA",
+      nodesCsvFilename: "emea_localities.csv",
+      nearbyEdgesCsvFilename: "emea_localities_transit_times.csv",
+      farEdgesCsvFilename: "emea_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "emea_bounding_polygon.csv",
       defaultCoords: {lat: 48.546, lng: 15.688},
       defaultZoom: 5
     },
