@@ -106,9 +106,9 @@ gb--hampshire-portsmouth,gb--hampshire-southampton-winchester,30
 gb--hampshire-basingstoke,gb--hampshire-southampton-winchester,29
 gb--west-sussex-south-downs,gb--hampshire-southampton-winchester,55
 gb--hampshire-portsmouth,gb--surrey-hampshire-guildford-woking-blackwater,50
-gb--london-central-london,fr--ile-de-france-paris,240
-gb--london-central-london,fr--hauts-de-france-lille,180
-gb--london-central-london,be--bruxelles-capitale-bruxelles,210
+gb--london-central-london,fr--ile-de-france-paris,270
+gb--london-central-london,fr--hauts-de-france-lille,210
+gb--london-central-london,be--bruxelles-capitale-bruxelles,240
 fr--ile-de-france-paris,fr--hauts-de-france-lille,91
 fr--hauts-de-france-lille,be--bruxelles-capitale-bruxelles,69
 fr--ile-de-france-paris,be--bruxelles-capitale-bruxelles,116
