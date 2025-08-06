@@ -59,16 +59,19 @@ us--ca-west-marin,US: CA: West Marin,Point Reyes Station,Point Reyes Station Pos
 us--ca-sacramento,US: CA: Sacramento,Sacramento,Sacramento Valley train station,38.58503,-121.50104
 us--ca-elk-grove,US: CA: Elk Grove,Elk Grove,Elk Grove Public Library,38.408774,-121.371224
 us--ca-roseville,US: CA: Roseville,Roseville,Roseville train station,38.74957,-121.28632
-us--ca-gold-country,US: CA: Gold Country,Pollock Pines,El Dorado County Fire Station 17,38.762447,-120.580128
+us--ca-gold-country,US: CA: Gold Country,Placerville,Placerville Town Hall,38.729449,-120.797709
 us--ca-yolo-county,US: CA: Yolo County,Woodland,Woodland train station,38.67742,-121.75268
-us--ca-yuba-city,US: CA: Yuba City,Yuba City,Yuba City post office,39.139277,-121.616678
-us--nv-ca-truckee-meadows,US: NV-CA: Truckee Meadows,Verdi,Verdi Post Office,39.52055,-119.979866
+us--ca-yuba-sutter,US: CA: Yuba-Sutter,Yuba City,Yuba City post office,39.139277,-121.616678
+us--nv-ca-truckee-meadows-north-tahoe,US: NV-CA: Truckee Meadows-North Tahoe,Verdi,Verdi Post Office,39.52055,-119.979866
 us--nv-ca-eagle-valley-south-tahoe,US: NV-CA: Eagle Valley-South Tahoe,Glenbrook,Glenbrook Post Office,39.074007,-119.940255
 us--nv-humboldt-county,US: NV: Humboldt County,Winnemucca,Winnemucca train station,40.96846,-117.7325
 us--nv-ruby-valley,US: NV: Ruby Valley,Elko,Elko train station,40.83633,-115.75062
 us--ut-tooele-county,US: UT: Tooele County,Grantsville,Delle City Station,40.761798,-112.783118
-us--ut-salt-lake-city,US: UT: Salt Lake City,Salt Lake City,Salt Lake Central train station,40.76141,-111.90906
-us--ut-jordan-valley,US: UT: Jordan Valley,Sandy,River Oaks Golf Course,40.582218,-111.917371
+us--ut-salt-lake-city-downtown,US: UT: Salt Lake City Downtown,Salt Lake City,Salt Lake Central train station,40.76141,-111.90906
+us--ut-salt-lake-city-east-side,US: UT: Salt Lake City East Side,Holladay,Olympus High School,40.68533,-111.823879
+us--ut-salt-lake-city-west-side,US: UT: Salt Lake City West Side,Wood Haven,Hunter Junior High School,40.6887,-112.03714
+us--ut-salt-lake-city-south-side,US: UT: Salt Lake City South Side,Riverton,Rosamond Elementary School,40.53016,-111.9424
+us--ut-salt-lake-city-north-side,US: UT: Salt Lake City North Side,Woods Cross,Woods Cross train station,40.88064,-111.903
 us--ut-ogden,US: UT: Ogden,Ogden,Ogden train station,41.2242,-111.98068
 us--ut-provo,US: UT: Provo,Provo,Provo Central train station,40.22543,-111.66058
 us--ut-heber,US: UT: Heber,Heber City,Heber City Post Office,40.508756,-111.411908
@@ -76,10 +79,90 @@ us--ut-uintah-basin,US: UT: Uintah Basin,Roosevelt,Duchesne County Library,40.29
 us--co-moffat-county,US: CO: Moffat County,Maybell,Maybell Post Office,40.517863,-108.085282
 us--co-yampa-valley,US: CO: Yampa Valley,Steamboat Springs,Steamboat Springs Post Office,40.483389,-106.828297
 us--co-middle-park,US: CO: Middle Park,Granby,Granby train station,40.08409,-105.93571
-us--co-denver,US: CO: Denver,Denver,Union station,39.75348,-105.00089
+us--co-downtown-denver,US: CO: Downtown Denver,Denver,Union station,39.75348,-105.00089
 us--co-boulder,US: CO: Boulder,Boulder,Boulder public library,40.014425,-105.282122
-us--co-aurora,US: CO: Aurora,Aurora,Aurora Metro Center,39.70845,-104.8191
-us--co-centennial-littleton,US: CO: Centennial-Littleton,Southglenn,Arapahoe Library,39.590556,-104.963561
-us--co-lakewood-jefferson-county,US: CO: Lakewood-Jefferson County,Lakewood,Red Rocks College transit station,39.72493,-105.15221
-us--co-broomfield-thornton,US: CO: Broomfield-Thornton,Westminster,Westminster Post Office,39.887155,-105.026314
+us--co-east-denver,US: CO: East Denver,Aurora,Aurora Metro Center,39.70845,-104.8191
+us--co-south-denver,US: CO: South Denver,Southglenn,Arapahoe Library,39.590556,-104.963561
+us--co-west-denver,US: CO: West Denver,Lakewood,Red Rocks College transit station,39.72493,-105.15221
+us--co-north-denver,US: CO: North Denver,Westminster,Westminster Post Office,39.887155,-105.026314
 us--co-clear-creek-county,US: CO: Clear Creek County,Empire,Empire Post Office,39.761635,-105.685515
+us--co-east-central-colorado,US: CO: East Central Colorado,Seibert,Seibert Community Park,39.298126,-102.871701
+us--ks-northwest-kansas,US: KS: Northwest Kansas,Oakley,Oakley Post Office,39.126567,-100.852405
+us--ks-smoky-hills,US: KS: Smoky Hills,Wilson,Wilson Fire Department,38.826056,-98.475008
+us--ks-flint-hills,US: KS: Flint Hills,Manhattan,Manhattan Public Library,39.178982,-96.566214
+us--ks-topeka,US: KS: Topeka,Topeka,Kansas State Capitol,39.048181,-95.678097
+us--ks-lawrence,US: KS: Lawrence,Lawrence,Lawrence train station,38.971242,-95.230415
+us--mo-ks-kansas-city-downtown,US: MO-KS: Kansas City Downtown,Kansas City,West Bottoms Flats,39.103513,-94.604071
+us--mo-ks-kansas-city-west-side,US: MO-KS: Kansas City West Side,Roeland Park,Granada Park,39.035901,-94.638875
+us--mo-kansas-city-east-side,US: MO: Kansas City East Side,Knoches Park,Kansas City VA Medical Center,39.064402,-94.527558
+us--ks-overland-park-johnson-county,US: KS: Overland Park-Johnson County,Olathe,Kansas City Automotive Museum,38.917938,-94.760503
+us--mo-independence-lees-summit,US: MO: Independence-Lee's Summit,Kansas City,Thorn Hill Farm,39.004274,-94.418017
+us--mo-kansas-city-northland,US: MO: Kansas City Northland,Barry,Barry Cemetery,39.245038,-94.597178
+us--mo-mid-missouri,US: MO: Mid-Missouri,Ashland,Ashland City Park,38.777577,-92.258785
+us--mo-il-st-louis-downtown,US: MO-IL: St Louis Downtown,St Louis,St Louis Gateway train station,38.624,-90.20398
+us--mo-st-louis-north-county,US: MO: St Louis North County,Florissant,Florissant City Hall,38.791912,-90.322723
+us--mo-st-louis-west-county,US: MO: St Louis West County,St Louis,Mercy Hospital St Louis,38.64546,-90.44611
+us--mo-st-louis-south-county,US: MO: St Louis South County,Concord,Bohrer County Park,38.52043,-90.35304
+us--il-st-louis-metro-east,US: IL: St Louis Metro East,Maryville,Maryville fire station,38.725626,-89.955218
+us--mo-st-charles,US: MO: St Charles,St Charles,St Charles Memorial Gardens,38.79687,-90.56738
+us--il-south-central-illinois,US: IL: South Central Illinois,Effingham,Effingham train station,39.11678,-88.54725
+us--in-il-wabash-valley,US: IN-IL: Wabash Valley,Terre Haute,Terre Haute Clerk's Office,39.465864,-87.415735
+us--in-indianapolis-downtown,US: IN: Indianapolis Downtown,Indianapolis,Indianapolis Union Station,39.76226,-86.15966
+us--in-indianapolis-north-side,US: IN: Indianapolis North Side,Spring Mill Estates,Holliday Park,39.87077,-86.16109
+us--in-indianapolis-south-side,US: IN: Indianapolis South Side,Indianapolis,Round Hill Cemetery,39.68766,-86.158
+us--in-indianapolis-west-side,US: IN: Indianapolis West Side,Indianapolis,Our Fathers House Church,39.763692,-86.294464
+us--in-indianapolis-east-side,US: IN: Indianapolis East Side,Indianapolis,Franklin Road Baptist Church,39.774015,-86.025867
+us--in-east-central-indiana,US: IN: East Central Indiana,Richmond,Morrisson-Reeves Library,39.830165,-84.894571
+us--oh-ky-cincinnati-downtown-covington,US: OH-KY: Cincinnati Downtown-Covington,Cincinnati,Cincinnati Post Office,39.10182,-84.513885
+us--oh-cincinnati-east-side,US: OH: Cincinnati East Side,Kennedy Heights,Kennedy Heights Park,39.18083,-84.41676
+us--oh-cincinnati-west-side,US: OH: Cincinnati West Side,Oak Hills,Oak Hills United Methodist Church,39.157846,-84.64887
+us--oh-butler-warren-counties,US: OH: Butler-Warren Counties,Liberty Township,Liberty Park,39.38187,-84.38586
+us--ky-northern-kentucky,US: KY: Northern Kentucky,Independence,Independence City Building,38.933321,-84.545084
+us--oh-dayton,US: OH: Dayton,Dayton,Montgomery County Sheriff,39.760262,-84.198124
+us--oh-springfield,US: OH: Springfield,Springfield,City Hall,39.923705,-83.809923
+us--oh-columbus-downtown,US: OH: Columbus Downtown,Columbus,Ohio Statehouse,39.961397,-82.998485
+us--oh-columbus-north-side,US: OH: Columbus North Side,Clintonville,Clintonville Post Office,40.050924,-83.019599
+us--oh-columbus-east-side,US: OH: Columbus East Side,Whitehall,Columbus Metropolitan Library Whitehall Branch,39.974845,-82.882356
+us--oh-columbus-west-side,US: OH: Columbus West Side,Broad Lawn,Wilson Road Park,39.94743,-83.09677
+us--oh-columbus-south-side,US: OH: Columbus South Side,Far South,Stockbridge Park,39.89476,-82.97094
+us--oh-east-central-ohio,US: OH: East Central Ohio,Norwich,Norwich Post Office,39.985212,-81.792676
+us--wv-oh-pa-west-virginia-northern-panhandle,US: WV-OH-PA: West Virginia Northern Panhandle,Wheeling,West Virginia Independence Hall,40.064235,-80.721762
+us--pa-pittsburgh-downtown,US: PA: Pittsburgh Downtown,Pittsburgh,Pittsburgh Union Station,40.44445,-79.99171
+us--pa-pittsburgh-east-end,US: PA: Pittsburgh East End,East Liberty,East Liberty Presbyterian Church,40.461028,-79.9255
+us--pa-pittsburgh-south-side,US: PA: Pittsburgh South Side,Carrick,Denise Station,40.39958,-79.99905
+us--pa-pittsburgh-north-side,US: PA: Pittsburgh North Side,Perry North,Pittsburgh Higher Ground Praise Ministry,40.484096,-80.014538
+us--pa-pittsburgh-west-end,US: PA: Pittsburgh West End,Crafton Heights,Middletown Road Baptist Church,40.445661,-80.059186
+us--pa-pittsburgh-south-hills,US: PA: Pittsburgh South Hills,Bethel Park,South Park Station,40.32782,-80.03055
+us--pa-pittsburgh-east-hills,US: PA: Pittsburgh East Hills,Monroeville,Patton Heights Park,40.422828,-79.789732
+us--pa-pittsburgh-north-hills,US: PA: Pittsburgh North Hills,Wexford,Wexford Volunteer Fire Department,40.628314,-80.051955
+us--pa-pittsburgh-west-hills,US: PA: Pittsburgh West Hills,Imperial,Imperial Volunteer Fire Department,40.451384,-80.24678
+us--pa-southwest-pennsylvania,US: PA: Southwest Pennsylvania,Fredericktown,Fredericktown Post Office,40.001429,-79.998096
+us--md-wv-pa-maryland-panhandle,US: MD-WV-PA: Maryland Panhandle,Cumberland,Cumberland Amtrak station,39.6505,-78.758
+us--md-wv-pa-hagerstown,US: MD-WV-PA: Hagerstown,Hagerstown,Hagerstown Post Office,39.644348,-77.72067
+us--md-wv-frederick,US: MD-WV: Frederick,Frederick,Frederick train station,39.41189,-77.40551
+us--md-downtown-baltimore,US: MD: Downtown Baltimore,Baltimore,Baltimore City Hall,39.290813,-76.610756
+us--md-east-baltimore,US: MD: East Baltimore,Armstead Gardens,Armstead Gardens Elementary School,39.30429,-76.55301
+us--md-west-baltimore,US: MD: West Baltimore,Franklintown Road,Rosemont Park,39.296301,-76.666417
+us--md-north-baltimore,US: MD: North Baltimore,Homeland,Grace United Methodist Church,39.361689,-76.623802
+us--md-south-baltimore,US: MD: South Baltimore,Brooklyn,LIFE Church Ministries,39.23587,-76.611121
+us--md-pa-carroll-county,US: MD-PA: Carroll County,Westminster,Westminster Town Hall,39.575033,-76.992547
+us--md-columbia,US: MD: Columbia,Columbia,Columbia Post Office,39.211994,-76.864418
+us--md-north-arundel,US: MD: North Arundel,Glen Burnie,Kuethe Library,39.163382,-76.625433
+us--de-pa-md-nj-wilmington-newark,US: DE-PA-MD-NJ: Wilmington-Newark,Stanton,Stanton Middle School,39.71452,-75.65095
+us--md-pa-de-north-east-maryland,US: MD-PA-DE: North East Maryland,Perryville,Perryville train station,39.55808,-76.07393
+us--pa-philadelphia-downtown-philly,US: PA: Philadelphia: Downtown Philly,Philadelphia,Philadelphia City Hall,39.95242,-75.163608
+us--pa-philadelphia-north-philly,US: PA: Philadelphia: North Philly,Hunting Park,Hunting Park station,40.01741,-75.14957
+us--pa-philadelphia-south-philly,US: PA: Philadelphia: South Philly,Packer Park,NRG station,39.9059,-75.17313
+us--pa-philadelphia-north-east-philly,US: PA: Philadelphia: North East Philly,Ashton-Woodenbridge,Welsh Road Library,40.074094,-75.03219
+us--pa-philadelphia-west-philly,US: PA: Philadelphia: West Philly,Cobbs Creek,60th Street station,39.96197,-75.24086
+us--pa-philadelphia-south-west-philly,US: PA: Philadelphia: South West Philly,Darby,Darby Transportation Center,39.918776,-75.262613
+us--pa-philadelphia-north-west-philly,US: PA: Philadelphia: North West Philly,Roxborough,Roxborough Church,40.058961,-75.238473
+us--nj-camden-county,US: NJ: Camden County,Haddonfield,Haddonfield station,39.89737,-75.03681
+us--nj-burlington-county,US: NJ: Burlington County,Moorestown,Moorestown High School,39.986718,-74.944171
+us--pa-de-delco,US: PA-DE: Delco,Parkside,Parkside Elementary School,39.86883,-75.37969
+us--nj-gloucester-county,US: NJ: Gloucester County,Mantua,Mantua Post Office,39.792483,-75.173478
+us--nj-deep-south-jersey,US: NJ: Deep South Jersey,Lawrence Township,Lawrence Township Court,39.332167,-75.199453
+us--nj-pine-barrens,US: NJ: Pine Barrens,Jenkins,Happy Jack Hunt Club,39.697913,-74.525832
+us--nj-atlantic-city-southern-jersey-shore,US: NJ: Atlantic City-Southern Jersey Shore,Ocean City,Ocean City Fire Department,39.28271,-74.571944
+us--nj-pa-trenton-morrisville,US: NJ-PA: Trenton-Morrisville,Trenton,New Jersey State House,40.220449,-74.770117
+us--nj-princeton,US: NJ: Princeton,Princeton,Princeton Public Library,40.351681,-74.660323
