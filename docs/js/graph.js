@@ -52,6 +52,7 @@ ready(() => {
     "cl-norte-de-aysen",
     "cl-sur-de-aysen",
     "emea",
+    "jp-okinawa",
     "north-america",
     "nz-north-island",
     "nz-south-island",
@@ -213,6 +214,15 @@ ready(() => {
       boundingPolygonCsvFilename: "emea_bounding_polygon.csv",
       defaultCoords: {lat: 48.546, lng: 15.688},
       defaultZoom: 5
+    },
+    "jp-okinawa": {
+      name: "JP Okinawa",
+      nodesCsvFilename: "jp_okinawa_localities.csv",
+      nearbyEdgesCsvFilename: "jp_okinawa_localities_transit_times.csv",
+      farEdgesCsvFilename: "jp_okinawa_localities_transit_times_floyd_warshall_generated.csv",
+      boundingPolygonCsvFilename: "jp_okinawa_bounding_polygon.csv",
+      defaultCoords: {lat: 26.4724, lng: 127.9193},
+      defaultZoom: 10
     },
     "north-america": {
       name: "North America",
@@ -550,9 +560,14 @@ ready(() => {
 
       const marker = L.marker(latLon);
       marker.bindPopup(
-        `<strong>${result.name}</strong><br>` +
-        `Area of reference: ${result.area_of_reference}<br>` +
-        `Point of reference: ${result.point_of_reference}`
+        `<strong>${result.name}</strong>` +
+        (result.name_romanized ? ` <strong>(${result.name_romanized})</strong>` : '') +
+        '<br>' +
+        `Area of reference: ${result.area_of_reference}` +
+        (result.area_of_reference_romanized ? ` (${result.area_of_reference_romanized})` : '') +
+        '<br>' +
+        `Point of reference: ${result.point_of_reference}` +
+        (result.point_of_reference_romanized ? ` (${result.point_of_reference_romanized})` : '')
       );
       nodes.addLayer(marker);
     }
