@@ -561,13 +561,16 @@ ready(() => {
       const marker = L.marker(latLon);
       marker.bindPopup(
         `<strong>${result.name}</strong>` +
-        (result.name_romanized ? ` <strong>(${result.name_romanized})</strong>` : '') +
+        (result.name_secondary_language ? ` <strong>(${result.name_secondary_language})</strong>` : '') +
+        (result.name_tertiary_language ? ` <strong>(${result.name_tertiary_language})</strong>` : '') +
         '<br>' +
         `Area of reference: ${result.area_of_reference}` +
-        (result.area_of_reference_romanized ? ` (${result.area_of_reference_romanized})` : '') +
+        (result.area_of_reference_secondary_language ? ` (${result.area_of_reference_secondary_language})` : '') +
+        (result.area_of_reference_tertiary_language ? ` (${result.area_of_reference_tertiary_language})` : '') +
         '<br>' +
         `Point of reference: ${result.point_of_reference}` +
-        (result.point_of_reference_romanized ? ` (${result.point_of_reference_romanized})` : '')
+        (result.point_of_reference_secondary_language ? ` (${result.point_of_reference_secondary_language})` : '') +
+        (result.point_of_reference_tertiary_language ? ` (${result.point_of_reference_tertiary_language})` : '')
       );
       nodes.addLayer(marker);
     }
