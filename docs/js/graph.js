@@ -289,6 +289,26 @@ ready(() => {
   let boundingPolygon = null;
   let edgeLocalities = null;
 
+  // Thanks to: https://dev.to/jorik/country-code-to-flag-emoji-a21
+  const getFlagEmoji = (countryCode) => {
+    const codePoints = countryCode
+      .toUpperCase()
+      .split('')
+      .map(char => 127397 + char.charCodeAt(0));
+    return String.fromCodePoint(...codePoints);
+  };
+
+  const replaceCountryCodesWithFlagEmojis = (slug) => {
+    if (!/^[A-Z]{2}(\-[A-Z]{2})*\: .+$/.test(slug)) {
+      return slug;
+    }
+
+    const slugParts = slug.split(": ");
+    const countryCodes = slugParts[0].split("-");
+    const flagEmojis = countryCodes.map(getFlagEmoji);
+    return [flagEmojis.join(" "), slugParts.slice(1).join(": ")].join(" ");
+  };
+
   const getCsvUrlPrefix = () => {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
@@ -560,9 +580,9 @@ ready(() => {
 
       const marker = L.marker(latLon);
       marker.bindPopup(
-        `<strong>${result.name}</strong>` +
-        (result.name_secondary_language ? ` <strong>(${result.name_secondary_language})</strong>` : '') +
-        (result.name_tertiary_language ? ` <strong>(${result.name_tertiary_language})</strong>` : '') +
+        `<strong>${replaceCountryCodesWithFlagEmojis(result.name)}</strong>` +
+        (result.name_secondary_language ? ` <strong>(${replaceCountryCodesWithFlagEmojis(result.name_secondary_language)})</strong>` : '') +
+        (result.name_tertiary_language ? ` <strong>(${replaceCountryCodesWithFlagEmojis(result.name_tertiary_language)})</strong>` : '') +
         '<br>' +
         `Area of reference: ${result.area_of_reference}` +
         (result.area_of_reference_secondary_language ? ` (${result.area_of_reference_secondary_language})` : '') +
