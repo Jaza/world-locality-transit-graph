@@ -8,6 +8,9 @@ ready(() => {
   const TOGGLE_BOUNDING_POLYGON_WRAPPER_ID = "toggle-bounding-polygon-wrapper";
   const TOGGLE_BOUNDING_POLYGON_ID = "toggle-bounding-polygon";
   const GRAPH_SELECT_ID = "graph-select";
+  const FLAG_EMOJI_ENGLAND = "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f";
+  const FLAG_EMOJI_SCOTLAND = "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f";
+  const FLAG_EMOJI_WALES = "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc77\udb40\udc6c\udb40\udc73\udb40\udc7f";
   const LEAFLET_MAP_URL = (
     "//api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}" +
     "?access_token={accessToken}"
@@ -298,15 +301,31 @@ ready(() => {
     return String.fromCodePoint(...codePoints);
   };
 
-  const replaceCountryCodesWithFlagEmojis = (slug) => {
-    if (!/^[A-Z]{2}(\-[A-Z]{2})*\: .+$/.test(slug)) {
-      return slug;
+  const replaceCountryCodesWithFlagEmojis = (name) => {
+    if (name.startsWith("GB-ENG: ")) {
+      return `${getFlagEmoji("GB")} ${FLAG_EMOJI_ENGLAND} ${name.replace("GB-ENG: ", "")}`;
     }
 
-    const slugParts = slug.split(": ");
-    const countryCodes = slugParts[0].split("-");
+    if (name.startsWith("GB-SCT: ")) {
+      return `${getFlagEmoji("GB")} ${FLAG_EMOJI_SCOTLAND} ${name.replace("GB-SCT: ", "")}`;
+    }
+
+    if (name.startsWith("GB-WLS: ")) {
+      return `${getFlagEmoji("GB")} ${FLAG_EMOJI_WALES} ${name.replace("GB-WLS: ", "")}`;
+    }
+
+    if (name.startsWith("GB-CYM: ")) {
+      return `${getFlagEmoji("GB")} ${FLAG_EMOJI_WALES} ${name.replace("GB-CYM: ", "")}`;
+    }
+
+    if (!/^[A-Z]{2}(\-[A-Z]{2})*\: .+$/.test(name)) {
+      return name;
+    }
+
+    const nameParts = name.split(": ");
+    const countryCodes = nameParts[0].split("-");
     const flagEmojis = countryCodes.map(getFlagEmoji);
-    return [flagEmojis.join(" "), slugParts.slice(1).join(": ")].join(" ");
+    return `${flagEmojis.join(" ")} ${nameParts.slice(1).join(": ")}`;
   };
 
   const getCsvUrlPrefix = () => {
@@ -327,7 +346,7 @@ ready(() => {
     );
 
     return (
-      `<strong>${nameA} <-> ${nameB}</strong><br>` +
+      `<strong>${replaceCountryCodesWithFlagEmojis(nameA)} <-> ${replaceCountryCodesWithFlagEmojis(nameB)}</strong><br>` +
       `Transit time: ${hoursMinutesFormatted}`
     );
   };
