@@ -346,7 +346,7 @@ ready(() => {
     );
 
     return (
-      `<strong>${replaceCountryCodesWithFlagEmojis(nameA)} <-> ${replaceCountryCodesWithFlagEmojis(nameB)}</strong><br>` +
+      `<strong>${replaceCountryCodesWithFlagEmojis(nameA)} <span style="font-size: 1.4em">&harr;</span> ${replaceCountryCodesWithFlagEmojis(nameB)}</strong><br>` +
       `Transit time: ${hoursMinutesFormatted}`
     );
   };
@@ -599,17 +599,113 @@ ready(() => {
 
       const marker = L.marker(latLon);
       marker.bindPopup(
-        `<strong>${replaceCountryCodesWithFlagEmojis(result.name)}</strong>` +
-        (result.name_secondary_language ? ` <strong>(${replaceCountryCodesWithFlagEmojis(result.name_secondary_language)})</strong>` : '') +
-        (result.name_tertiary_language ? ` <strong>(${replaceCountryCodesWithFlagEmojis(result.name_tertiary_language)})</strong>` : '') +
+        '<strong>' +
+        '<span' +
+        (
+          result.name_lang && result.name_variation1
+            ? ` title="Language: ${result.name_lang}"`
+            : ''
+        ) +
+        '>' +
+        `${replaceCountryCodesWithFlagEmojis(result.name)}` +
+        '</span>' +
+        (
+          result.name_variation1
+            ? (
+              ' &ndash; ' +
+              '<span' +
+              (result.name_variation1_lang ? ` title="Language: ${result.name_variation1_lang}"` : '') +
+              '>' +
+              `${replaceCountryCodesWithFlagEmojis(result.name_variation1)}` +
+              '</span>'
+            )
+            : ''
+        ) +
+        (
+          result.name_variation2
+            ? (
+              ' &ndash; ' +
+              '<span' +
+              (result.name_variation2_lang ? ` title="Language: ${result.name_variation2_lang}"` : '') +
+              '>' +
+              `${replaceCountryCodesWithFlagEmojis(result.name_variation2)}` +
+              '</span>'
+            )
+            : ''
+        ) +
+        '</strong>' +
         '<br>' +
-        `Area of reference: ${result.area_of_reference}` +
-        (result.area_of_reference_secondary_language ? ` (${result.area_of_reference_secondary_language})` : '') +
-        (result.area_of_reference_tertiary_language ? ` (${result.area_of_reference_tertiary_language})` : '') +
+        'Area of reference: ' +
+        '<span' +
+        (
+          result.area_of_reference_lang && result.area_of_reference_variation1
+            ? ` title="Language: ${result.area_of_reference_lang}"`
+            : ''
+        ) +
+        '>' +
+        `${result.area_of_reference}` +
+        '</span>' +
+        (
+          result.area_of_reference_variation1
+            ? (
+              ' &ndash; ' +
+              '<span' +
+              (result.area_of_reference_variation1_lang ? ` title="Language: ${result.area_of_reference_variation1_lang}"` : '') +
+              '>' +
+              `${result.area_of_reference_variation1}` +
+              '</span>'
+            )
+            : ''
+        ) +
+        (
+          result.area_of_reference_variation2
+            ? (
+              ' &ndash; ' +
+              '<span' +
+              (result.area_of_reference_variation2_lang ? ` title="Language: ${result.area_of_reference_variation2_lang}"` : '') +
+              '>' +
+              `${result.area_of_reference_variation2}` +
+              '</span>'
+            )
+            : ''
+        ) +
         '<br>' +
-        `Point of reference: ${result.point_of_reference}` +
-        (result.point_of_reference_secondary_language ? ` (${result.point_of_reference_secondary_language})` : '') +
-        (result.point_of_reference_tertiary_language ? ` (${result.point_of_reference_tertiary_language})` : '')
+        'Point of reference: ' +
+        (result.point_of_reference_url ? `<a href="${result.point_of_reference_url}">` : '') +
+        '<span' +
+        (
+          result.point_of_reference_lang && result.point_of_reference_variation1
+            ? ` title="Language: ${result.point_of_reference_lang}"`
+            : ''
+        ) +
+        '>' +
+        `${result.point_of_reference}` +
+        '</span>' +
+        (result.point_of_reference_url ? '</a>' : '') +
+        (
+          result.point_of_reference_variation1
+            ? (
+              ' &ndash; ' +
+              '<span' +
+              (result.point_of_reference_variation1_lang ? ` title="Language: ${result.point_of_reference_variation1_lang}"` : '') +
+              '>' +
+              `${result.point_of_reference_variation1}` +
+              '</span>'
+            )
+            : ''
+        ) +
+        (
+          result.point_of_reference_variation2
+            ? (
+              ' &ndash; ' +
+              '<span' +
+              (result.point_of_reference_variation2_lang ? ` title="Language: ${result.point_of_reference_variation2_lang}"` : '') +
+              '>' +
+              `${result.point_of_reference_variation2}` +
+              '</span>'
+            )
+            : ''
+        )
       );
       nodes.addLayer(marker);
     }

@@ -1,2 +1,2 @@
-slug,name,name_secondary_language,area_of_reference,area_of_reference_secondary_language,point_of_reference,point_of_reference_secondary_language,lat,lon
-jp--okinawa-naha,JP: 沖縄: 那覇,JP: Okinawa: Naha,那覇,Naha,県庁前駅,Prefectural Office Station,26.214355,127.679318
+slug,name,name_lang,name_variation1,name_variation1_lang,area_of_reference,area_of_reference_lang,area_of_reference_variation1,area_of_reference_variation1_lang,point_of_reference,point_of_reference_lang,point_of_reference_variation1,point_of_reference_variation1_lang,lat,lon
+jp--okinawa-naha,JP: 沖縄: 那覇,jp,JP: Okinawa: Naha,en,那覇,jp,Naha,en,県庁前駅,jp,Prefectural Office Station,en,26.214355,127.679318
