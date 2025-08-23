@@ -317,10 +317,10 @@ us--pa-pittsburgh-south-hills,us--wv-oh-pa-west-virginia-northern-panhandle,60
 us--pa-southwest-pennsylvania,us--md-wv-pa-maryland-panhandle,90
 us--pa-pittsburgh-east-hills,us--md-wv-pa-maryland-panhandle,110
 us--md-wv-pa-maryland-panhandle,us--md-wv-pa-hagerstown,70
-us--md-wv-pa-hagerstown,us--md-wv-frederick,35
-us--md-wv-frederick,us--md-pa-carroll-county,40
-us--md-wv-frederick,us--md-west-baltimore,45
-us--md-wv-frederick,us--md-columbia,40
+us--md-wv-pa-hagerstown,us--md-va-frederick,35
+us--md-va-frederick,us--md-pa-carroll-county,40
+us--md-va-frederick,us--md-west-baltimore,45
+us--md-va-frederick,us--md-columbia,40
 us--md-downtown-baltimore,us--md-north-baltimore,14
 us--md-downtown-baltimore,us--md-east-baltimore,14
 us--md-downtown-baltimore,us--md-south-baltimore,12
