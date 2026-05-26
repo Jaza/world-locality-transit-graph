@@ -142,12 +142,50 @@ pe--tacna,PE: Tacna,Tacna,Paseo Cívico de Tacna,-18.013958,-70.25119
 pe-bo--puno-la-paz-desaguadero,PE-BO: Puno-La Paz: Desaguadero,Desaguadero,Plaza de Armas de Desaguadero,-16.564925,-69.040253
 pe--moquegua-moquegua,PE: Moquegua: Moquegua,Moquegua,Plaza de Armas de Moquegua,-17.193787,-70.934644
 pe--moquegua-ilo,PE: Moquegua: Ilo,Ilo,Plaza de Armas de Ilo,-17.645821,-71.34529
-pe--arequipa-arequipa,PE: Arequipa: Arequipa,Arequipa,Plaza de Armas de Arequipa,-16.39882,-71.536971
+pe--arequipa-arequipa-centro,PE: Arequipa: Arequipa Centro,Arequipa,Plaza de Armas de Arequipa,-16.39882,-71.536971
+pe--arequipa-arequipa-norte,PE: Arequipa: Arequipa Norte,Cerro Colorado,Comisaría PNP Zamácola,-16.351485,-71.563246
+pe--arequipa-arequipa-sur,PE: Arequipa: Arequipa Sur,Socabaya,Virgen de Chapi,-16.45079,-71.536553
+pe--arequipa-arequipa-este,PE: Arequipa: Arequipa Este,Miguel Grau,Comisaría PNP Miguel Grau,-16.408675,-71.483982
+pe--arequipa-arequipa-oeste,PE: Arequipa: Arequipa Oeste,Sachaca,Cristo Blanco,-16.415884,-71.593963
 pe--arequipa-pedregal-majes,PE: Arequipa: Pedregal-Majes,El Pedregal,Plaza de Armas de El Pedregal,-16.361947,-72.190749
-pe--arequipa-mollendo,PE: Arequipa: Mollendo,Mollendo,Plaza de Armas de Mollendo,-17.029217,-72.015494
+pe--arequipa-islay,PE: Arequipa: Islay,Mollendo,Plaza de Armas de Mollendo,-17.029217,-72.015494
 pe--arequipa-camana,PE: Arequipa: Camaná,Camaná,Plaza de Armas de Camaná,-16.624925,-72.711602
 pe--arequipa-caraveli,PE: Arequipa: Caravelí,Chala,Plaza de Armas de Chala,-15.865937,-74.246893
 pe--ica-nazca,PE: Ica: Nazca,Nazca,Plaza de Armas de Nazca,-14.82739,-74.937079
 pe--ica-ica,PE: Ica: Ica,Ica,Plaza de Armas de Ica,-14.064018,-75.729087
 pe--ica-pisco,PE: Ica: Pisco,Pisco,Plaza de Armas de Pisco,-13.709947,-76.203066
 pe--ica-chincha,PE: Ica: Chincha,Chincha Alta,Plaza de Armas de Chincha,-13.417595,-76.132612
+pe--lima-lima-centro,PE: Lima: Lima Centro,Lima,Plaza de Armas de Lima,-12.045941,-77.030581
+pe--lima-lima-norte,PE: Lima: Lima Norte,Puente Piedra,Plaza de Puente Piedra,-11.866763,-77.077686
+pe--lima-lima-este,PE: Lima: Lima Este,Santa Clara,Parque Cívico de Santa Clara,-12.017825,-76.884258
+pe--lima-lima-sur,PE: Lima: Lima Sur,Villa El Salvador,Municipalidad de Villa El Salvador,-12.213188,-76.937197
+pe--lima-callao,PE: Lima: Callao,Callao,Plaza Garibaldi,-12.052263,-77.13913
+pe--lima-lima-moderna,PE: Lima: Lima Moderna,Miraflores,Plaza Centroamérica,-12.118963,-77.04279
+pe--lima-canete,PE: Lima: Cañete,Cañete,Plaza de Armas de Cañete,-13.077759,-76.387462
+pe--junin-jauja,PE: Junín: Jauja,Jauja,Plaza de Armas de Jauja,-11.775228,-75.50008
+pe--junin-huancayo-centro,PE: Junín: Huancayo Centro,Huancayo,Plaza de la Constitución,-12.068043,-75.21016
+pe--junin-huancayo-norte,PE: Junín: Huancayo Norte,El Tambo,Universidad Tecnológica del Perú Huancayo,-12.022846,-75.23401
+pe--junin-huancayo-sur,PE: Junín: Huancayo Sur,Huancán,Sitio Arqueológico de Wariwillka,-12.117638,-75.206126
+pe--junin-huancayo-oeste,PE: Junín: Huancayo Oeste,Chupaca,Puente la Eternidad,-12.05731,-75.271829
+pe--ayacucho-lucanas,PE: Ayacucho: Lucanas,Puquio,Plaza Mayor de Puquio,-14.693994,-74.124177
+pe--apurimac-aymaraes,PE: Apurímac: Aymaraes,Chalhuanca,Plaza de Armas de Chalhuanca,-14.294567,-73.244326
+pe--apurimac-abancay,PE: Apurímac: Abancay,Abancay,Plaza de Armas de Abancay,-13.637359,-72.878881
+pe--cusco-cusco-centro,PE: Cusco: Cusco Centro,Cusco,Plaza de Armas de Cusco,-13.516753,-71.978812
+pe--cusco-cusco-san-sebastian,PE: Cusco: Cusco San Sebastián,San Sebastián,Comisaría PNP San Sebastián,-13.532295,-71.92645
+pe--cusco-cusco-san-jeronimo,PE: Cusco: Cusco San Jerónimo,San Jerónimo,Plaza de Armas de San Jerónimo,-13.544505,-71.884006
+pe--cusco-valle-sagrado,PE: Cusco: Valle Sagrado,Urubamba,Plaza de Armas de Urubamba,-13.305925,-72.115985
+pe--arequipa-canon-del-colca,PE: Arequipa: Cañón del Colca,Chivay,Plaza de Armas de Chivay,-15.636722,-71.602219
+pe--puno-puno,PE: Puno: Puno,Puno,Plaza de Armas de Puno,-15.840589,-70.027987
+pe--puno-juliaca,PE: Puno: Juliaca,Juliaca,Plaza de Armas de Juliaca,-15.49321,-70.135635
+pe--puno-collao-chuquito,PE: Puno: Collao-Chuquito,Mulla Contihueco Hirpani,Centro de Salud Mullacontihueco,-16.17576,-69.540625
+pe--puno-melgar-azangaro,PE: Puno: Melgar-Azángaro,Tirapata,Plaza de Tirapata,-14.954793,-70.403202
+pe--cusco-canchis,PE: Cusco: Canchis,Sicuani,Plaza de Armas de Sicuani,-14.272941,-71.226597
+pe--cusco-espinar,PE: Cusco: Espinar,Yauri,Plaza de Armas de Yauri,-14.793036,-71.412841
+pe--cusco-quispicanchi,PE: Cusco: Quispicanchi,Huaraypata,Escuela Primaria de Huaraypata,-13.778396,-71.576394
+pe--lima-huarochiri,PE: Lima: Huarochirí,Matucana,Plaza de Armas de Matucana,-11.844734,-76.386105
+pe--junin-yauli,PE: Junín: Yauli,La Oroya,Estación de La Oroya,-11.522972,-75.908983
+pe--ayacucho-huamanga,PE: Ayacucho: Huamanga,Ayacucho,Plaza de Armas de Ayacucho,-13.160425,-74.225757
+pe--huancavelica-huancavelica,PE: Huancavelica: Huancavelica,Huancavelica,Plaza de Armas de Huancavelica,-12.787246,-74.973122
+pe--huancavelica-angaraes,PE: Huancavelica: Angaraes,Lircay,Plaza de Armas de Lircay,-12.989556,-74.720571
+pe--ayacucho-huanta,PE: Ayacucho: Huanta,Huanta,Plaza de Armas de Huanta,-12.939899,-74.247939
+pe--apurimac-andahuaylas,PE: Apurímac: Andahuaylas,Andahuaylas,Plaza de Armas de Andahuaylas,-13.656392,-73.389949
