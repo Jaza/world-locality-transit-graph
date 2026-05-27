@@ -174,7 +174,7 @@ pe--cusco-cusco-centro,PE: Cusco: Cusco Centro,Cusco,Plaza de Armas de Cusco,-13
 pe--cusco-cusco-san-sebastian,PE: Cusco: Cusco San Sebastián,San Sebastián,Comisaría PNP San Sebastián,-13.532295,-71.92645
 pe--cusco-cusco-san-jeronimo,PE: Cusco: Cusco San Jerónimo,San Jerónimo,Plaza de Armas de San Jerónimo,-13.544505,-71.884006
 pe--cusco-valle-sagrado,PE: Cusco: Valle Sagrado,Urubamba,Plaza de Armas de Urubamba,-13.305925,-72.115985
-pe--arequipa-canon-del-colca,PE: Arequipa: Cañón del Colca,Chivay,Plaza de Armas de Chivay,-15.636722,-71.602219
+pe--arequipa-caylloma,PE: Arequipa: Caylloma,Chivay,Plaza de Armas de Chivay,-15.636722,-71.602219
 pe--puno-puno,PE: Puno: Puno,Puno,Plaza de Armas de Puno,-15.840589,-70.027987
 pe--puno-juliaca,PE: Puno: Juliaca,Juliaca,Plaza de Armas de Juliaca,-15.49321,-70.135635
 pe--puno-collao-chuquito,PE: Puno: Collao-Chuquito,Mulla Contihueco Hirpani,Centro de Salud Mullacontihueco,-16.17576,-69.540625
@@ -189,3 +189,10 @@ pe--huancavelica-huancavelica,PE: Huancavelica: Huancavelica,Huancavelica,Plaza 
 pe--huancavelica-angaraes,PE: Huancavelica: Angaraes,Lircay,Plaza de Armas de Lircay,-12.989556,-74.720571
 pe--ayacucho-huanta,PE: Ayacucho: Huanta,Huanta,Plaza de Armas de Huanta,-12.939899,-74.247939
 pe--apurimac-andahuaylas,PE: Apurímac: Andahuaylas,Andahuaylas,Plaza de Armas de Andahuaylas,-13.656392,-73.389949
+pe--ica-marcona,PE: Ica: Marcona,San Juan de Marcona,Plaza de Armas de Marcona,-15.36235,-75.165909
+pe--cusco-quillabamba,PE: Cusco: Quillabamba,Quillabamba,Plaza de Armas de Quillabamba,-12.863336,-72.692928
+pe--ayacucho-parinacochas,PE: Ayacucho: Parinacochas,Coracora,Plaza de Armas de Coracora,-15.016917,-73.780956
+pe--apurimac-cusco-corredor-minero-del-sur,PE: Apurímac-Cusco: Corredor Minero del Sur,Challhuahuacho,Plaza de Armas de Challhuahuacho,-14.118657,-72.246507
+pe--ayacucho-ayacucho-sur-central,PE: Ayacucho: Ayacucho Sur Central,Huancapi,Plaza de Armas de Huancapi,-13.752449,-74.066364
+pe--arequipa-castilla-condesuyos-cotahuasi,PE: Arequipa: Castilla-Condesuyos-Cotahuasi,Chuquibamba,Plaza de Armas de Chuquibamba,-15.839211,-72.651483
+pe--cusco-paucartambo,PE: Cusco: Paucartambo,Paucartambo,Plaza de Armas de Paucartambo,-13.317535,-71.59602
