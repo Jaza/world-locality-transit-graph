@@ -178,7 +178,7 @@ pe--arequipa-caylloma,PE: Arequipa: Caylloma,Chivay,Plaza de Armas de Chivay,-15
 pe--puno-puno,PE: Puno: Puno,Puno,Plaza de Armas de Puno,-15.840589,-70.027987
 pe--puno-juliaca,PE: Puno: Juliaca,Juliaca,Plaza de Armas de Juliaca,-15.49321,-70.135635
 pe--puno-collao-chuquito,PE: Puno: Collao-Chuquito,Mulla Contihueco Hirpani,Centro de Salud Mullacontihueco,-16.17576,-69.540625
-pe--puno-melgar-azangaro,PE: Puno: Melgar-Azángaro,Tirapata,Plaza de Tirapata,-14.954793,-70.403202
+pe--puno-corredor-cultural-quechua,PE: Puno: Corredor Cultural Quechua,Tirapata,Plaza de Tirapata,-14.954793,-70.403202
 pe--cusco-canchis,PE: Cusco: Canchis,Sicuani,Plaza de Armas de Sicuani,-14.272941,-71.226597
 pe--cusco-espinar,PE: Cusco: Espinar,Yauri,Plaza de Armas de Yauri,-14.793036,-71.412841
 pe--cusco-quispicanchi,PE: Cusco: Quispicanchi,Huaraypata,Escuela Primaria de Huaraypata,-13.778396,-71.576394
@@ -198,3 +198,10 @@ pe--arequipa-castilla-condesuyos-cotahuasi,PE: Arequipa: Castilla-Condesuyos-Cot
 pe--cusco-paucartambo,PE: Cusco: Paucartambo,Paucartambo,Plaza de Armas de Paucartambo,-13.317535,-71.59602
 pe--lima-yauyos,PE: Lima: Yauyos,Yauyos,Plaza de Armas de Yauyos,-12.459675,-75.918676
 pe--huancavelica-castrovirreyna,PE: Huancavelica: Castrovirreyna,Castrovirreyna,Plaza de Armas de Castrovirreyna,-13.283387,-75.319176
+pe--madre-de-dios-inambari,PE: Madre de Dios: Inambari,Mazuko,Plaza de Armas de Mazuko,-13.10089,-70.367748
+pe--madre-de-dios-tambopata,PE: Madre de Dios: Tambopata,Puerto Maldonado,Plaza de Armas de Puerto Maldonado,-12.593879,-69.186707
+pe--puno-carabaya-sandia,PE: Puno: Carabaya-Sandia,Crucero,Plaza de Armas de Crucero,-14.361194,-70.02354
+pe--cusco-ayacucho-vraem,PE: Cusco-Ayacucho: VRAEM,Pichari,Plaza de Armas de Pichari,-12.519416,-73.82849
+pe--ayacucho-la-mar,PE: Ayacucho: La Mar,San Miguel,Plaza de Armas de San Miguel,-13.012633,-73.980979
+pe--huancavelica-tayacaja,PE: Huancavelica: Tayacaja,Pampas,Plaza de Armas de Pampas,-12.398752,-74.868479
+pe--puno-putina,PE: Puno: Putina,Quilcapuncu,Plaza de Armas de Quilcapuncu,-14.89297,-69.7304
