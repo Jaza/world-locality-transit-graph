@@ -162,7 +162,7 @@ pe--lima-lima-sur,PE: Lima: Lima Sur,Villa El Salvador,Municipalidad de Villa El
 pe--lima-callao,PE: Lima: Callao,Callao,Plaza Garibaldi,-12.052263,-77.13913
 pe--lima-lima-moderna,PE: Lima: Lima Moderna,Miraflores,Plaza Centroamérica,-12.118963,-77.04279
 pe--lima-canete,PE: Lima: Cañete,Cañete,Plaza de Armas de Cañete,-13.077759,-76.387462
-pe--junin-jauja,PE: Junín: Jauja,Jauja,Plaza de Armas de Jauja,-11.775228,-75.50008
+pe--junin-valle-del-mantaro,PE: Junín: Valle del Mantaro,Jauja,Plaza de Armas de Jauja,-11.775228,-75.50008
 pe--junin-huancayo-centro,PE: Junín: Huancayo Centro,Huancayo,Plaza de la Constitución,-12.068043,-75.21016
 pe--junin-huancayo-norte,PE: Junín: Huancayo Norte,El Tambo,Universidad Tecnológica del Perú Huancayo,-12.022846,-75.23401
 pe--junin-huancayo-sur,PE: Junín: Huancayo Sur,Huancán,Sitio Arqueológico de Wariwillka,-12.117638,-75.206126
@@ -205,3 +205,6 @@ pe--cusco-ayacucho-vraem,PE: Cusco-Ayacucho: VRAEM,Pichari,Plaza de Armas de Pic
 pe--ayacucho-la-mar,PE: Ayacucho: La Mar,San Miguel,Plaza de Armas de San Miguel,-13.012633,-73.980979
 pe--huancavelica-tayacaja,PE: Huancavelica: Tayacaja,Pampas,Plaza de Armas de Pampas,-12.398752,-74.868479
 pe--puno-putina,PE: Puno: Putina,Quilcapuncu,Plaza de Armas de Quilcapuncu,-14.89297,-69.7304
+pe--junin-tarma,PE: Junín: Tarma,Tarma,Plaza de Armas de Tarma,-11.419972,-75.68769
+pe--junin-chanchamayo,PE: Junín: Chanchamayo,La Merced,Plaza de Armas de La Merced,-11.056067,-75.328244
+pe--junin-satipo,PE: Junín: Satipo,Satipo,Plaza de Armas de Satipo,-11.253943,-74.636983

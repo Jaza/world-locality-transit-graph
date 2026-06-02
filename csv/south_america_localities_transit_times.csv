@@ -288,8 +288,8 @@ pe--junin-huancayo-centro,pe--junin-huancayo-sur,20
 pe--junin-huancayo-centro,pe--junin-huancayo-oeste,20
 pe--lima-lima-este,pe--lima-huarochiri,120
 pe--lima-huarochiri,pe--junin-yauli,210
-pe--junin-yauli,pe--junin-jauja,120
-pe--junin-jauja,pe--junin-huancayo-norte,80
+pe--junin-yauli,pe--junin-valle-del-mantaro,120
+pe--junin-valle-del-mantaro,pe--junin-huancayo-norte,80
 pe--junin-huancayo-norte,pe--junin-huancayo-oeste,25
 pe--junin-huancayo-sur,pe--huancavelica-huancavelica,270
 pe--huancavelica-huancavelica,pe--huancavelica-angaraes,120
@@ -318,3 +318,7 @@ pe--junin-huancayo-sur,pe--huancavelica-tayacaja,120
 pe--puno-putina,pe--puno-juliaca,120
 pe--puno-putina,pe--puno-corredor-cultural-quechua,150
 pe--puno-putina,pe--puno-carabaya-sandia,180
+pe--junin-yauli,pe--junin-tarma,90
+pe--junin-valle-del-mantaro,pe--junin-tarma,90
+pe--junin-tarma,pe--junin-chanchamayo,150
+pe--junin-chanchamayo,pe--junin-satipo,210
