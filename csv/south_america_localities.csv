@@ -136,7 +136,7 @@ bo--la-paz-el-alto,BO: La Paz: El Alto,El Alto,Plaza 10 de Noviembre,-16.523418,
 bo--la-paz-viacha,BO: La Paz: Viacha,Viacha,Plaza Mariscal José Ballivián,-16.653487,-68.301648
 bo--la-paz-patacamaya,BO: La Paz: Patacamaya,Patacamaya,Plaza Calama,-17.23292,-67.920281
 bo--la-paz-caranavi,BO: La Paz: Caranavi,Caranavi,Plaza Simón Bolívar,-15.833787,-67.565897
-bo--la-paz-copacabana,BO: La Paz: Copacabana,Copacabana,Plaza 2 de Febrero,-16.165378,-69.085422
+bo-pe--la-paz-puno-copacabana-yunguyo,BO-PE: La Paz-Puno: Copacabana-Yunguyo,Copacabana,Plaza 2 de Febrero,-16.165378,-69.085422
 bo--la-paz-achacachi,BO: La Paz: Achacachi,Achacachi,Plaza Mariscal Antonio José de Sucre,-16.044045,-68.685011
 pe--tacna,PE: Tacna,Tacna,Paseo Cívico de Tacna,-18.013958,-70.25119
 pe-bo--puno-la-paz-desaguadero,PE-BO: Puno-La Paz: Desaguadero,Desaguadero,Plaza de Armas de Desaguadero,-16.564925,-69.040253
@@ -164,9 +164,9 @@ pe--lima-lima-moderna,PE: Lima: Lima Moderna,Miraflores,Plaza Centroamérica,-12
 pe--lima-canete,PE: Lima: Cañete,Cañete,Plaza de Armas de Cañete,-13.077759,-76.387462
 pe--junin-valle-del-mantaro,PE: Junín: Valle del Mantaro,Jauja,Plaza de Armas de Jauja,-11.775228,-75.50008
 pe--junin-huancayo-centro,PE: Junín: Huancayo Centro,Huancayo,Plaza de la Constitución,-12.068043,-75.21016
-pe--junin-huancayo-norte,PE: Junín: Huancayo Norte,El Tambo,Universidad Tecnológica del Perú Huancayo,-12.022846,-75.23401
+pe--junin-huancayo-norte-concepcion,PE: Junín: Huancayo Norte-Concepción,El Tambo,Universidad Tecnológica del Perú Huancayo,-12.022846,-75.23401
 pe--junin-huancayo-sur,PE: Junín: Huancayo Sur,Huancán,Sitio Arqueológico de Wariwillka,-12.117638,-75.206126
-pe--junin-huancayo-oeste,PE: Junín: Huancayo Oeste,Chupaca,Puente la Eternidad,-12.05731,-75.271829
+pe--junin-huancayo-oeste-chupaca,PE: Junín: Huancayo Oeste-Chupaca,Chupaca,Puente la Eternidad,-12.05731,-75.271829
 pe--ayacucho-lucanas,PE: Ayacucho: Lucanas,Puquio,Plaza Mayor de Puquio,-14.693994,-74.124177
 pe--apurimac-aymaraes,PE: Apurímac: Aymaraes,Chalhuanca,Plaza de Armas de Chalhuanca,-14.294567,-73.244326
 pe--apurimac-abancay,PE: Apurímac: Abancay,Abancay,Plaza de Armas de Abancay,-13.637359,-72.878881
@@ -186,25 +186,28 @@ pe--lima-huarochiri,PE: Lima: Huarochirí,Matucana,Plaza de Armas de Matucana,-1
 pe--junin-yauli,PE: Junín: Yauli,La Oroya,Estación de La Oroya,-11.522972,-75.908983
 pe--ayacucho-huamanga,PE: Ayacucho: Huamanga,Ayacucho,Plaza de Armas de Ayacucho,-13.160425,-74.225757
 pe--huancavelica-huancavelica,PE: Huancavelica: Huancavelica,Huancavelica,Plaza de Armas de Huancavelica,-12.787246,-74.973122
-pe--huancavelica-angaraes,PE: Huancavelica: Angaraes,Lircay,Plaza de Armas de Lircay,-12.989556,-74.720571
+pe--huancavelica-acobamba-angaraes-churcampa,PE: Huancavelica: Acobamba-Angaraes-Churcampa,Acobamba,Plaza de Armas de Acobamba,-12.842698,-74.569364
 pe--ayacucho-huanta,PE: Ayacucho: Huanta,Huanta,Plaza de Armas de Huanta,-12.939899,-74.247939
 pe--apurimac-andahuaylas,PE: Apurímac: Andahuaylas,Andahuaylas,Plaza de Armas de Andahuaylas,-13.656392,-73.389949
 pe--ica-marcona,PE: Ica: Marcona,San Juan de Marcona,Plaza de Armas de Marcona,-15.36235,-75.165909
 pe--cusco-quillabamba,PE: Cusco: Quillabamba,Quillabamba,Plaza de Armas de Quillabamba,-12.863336,-72.692928
 pe--ayacucho-parinacochas,PE: Ayacucho: Parinacochas,Coracora,Plaza de Armas de Coracora,-15.016917,-73.780956
 pe--apurimac-cusco-corredor-minero-del-sur,PE: Apurímac-Cusco: Corredor Minero del Sur,Challhuahuacho,Plaza de Armas de Challhuahuacho,-14.118657,-72.246507
-pe--ayacucho-ayacucho-sur-central,PE: Ayacucho: Ayacucho Sur Central,Huancapi,Plaza de Armas de Huancapi,-13.752449,-74.066364
+pe--ayacucho-fajardo-cangallo-sancos-vilcashuaman-sucre,PE: Ayacucho: Fajardo-Cangallo-Sancos-Vilcashuamán-Sucre,Huancapi,Plaza de Armas de Huancapi,-13.752449,-74.066364
 pe--arequipa-castilla-condesuyos-cotahuasi,PE: Arequipa: Castilla-Condesuyos-Cotahuasi,Chuquibamba,Plaza de Armas de Chuquibamba,-15.839211,-72.651483
 pe--cusco-paucartambo,PE: Cusco: Paucartambo,Paucartambo,Plaza de Armas de Paucartambo,-13.317535,-71.59602
 pe--lima-yauyos,PE: Lima: Yauyos,Yauyos,Plaza de Armas de Yauyos,-12.459675,-75.918676
-pe--huancavelica-castrovirreyna,PE: Huancavelica: Castrovirreyna,Castrovirreyna,Plaza de Armas de Castrovirreyna,-13.283387,-75.319176
+pe--huancavelica-castrovirreyna-huaytara,PE: Huancavelica: Castrovirreyna-Huaytará,Castrovirreyna,Plaza de Armas de Castrovirreyna,-13.283387,-75.319176
 pe--madre-de-dios-inambari,PE: Madre de Dios: Inambari,Mazuko,Plaza de Armas de Mazuko,-13.10089,-70.367748
 pe--madre-de-dios-tambopata,PE: Madre de Dios: Tambopata,Puerto Maldonado,Plaza de Armas de Puerto Maldonado,-12.593879,-69.186707
 pe--puno-carabaya-sandia,PE: Puno: Carabaya-Sandia,Crucero,Plaza de Armas de Crucero,-14.361194,-70.02354
 pe--cusco-ayacucho-vraem,PE: Cusco-Ayacucho: VRAEM,Pichari,Plaza de Armas de Pichari,-12.519416,-73.82849
 pe--ayacucho-la-mar,PE: Ayacucho: La Mar,San Miguel,Plaza de Armas de San Miguel,-13.012633,-73.980979
 pe--huancavelica-tayacaja,PE: Huancavelica: Tayacaja,Pampas,Plaza de Armas de Pampas,-12.398752,-74.868479
-pe--puno-putina,PE: Puno: Putina,Quilcapuncu,Plaza de Armas de Quilcapuncu,-14.89297,-69.7304
+pe--puno-putina-huancane-moho,PE: Puno: Putina-Huancané-Moho,Quilcapuncu,Plaza de Armas de Quilcapuncu,-14.89297,-69.7304
 pe--junin-tarma,PE: Junín: Tarma,Tarma,Plaza de Armas de Tarma,-11.419972,-75.68769
 pe--junin-chanchamayo,PE: Junín: Chanchamayo,La Merced,Plaza de Armas de La Merced,-11.056067,-75.328244
 pe--junin-satipo,PE: Junín: Satipo,Satipo,Plaza de Armas de Satipo,-11.253943,-74.636983
+pe--madre-de-dios-manu,PE: Madre de Dios: Manu,Villa Salvación,Municipalidad Provincial del Manu,-12.83649,-71.365208
+pe--ucayali-atalaya,PE: Ucayali: Atalaya,Atalaya,Plaza de Armas de Atalaya,-10.729703,-73.754922
+pe-br-bo--madre-de-dios-acre-pando-tahuamanu-assis-brasil-bolpebra,PE-BR-BO: Madre de Dios-Acre-Pando: Tahuamanu-Assis Brasil-Bolpebra,Iñapari,Plaza de Armas de Iñapari,-10.945005,-69.577264
