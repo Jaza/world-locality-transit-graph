@@ -183,7 +183,6 @@ pe--cusco-canchis,PE: Cusco: Canchis,Sicuani,Plaza de Armas de Sicuani,-14.27294
 pe--cusco-espinar,PE: Cusco: Espinar,Yauri,Plaza de Armas de Yauri,-14.793036,-71.412841
 pe--cusco-quispicanchi,PE: Cusco: Quispicanchi,Huaraypata,Escuela Primaria de Huaraypata,-13.778396,-71.576394
 pe--lima-huarochiri,PE: Lima: Huarochirí,Matucana,Plaza de Armas de Matucana,-11.844734,-76.386105
-pe--junin-yauli,PE: Junín: Yauli,La Oroya,Estación de La Oroya,-11.522972,-75.908983
 pe--ayacucho-huamanga,PE: Ayacucho: Huamanga,Ayacucho,Plaza de Armas de Ayacucho,-13.160425,-74.225757
 pe--huancavelica-huancavelica,PE: Huancavelica: Huancavelica,Huancavelica,Plaza de Armas de Huancavelica,-12.787246,-74.973122
 pe--huancavelica-acobamba-angaraes-churcampa,PE: Huancavelica: Acobamba-Angaraes-Churcampa,Acobamba,Plaza de Armas de Acobamba,-12.842698,-74.569364
@@ -198,21 +197,26 @@ pe--arequipa-castilla-condesuyos-cotahuasi,PE: Arequipa: Castilla-Condesuyos-Cot
 pe--cusco-paucartambo,PE: Cusco: Paucartambo,Paucartambo,Plaza de Armas de Paucartambo,-13.317535,-71.59602
 pe--lima-yauyos,PE: Lima: Yauyos,Yauyos,Plaza de Armas de Yauyos,-12.459675,-75.918676
 pe--huancavelica-castrovirreyna-huaytara,PE: Huancavelica: Castrovirreyna-Huaytará,Castrovirreyna,Plaza de Armas de Castrovirreyna,-13.283387,-75.319176
-pe--madre-de-dios-inambari,PE: Madre de Dios: Inambari,Mazuko,Plaza de Armas de Mazuko,-13.10089,-70.367748
-pe--madre-de-dios-tambopata,PE: Madre de Dios: Tambopata,Puerto Maldonado,Plaza de Armas de Puerto Maldonado,-12.593879,-69.186707
 pe--puno-carabaya-sandia,PE: Puno: Carabaya-Sandia,Crucero,Plaza de Armas de Crucero,-14.361194,-70.02354
 pe--cusco-ayacucho-vraem,PE: Cusco-Ayacucho: VRAEM,Pichari,Plaza de Armas de Pichari,-12.519416,-73.82849
 pe--ayacucho-la-mar,PE: Ayacucho: La Mar,San Miguel,Plaza de Armas de San Miguel,-13.012633,-73.980979
 pe--huancavelica-tayacaja,PE: Huancavelica: Tayacaja,Pampas,Plaza de Armas de Pampas,-12.398752,-74.868479
 pe--puno-putina-huancane-moho,PE: Puno: Putina-Huancané-Moho,Quilcapuncu,Plaza de Armas de Quilcapuncu,-14.89297,-69.7304
-pe--junin-tarma,PE: Junín: Tarma,Tarma,Plaza de Armas de Tarma,-11.419972,-75.68769
+pe--junin-tarma-junin-yauli,PE: Junín: Tarma-Junín-Yauli,Tarma,Plaza de Armas de Tarma,-11.419972,-75.68769
 pe--junin-chanchamayo,PE: Junín: Chanchamayo,La Merced,Plaza de Armas de La Merced,-11.056067,-75.328244
 pe--junin-satipo,PE: Junín: Satipo,Satipo,Plaza de Armas de Satipo,-11.253943,-74.636983
-pe--madre-de-dios-manu,PE: Madre de Dios: Manu,Villa Salvación,Municipalidad Provincial del Manu,-12.83649,-71.365208
-pe--ucayali-atalaya,PE: Ucayali: Atalaya,Atalaya,Plaza de Armas de Atalaya,-10.729703,-73.754922
-pe-br-bo--madre-de-dios-acre-pando-tahuamanu-assis-brasil-bolpebra,PE-BR-BO: Madre de Dios-Acre-Pando: Tahuamanu-Assis Brasil-Bolpebra,Iñapari,Plaza de Armas de Iñapari,-10.945005,-69.577264
 pe--lima-huaral,PE: Lima: Huaral,Huaral,Plaza de Armas de Huaral,-11.495412,-77.207199
 pe--lima-huaura,PE: Lima: Huaura,Huacho,Plaza de Armas de Huacho,-11.108484,-77.610388
 pe--lima-barranca,PE: Lima: Barranca,Barranca,Plaza de Armas de Barranca,-10.754111,-77.760874
 pe--lima-canta,PE: Lima: Canta,Canta,Plaza de Armas de Canta,-11.46695,-76.6248
 pe--lima-oyon-cajatambo,PE: Lima: Oyón-Cajatambo,Oyón,Plaza de Armas de Oyón,-10.668062,-76.773142
+pe--ancash-chimbote,PE: Áncash: Chimbote,Chimbote,Plaza de Armas de Chimbote,-9.074594,-78.593692
+pe--ancash-nuevo-chimbote,PE: Áncash: Nuevo Chimbote,Nuevo Chimbote,Plaza de Armas de Nuevo Chimbote,-9.122076,-78.531121
+pe--ancash-huaraz-callejon-de-huaylas,PE: Áncash: Huaraz-Callejón de Huaylas,Carhuaz,Plaza de Armas de Carhuaz,-9.281748,-77.646271
+pe--ancash-casma,PE: Áncash: Casma,Casma,Plaza de Armas de Casma,-9.475974,-78.305477
+pe--ancash-huarmey,PE: Áncash: Huarmey,Huarmey,Plaza de Armas de Huarmey,-10.06875,-78.152238
+pe--ancash-zona-de-los-conchucos,PE: Áncash: Zona de los Conchucos,San Luis,Plaza de Armas de San Luis,-9.094416,-77.32918
+pe--ancash-bolognesi-ocros,PE: Áncash: Bolognesi-Ocros,Cajamarquilla,Plaza de Armas de Cajamarquilla,-10.353756,-77.198916
+pe--ancash-pallasca-corongo,PE: Áncash: Pallasca-Corongo,Llapo,Plaza de Armas de Llapo,-8.514403,-78.042085
+pe--pasco-cerro-de-pasco,PE: Pasco: Cerro de Pasco,Cerro de Pasco,Plaza de Armas de Cerro de Pasco,-10.683619,-76.256184
+pe--pasco-oxapampa,PE: Pasco: Oxapampa,Oxapampa,Plaza de Armas de Oxapampa,-10.574169,-75.404631
