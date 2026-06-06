@@ -215,9 +215,8 @@ pe--ancash-nuevo-chimbote,PE: Áncash: Nuevo Chimbote,Nuevo Chimbote,Plaza de Ar
 pe--ancash-huaraz-callejon-de-huaylas,PE: Áncash: Huaraz-Callejón de Huaylas,Carhuaz,Plaza de Armas de Carhuaz,-9.281748,-77.646271
 pe--ancash-casma,PE: Áncash: Casma,Casma,Plaza de Armas de Casma,-9.475974,-78.305477
 pe--ancash-huarmey,PE: Áncash: Huarmey,Huarmey,Plaza de Armas de Huarmey,-10.06875,-78.152238
-pe--ancash-zona-de-los-conchucos,PE: Áncash: Zona de los Conchucos,San Luis,Plaza de Armas de San Luis,-9.094416,-77.32918
-pe--ancash-bolognesi-ocros,PE: Áncash: Bolognesi-Ocros,Cajamarquilla,Plaza de Armas de Cajamarquilla,-10.353756,-77.198916
-pe--ancash-pallasca-corongo,PE: Áncash: Pallasca-Corongo,Llapo,Plaza de Armas de Llapo,-8.514403,-78.042085
+pe--ancash-zona-de-los-conchucos,PE: Áncash: Zona de los Conchucos,Sihuas,Plaza de Armas de Sihuas,-8.554676,-77.631318
+pe--ancash-bolognesi-ocros,PE: Áncash: Bolognesi-Ocros,Chiquián,Plaza de Armas de Chiquián,-10.15207,-77.156897
 pe--pasco-cerro-de-pasco,PE: Pasco: Cerro de Pasco,Cerro de Pasco,Plaza de Armas de Cerro de Pasco,-10.683619,-76.256184
 pe--pasco-oxapampa,PE: Pasco: Oxapampa,Oxapampa,Plaza de Armas de Oxapampa,-10.574169,-75.404631
 pe--huanuco-huanuco,PE: Huánuco: Huánuco,Huánuco,Plaza de Armas de Huánuco,-9.92941,-76.23977
@@ -225,3 +224,19 @@ pe--huanuco-leoncio-prado,PE: Huánuco: Leoncio Prado,Tingo María,Plaza de Arma
 pe--huanuco-huamalies,PE: Huánuco: Huamalíes,Llata,Plaza de Armas de Llata,-9.549953,-76.815532
 pe--huanuco-puerto-inca,PE: Huánuco: Puerto Inca,Puerto Inca,Plaza de Armas de Puerto Inca,-9.379311,-74.965929
 pe--ucayali-padre-abad,PE: Ucayali: Padre Abad,Aguaytía,Plaza de Armas de Aguaytía,-9.03891,-75.509655
+pe--ucayali-coronel-portillo,PE: Ucayali: Coronel Portillo,Pucallpa,Plaza de Armas de Pucallpa,-8.383149,-74.532301
+pe--la-libertad-trujillo-centro,PE: La Libertad: Trujillo Centro,Trujillo,Plaza de Armas de Trujllo,-8.111788,-79.028687
+pe--la-libertad-trujillo-norte,PE: La Libertad: Trujillo Norte,La Esperanza,Mercado Jesús de Nazaret,-8.057997,-79.055085
+pe--la-libertad-trujillo-sur-moche,PE: La Libertad: Trujillo Sur-Moche,Salaverry,Plaza de Armas de Miramar,-8.179452,-78.993807
+pe--la-libertad-trujillo-este,PE: La Libertad: Trujillo Este,El Porvenir,Plaza El Porvenir,-8.073825,-78.99311
+pe--la-libertad-trujillo-oeste,PE: La Libertad: Trujillo Oeste,Victor Larco Herrera,Plaza Cívica de Vista Alegre,-8.138957,-79.048246
+pe--huanuco-maranon,PE: Huánuco: Marañón,Huacrachuco,Plaza de Armas de Huacrachuco,-8.604445,-77.14936
+pe--la-libertad-trujillo-huanchaco,PE: La Libertad: Trujillo-Huanchaco,Huanchaco,Plaza de Armas de Huanchaco,-8.079994,-79.12048
+pe--la-libertad-otuzco,PE: La Libertad: Otuzco,Otuzco,Plaza de Armas de Otuzco,-7.902451,-78.565705
+pe--la-libertad-sanchez-carrion,PE: La Libertad: Sánchez Carrión,Huamachuco,Plaza de Armas de Huamachuco,-7.815516,-78.048694
+pe--la-libertad-viru,PE: La Libertad: Virú,Virú,Plaza de Armas de Virú,-8.414253,-78.752242
+pe--la-libertad-pataz,PE: La Libertad: Pataz,Tayabamba,Plaza de Armas de Tayabamba,-8.275915,-77.296318
+pe--la-libertad-santiago-de-chuco,PE: La Libertad: Santiago de Chuco,Santiago de Chuco,Plaza de Armas de Santiago de Chuco,-8.145393,-78.17329
+pe--la-libertad-ascope,PE: La Libertad: Ascope,Paiján,Plaza de Armas de Paiján,-7.734285,-79.303286
+pe--la-libertad-pacasmayo,PE: La Libertad: Pacasmayo,Pacasmayo,Plaza de Armas de Pacasmayo,-7.401127,-79.572247
+pe--la-libertad-chepen,PE: La Libertad: Chepén,Chepén,Plaza de Armas de Chepén,-7.228442,-79.427794
