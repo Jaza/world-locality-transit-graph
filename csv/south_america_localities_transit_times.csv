@@ -365,3 +365,13 @@ pe--la-libertad-sanchez-carrion,pe--la-libertad-santiago-de-chuco,180
 pe--la-libertad-trujillo-norte,pe--la-libertad-ascope,70
 pe--la-libertad-ascope,pe--la-libertad-pacasmayo,60
 pe--la-libertad-pacasmayo,pe--la-libertad-chepen,50
+pe--lambayeque-chiclayo-centro,pe--lambayeque-chiclayo-norte-lambayeque,20
+pe--lambayeque-chiclayo-centro,pe--lambayeque-chiclayo-sur,20
+pe--lambayeque-chiclayo-centro,pe--lambayeque-chiclayo-este,30
+pe--lambayeque-chiclayo-centro,pe--lambayeque-chiclayo-oeste,25
+pe--lambayeque-chiclayo-centro,pe--lambayeque-ferrenafe,35
+pe--lambayeque-chiclayo-norte-lambayeque,pe--lambayeque-ferrenafe,35
+pe--lambayeque-ferrenafe,pe--lambayeque-chiclayo-este,35
+pe--lambayeque-chiclayo-oeste,pe--lambayeque-chiclayo-norte-lambayeque,30
+pe--la-libertad-chepen,pe--lambayeque-chiclayo-sur,70
+pe--lambayeque-chiclayo-norte-lambayeque,pe--lambayeque-motupe-olmos,120
