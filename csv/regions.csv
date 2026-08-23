@@ -2,8 +2,14 @@ slug,name,lat,lon,zoom
 au-arnhem-land,AU Arnhem Land,-13.769,135.319,7
 au-barkly,AU Barkly,-19.856,134.398,7
 au-cape-york,AU Cape York,-12.631,142.69,7
+au-christmas-island,AU Christmas Island,-10.4878,105.6226,12
+au-cocos-keeling-islands,AU Cocos (Keeling) Islands,-12.1434,96.8671,12
 au-east,AU East,-28.009906,145.4592851,5
 au-east-kimberley,AU East Kimberley,-16.357,128.079,7
+au-flinders-island,AU Flinders Island,-40.019,148.093,9
+au-king-island,AU King Island,-39.837,143.9731,10
+au-lord-howe-island,AU Lord Howe Island,-31.54182,159.08066,12
+au-norfolk-island,AU Norfolk Island,-29.0532,167.9538,12
 au-north,AU North,-14.1,131.1,7
 au-nsw-far-west,AU NSW Far West,-31.51,143.53,7
 au-pilbara,AU Pilbara,-21.782,118.043,7
