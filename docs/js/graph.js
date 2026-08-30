@@ -263,8 +263,10 @@ ready(() => {
   };
 
   const loadFarEdgesFromUrl = (codes) => {
+    const filename = `${getCsvUrlPrefix()}${regionInfoMap[codes[0]].farEdgesCsvFilename}`;
+
     Papa.parse(
-      `${getCsvUrlPrefix()}${regionInfoMap[codes[0]].farEdgesCsvFilename}`,
+      filename,
       {
         download: true,
         header: true,
@@ -277,6 +279,9 @@ ready(() => {
           }
 
           loadFarEdgesFromFile(results.data);
+        },
+        error: (err, file) => {
+          console.log(`Warning: loading nearby edges file ${filename} failed, skipping it, error: ${err}`);
         }
       }
     );
@@ -319,8 +324,10 @@ ready(() => {
   };
 
   const loadNearbyEdgesFromUrl = (codes) => {
+    const filename = `${getCsvUrlPrefix()}${regionInfoMap[codes[0]].nearbyEdgesCsvFilename}`;
+
     Papa.parse(
-      `${getCsvUrlPrefix()}${regionInfoMap[codes[0]].nearbyEdgesCsvFilename}`,
+      filename,
       {
         download: true,
         header: true,
@@ -328,6 +335,10 @@ ready(() => {
         skipEmptyLines: 'greedy',
         complete: (results) => {
           loadNearbyEdgesFromFile(codes, results.data);
+        },
+        error: (err, file) => {
+          console.log(`Warning: loading nearby edges file ${filename} failed, skipping it, error: ${err}`);
+          loadBoundingPolygonFromUrl(codes);
         }
       }
     );
