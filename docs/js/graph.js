@@ -281,7 +281,7 @@ ready(() => {
           loadFarEdgesFromFile(results.data);
         },
         error: (err, file) => {
-          console.log(`Warning: loading nearby edges file ${filename} failed, skipping it, error: ${err}`);
+          console.log(`Warning: loading far edges file ${filename} failed, skipping it, error: ${err}`);
         }
       }
     );
