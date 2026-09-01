@@ -1,2 +1,2 @@
-slug,name,name_lang,name_variation1,name_variation1_lang,area_of_reference,point_of_reference,lat,lon
-eu-es--illes-balears-eivissa-i-formentera,EU-ES: Illes Balears: Eivissa i Formentera,ca,EU-ES: Islas Baleares: Ibiza y Formentera,es,Eivissa,Plaça de la Vila,38.908325,1.435722
+slug,name,name_lang,name_variation1,name_variation1_lang,area_of_reference,area_of_reference_lang,area_of_reference_variation1,area_of_reference_variation1_lang,point_of_reference,lat,lon
+eu-es--illes-balears-eivissa-i-formentera,EU-ES: Illes Balears: Eivissa i Formentera,ca,EU-ES: Islas Baleares: Ibiza y Formentera,es,Eivissa,ca,Ibiza,es,Plaça de la Vila,38.908325,1.435722
