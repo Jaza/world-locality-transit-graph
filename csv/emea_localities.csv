@@ -41,10 +41,10 @@ gb-eng--dorset-bournemouth,GB-ENG: Dorset: Bournemouth,,,,,,Bournemouth,,,,,,St 
 gb-eng--cambridgeshire-peterborough,GB-ENG: Cambridgeshire: Peterborough,,,,,,Peterborough,,,,,,Peterborough train station,,,,,,52.57456,-0.25035
 gb-eng--wiltshire-swindon,GB-ENG: Wiltshire: Swindon,,,,,,Swindon,,,,,,Swindon train station,,,,,,51.56561,-1.78588
 gb-eng--oxfordshire,GB-ENG: Oxfordshire,,,,,,Oxford,,,,,,Oxford Town Hall,,,,,,51.751546,-1.257076
-gb-eng--shropshire-telford-shrewsbury,GB-ENG: Shropshire: Telford-Shrewsbury,,,,,,Allscott,,,,,,Allscott Village Green,,,,,,52.71023,-2.57544
-gb-eng--cambridgeshire-cambridge,GB-ENG: Cambridgeshire: Cambridge,,,,,,Cambridge,,,,,,The Guildhall,,,,,,52.204756,0.119326
+gb-eng--shropshire-telford-shrewsbury-north-shropshire,GB-ENG: Shropshire: Telford-Shrewsbury-North Shropshire,,,,,,Shawbury,,,,,,Shawbury Village Hall,,,,,,52.786228,-2.65632
+gb-eng--cambridgeshire-cambridge-ely-huntingdonshire,GB-ENG: Cambridgeshire: Cambridge-Ely-Huntingdonshire,,,,,,Cambridge,,,,,,The Guildhall,,,,,,52.204756,0.119326
 gb-eng--suffolk-ipswitch,GB-ENG: Suffolk: Ipswitch,,,,,,Ipswitch,,,,,,Ipswitch train station,,,,,,52.05037,1.14472
-gb-eng--gloucestershire,GB-ENG: Gloucestershire,,,,,,Churchdown,,,,,,Churchdown Village Junior School,,,,,,51.878614,-2.17187
+gb-eng--gloucestershire-cotswolds,GB-ENG: Gloucestershire-Cotswolds,,,,,,Churchdown,,,,,,Churchdown Village Junior School,,,,,,51.878614,-2.17187
 gb-eng--hampshire-basingstoke,GB-ENG: Hampshire: Basingstoke,,,,,,Basingstoke,,,,,,Basingstoke train station,,,,,,51.26829,-1.08863
 gb-eng--worcestershire,GB-ENG: Worcestershire,,,,,,Worcester,,,,,,Worcester Foregate Street train station,,,,,,52.19336,-2.21997
 gb-eng--east-sussex-eastbourne-hastings,GB-ENG: East Sussex: Eastbourne-Hastings,,,,,,Cooden,,,,,,Cooden Beach train station,,,,,,50.83313,0.42641
@@ -73,6 +73,58 @@ gb-eng--cornwall-devon-marsland,GB-ENG: Cornwall-Devon: Marsland,,,,,,Kilkhampto
 gb-eng--isle-of-wight,GB-ENG: Isle of Wight,,,,,,Newport,,,,,,Newport Law Courts,,,,,,50.701267,-1.291559
 gb-eng--northamptonshire-north-northamptonshire,GB-ENG: Northamptonshire: North Northamptonshire,,,,,,Corby,,,,,,Corby Cube,,,,,,52.487231,-0.704423
 gb-eng--somerset-weston,GB-ENG: Somerset: Weston,,,,,,Weston-super-Mare,,,,,,Weston-super-Mare train station,,,,,,51.34435,-2.97197
+gb-eng--nottinghamshire-nottingham,GB-ENG: Nottinghamshire: Nottingham,,,,,,Nottingham,,,,,,Nottingham train station,,,,,,52.94728,-1.14498
+gb-eng--nottinghamshire-north-nottinghamshire,GB-ENG: Nottinghamshire: North Nottinghamshire,,,,,,Bothamsall,,,,,,Bothamsall Village Hall,,,,,,53.253096,-0.991688
+gb-eng--derbyshire-derby,GB-ENG: Derbyshire: Derby,,,,,,Derby,,,,,,Derby train station,,,,,,52.91648,-1.46273
+gb-eng--derbyshire-south-yorkshire-manchester-derbyshire-north-peak-district,GB-ENG: Derbyshire-South Yorkshire-Manchester: Derbyshire North-Peak District,,,,,,Bakewell,,,,,,Bakewell Post Office,,,,,,53.212281,-1.67424
+gb-eng--lincolnshire-lincoln-lincolnshire-wolds,GB-ENG: Lincolnshire: Lincoln-Lincolnshire Wolds,,,,,,Lincoln,,,,,,Lincoln train station,,,,,,53.22609,-0.5399
+gb-eng--lincolnshire-lindsey,GB-ENG: Lincolnshire: Lindsey,,,,,,Caistor,,,,,,Caistor Town Hall,,,,,,53.497588,-0.315401
+gb-eng--lincolnshire-kesteven-and-holland,GB-ENG: Lincolnshire: Kesteven and Holland,,,,,,Folkingham,,,,,,Folkingham Manor House,,,,,,52.888774,-0.406859
+gb-eng--lincolnshire-lincolnshire-coast,GB-ENG: Lincolnshire: Lincolnshire Coast,,,,,,Skegness,,,,,,Skegness train station,,,,,,53.14317,0.33431
+gb-eng--staffordshire-the-potteries,GB-ENG: Staffordshire: The Potteries,,,,,,Stoke-on-Trent,,,,,,Stoke-on-Trent train station,,,,,,53.00802,-2.18122
+gb-eng--staffordshire-stafford,GB-ENG: Staffordshire: Stafford,,,,,,Stafford,,,,,,Stafford train station,,,,,,52.80362,-2.12268
+gb-eng--rutland-east-leicestershire-rutland,GB-ENG: Rutland: East Leicestershire-Rutland,,,,,,Oakham,,,,,,Oakham train station,,,,,,52.67222,-0.73445
+gb-eng--cheshire-merseyside-manchester-warrington-st-helens-wigan,GB-ENG: Cheshire-Merseyside-Manchester: Warrington-St Helens-Wigan,,,,,,Newton-le-Willows,,,,,,Newton-le-Willows train station,,,,,,53.4531,-2.61299
+gb-eng--cheshire-cheshire-west,GB-ENG: Cheshire: Cheshire West,,,,,,Chester,,,,,,Chester train station,,,,,,53.1967,-2.87958
+gb-eng--cheshire-cheshire-east,GB-ENG: Cheshire: Cheshire East,,,,,,Holmes Chapel,,,,,,Holmes Chapel train station,,,,,,53.19922,-2.3512
+gb-eng--manchester-central-manchester-salford,GB-ENG: Manchester: Central Manchester-Salford,,,,,,Manchester,,,,,,Manchester Town Hall,,,,,,53.479223,-2.24444
+gb-eng--manchester-north-and-east-manchester,GB-ENG: Manchester: North and East Manchester,,,,,,Rochdale,,,,,,Rochdale train station,,,,,,53.61055,-2.15291
+gb-eng--manchester-south-and-west-manchester,GB-ENG: Manchester: South and West Manchester,,,,,,Altrincham,,,,,,Altrincham train station,,,,,,53.387654,-2.347105
+gb-eng--merseyside-liverpool,GB-ENG: Merseyside: Liverpool,,,,,,Liverpool,,,,,,Liverpool Lime Street train station,,,,,,53.40756,-2.9776
+gb-eng--merseyside-wirral,GB-ENG: Merseyside: Wirral,,,,,,Woodchurch,,,,,,Arrowe Park post office,,,,,,53.370822,-3.08925
+gb-eng--merseyside-lancashire-sefton-west-lancashire,GB-ENG: Merseyside-Lancashire: Sefton-West Lancashire,,,,,,Scarisbrick,,,,,,St Mark’s,,,,,,53.613653,-2.940785
+gb-eng--south-yorkshire-south-and-west-sheffield,GB-ENG: South Yorkshire: South and West Sheffield,,,,,,Ecclesall,,,,,,Ecclesall War Memorial,,,,,,53.356148,-1.512106
+gb-eng--south-yorkshire-central-north-and-east-sheffield-rotherham,GB-ENG: South Yorkshire: Central North and East Sheffield-Rotherham,,,,,,Brightside,,,,,,Greentop Circus Centre,,,,,,53.406663,-1.432139
+gb-eng--south-yorkshire-barnsley,GB-ENG: South Yorkshire: Barnsley,,,,,,Barnsley,,,,,,Barnsley Interchange train station,,,,,,53.554395,-1.477307
+gb-eng--south-yorkshire-doncaster,GB-ENG: South Yorkshire: Doncaster,,,,,,Doncaster,,,,,,Doncaster train station,,,,,,53.52189,-1.13996
+gb-eng--west-yorkshire-north-and-west-leeds,GB-ENG: West Yorkshire: North and West Leeds,,,,,,Meanwood,,,,,,Meanwood post office,,,,,,53.828949,-1.566947
+gb-eng--west-yorkshire-central-south-and-east-leeds,GB-ENG: West Yorkshire: Central South and East Leeds,,,,,,Stourton,,,,,,Stourton Freightliner Terminal,,,,,,53.7687,-1.50828
+gb-eng--west-yorkshire-bradford,GB-ENG: West Yorkshire: Bradford,,,,,,Bradford,,,,,,Bradford Interchange train station,,,,,,53.79046,-1.74917
+gb-eng--west-yorkshire-wakefield,GB-ENG: West Yorkshire: Wakefield,,,,,,Wakefield,,,,,,Wakefield Westgate train station,,,,,,53.68221,-1.50564
+gb-eng--west-yorkshire-calderdale-kirklees,GB-ENG: West Yorkshire: Calderdale-Kirklees,,,,,,Elland,,,,,,Elland Library,,,,,,53.684559,-1.837807
+gb-eng--east-riding-of-yorkshire,GB-ENG: East Riding of Yorkshire,,,,,,Beverley,,,,,,Beverley train station,,,,,,53.842153,-0.42292
+gb-eng--north-yorkshire-vale-of-york,GB-ENG: North Yorkshire: Vale of York,,,,,,York,,,,,,York Minster,,,,,,53.96226,-1.08213
+gb-eng--lancashire-preston-leyland,GB-ENG: Lancashire: Preston-Leyland,,,,,,Preston,,,,,,Preston train station,,,,,,53.75526,-2.70721
+gb-eng--lancashire-blackburn-darwen,GB-ENG: Lancashire: Blackburn-Darwen,,,,,,Blackburn,,,,,,Blackburn train station,,,,,,53.74649,-2.4789
+gb-eng--lancashire-burnley,GB-ENG: Lancashire: Burnley,,,,,,Burnley,,,,,,Burnley Central train station,,,,,,53.7935,-2.24486
+gb-eng--lancashire-the-fylde,GB-ENG: Lancashire: The Fylde,,,,,,Blackpool,,,,,,Blackpool North train station,,,,,,53.82292,-3.04843
+gb-eng--lancashire-lancaster-morecambe,GB-ENG: Lancashire: Lancaster-Morecambe,,,,,,Lancaster,,,,,,Lancaster train station,,,,,,54.04878,-2.80787
+gb-eng--north-yorkshire-county-durham-middlesbrough-stockton,GB-ENG: North Yorkshire-County Durham: Middlesbrough-Stockton,,,,,,Middlesbrough,,,,,,Middlesbrough train station,,,,,,54.57914,-1.23463
+gb-eng--north-yorkshire-redcar-and-cleveland,GB-ENG: North Yorkshire: Redcar and Cleveland,,,,,,Redcar,,,,,,Redcar Central train station,,,,,,54.61596,-1.07035
+gb-eng--county-durham-hartlepool,GB-ENG: County Durham: Hartlepool,,,,,,Hartlepool,,,,,,Hartlepool train station,,,,,,54.686813,-1.207863
+gb-eng--county-durham-darlington,GB-ENG: County Durham: Darlington,,,,,,Darlington,,,,,,Darlington train station,,,,,,54.52063,-1.5468
+gb-eng--county-durham-durham,GB-ENG: County Durham: Durham,,,,,,Durham,,,,,,Durham train station,,,,,,54.779727,-1.581538
+gb-eng--north-yorkshire-lancashire-vale-of-mowbray-yorkshire-dales-bowland,GB-ENG: North Yorkshire-Lancashire: Vale of Mowbray-Yorkshire Dales-Bowland,,,,,,Masham,,,,,,Masham Town Hall,,,,,,54.22211,-1.655376
+gb-eng--north-yorkshire-yorkshire-coast-north-york-moors,GB-ENG: North Yorkshire: Yorkshire Coast-North York Moors,,,,,,Scarborough,,,,,,Scarborough train station,,,,,,54.27909,-0.40628
+gb-eng--cumbria-westmorland-lake-district,GB-ENG: Cumbria: Westmorland-Lake District,,,,,,Tebay,,,,,,Cross Keys Inn,,,,,,54.433457,-2.592688
+gb-eng--cumbria-furness,GB-ENG: Cumbria: Furness,,,,,,Ulverston,,,,,,Ulverston train station,,,,,,54.1917,-3.09795
+gb-eng--cumbria-cumberland-west-coast,GB-ENG: Cumbria: Cumberland-West Coast,,,,,,Workington,,,,,,Workington train station,,,,,,54.64497,-3.55891
+gb-eng--cumbria-cumberland-carlisle,GB-ENG: Cumbria: Cumberland-Carlisle,,,,,,Carlisle,,,,,,Carlisle train station,,,,,,54.89024,-2.93306
+gb-eng--tyne-and-wear-newcastle-gateshead,GB-ENG: Tyne and Wear: Newcastle-Gateshead,,,,,,Newcastle upon Tyne,,,,,,Newcastle train station,,,,,,54.968327,-1.616052
+gb-eng--tyne-and-wear-tynemouth-south-shields,GB-ENG: Tyne and Wear: Tynemouth-South Shields,,,,,,Tynemouth,,,,,,Tynemouth train station,,,,,,55.017,-1.42889
+gb-eng--tyne-and-wear-sunderland,GB-ENG: Tyne and Wear: Sunderland,,,,,,Sunderland,,,,,,Sunderland train station,,,,,,54.906101,-1.382453
+gb-eng--northumberland-east-northumberland,GB-ENG: Northumberland: East Northumberland,,,,,,Alnwick,,,,,,Alnwick post office,,,,,,55.412877,-1.706786
+gb-eng--county-durham-cumbria-northumberland-north-pennines,GB-ENG: County Durham-Cumbria-Northumberland: North Pennines,,,,,,Haydon Bridge,,,,,,Haydon Bridge train station,,,,,,54.97522,-2.24722
 eu-fr--ile-de-france-paris-centre,EU-FR: Île-de-France: Paris Centre,fr,,,,,Île de la Cité,fr,,,,,Station de métro Cité,fr,,,,,48.855302,2.347512
 eu-fr--hauts-de-france-lille,EU-FR: Hauts-de-France: Lille,fr,,,,,Lille,fr,,,,,Station de métro République Beaux-Arts,fr,,,,,50.631636,3.060814
 eu-be--bruxelles-capitale-bruxelles,EU-BE: Bruxelles-Capitale: Bruxelles,fr,EU-BE: Brussels Hoofdstedelijk: Brussel,nl,,,Bruxelles,fr,Brussel,nl,,,Grand-Place de Bruxelles,fr,Grote Markt van Brussel,nl,,,50.846738,4.352463
