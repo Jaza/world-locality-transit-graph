@@ -44,8 +44,10 @@ ready(() => {
   let nodes = null;
   let nodeLatsLons = null;
   let nodeNames = null;
-  let nearbyEdges = null;
-  let farEdges = null;
+  let nearbyVisibleEdges = null;
+  let nearbyInvisibleEdges = null;
+  let farVisibleEdges = null;
+  let farInvisibleEdges = null;
   let boundingPolygon = null;
   let edgeLocalities = null;
 
@@ -116,8 +118,12 @@ ready(() => {
     this.classList.add("active");
     document.getElementById(TOGGLE_ALL_EDGES_ID).classList.remove("active");
 
-    if (farEdges) {
-      farEdges.removeFrom(map);
+    if (farVisibleEdges) {
+      farVisibleEdges.removeFrom(map);
+    }
+
+    if (farInvisibleEdges) {
+      farInvisibleEdges.removeFrom(map);
     }
 
     return false;
@@ -131,8 +137,12 @@ ready(() => {
     this.classList.add("active");
     document.getElementById(TOGGLE_NEARBY_EDGES_ID).classList.remove("active");
 
-    if (farEdges) {
-      farEdges.addTo(map);
+    if (farVisibleEdges) {
+      farVisibleEdges.addTo(map);
+    }
+
+    if (farInvisibleEdges) {
+      farInvisibleEdges.addTo(map);
     }
 
     return false;
@@ -230,8 +240,12 @@ ready(() => {
     while (results.length) {
       const result = results.pop();
 
-      if (!farEdges) {
-        farEdges = L.layerGroup();
+      if (!farVisibleEdges) {
+        farVisibleEdges = L.layerGroup();
+      }
+
+      if (!farInvisibleEdges) {
+        farInvisibleEdges = L.layerGroup();
       }
 
       const slugA = result.locality_a;
@@ -253,11 +267,18 @@ ready(() => {
         const latLonA = nodeLatsLons[slugA];
         const latLonB = nodeLatsLons[slugB];
 
-        const edge = L.polyline([latLonA, latLonB], {color: "gray"});
-        edge.bindPopup(
+        // The actual visible line
+        const visibleEdge = L.polyline([latLonA, latLonB], {color: "gray", weight: 3});
+        farVisibleEdges.addLayer(visibleEdge);
+
+        // The fat mobile-tap target
+        const invisibleEdge = L.polyline(
+          [latLonA, latLonB], {color: 'transparent', weight: 25}
+        );
+        invisibleEdge.bindPopup(
           getEdgePopupText(result.transit_time_mins, nodeNames[slugA], nodeNames[slugB])
         );
-        farEdges.addLayer(edge);
+        farInvisibleEdges.addLayer(invisibleEdge);
       }
     }
   };
@@ -291,8 +312,12 @@ ready(() => {
     while (results.length) {
       const result = results.pop();
 
-      if (!nearbyEdges) {
-        nearbyEdges = L.layerGroup();
+      if (!nearbyVisibleEdges) {
+        nearbyVisibleEdges = L.layerGroup();
+      }
+
+      if (!nearbyInvisibleEdges) {
+        nearbyInvisibleEdges = L.layerGroup();
       }
 
       const slugA = result.locality_a;
@@ -307,15 +332,26 @@ ready(() => {
       const latLonA = nodeLatsLons[slugA];
       const latLonB = nodeLatsLons[slugB];
 
-      const edge = L.polyline([latLonA, latLonB]);
-      edge.bindPopup(
+      // The actual visible line
+      const visibleEdge = L.polyline([latLonA, latLonB], {weight: 3});
+      nearbyVisibleEdges.addLayer(visibleEdge);
+
+      // The fat mobile-tap target
+      const invisibleEdge = L.polyline(
+        [latLonA, latLonB], {color: 'transparent', weight: 25}
+      );
+      invisibleEdge.bindPopup(
         getEdgePopupText(result.transit_time_mins, nodeNames[slugA], nodeNames[slugB])
       );
-      nearbyEdges.addLayer(edge);
+      nearbyInvisibleEdges.addLayer(invisibleEdge)
     }
 
-    if (nearbyEdges) {
-      nearbyEdges.addTo(map);
+    if (nearbyVisibleEdges) {
+      nearbyVisibleEdges.addTo(map);
+    }
+
+    if (nearbyInvisibleEdges) {
+      nearbyInvisibleEdges.addTo(map);
     }
 
     loadFarEdgesFromUrl(codes);
@@ -607,12 +643,20 @@ ready(() => {
       nodeNames = null;
     }
 
-    if (nearbyEdges) {
-      nearbyEdges.clearLayers();
+    if (nearbyVisibleEdges) {
+      nearbyVisibleEdges.clearLayers();
     }
 
-    if (farEdges) {
-      farEdges.clearLayers();
+    if (nearbyInvisibleEdges) {
+      nearbyInvisibleEdges.clearLayers();
+    }
+
+    if (farVisibleEdges) {
+      farVisibleEdges.clearLayers();
+    }
+
+    if (farInvisibleEdges) {
+      farInvisibleEdges.clearLayers();
     }
 
     if (boundingPolygon) {
