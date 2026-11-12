@@ -73,6 +73,10 @@ ready(() => {
       return `${getFlagEmoji("GB")} ${FLAG_EMOJI_WALES} ${name.replace("GB-WLS: ", "")}`;
     }
 
+    if (name.startsWith("GB-WLS-ENG: ")) {
+      return `${getFlagEmoji("GB")} ${FLAG_EMOJI_WALES} ${FLAG_EMOJI_ENGLAND} ${name.replace("GB-WLS-ENG: ", "")}`;
+    }
+
     if (name.startsWith("GB-CYM: ")) {
       return `${getFlagEmoji("GB")} ${FLAG_EMOJI_WALES} ${name.replace("GB-CYM: ", "")}`;
     }

@@ -16,7 +16,7 @@ gb-eng--west-sussex-surrey-crawley,GB-ENG: West Sussex-Surrey: Crawley,,,,,,Craw
 gb-eng--kent-east-sussex-tunbridge-sevenoaks,GB-ENG: Kent-East Sussex: Tunbridge-Sevenoaks,,,,,,Tonbridge,,,,,,Tonbridge train station,,,,,,51.19141,0.26985
 gb-eng--kent-medway-dartford-gravesend,GB-ENG: Kent: Medway-Dartford-Gravesend,,,,,,Gravesend,,,,,,Singlewell Primary School,,,,,,51.411942,0.382649
 gb-eng--essex-chelmsford,GB-ENG: Essex: Chelmsford,,,,,,Chelmsford,,,,,,Chelmsford train station,,,,,,51.7366,0.4687
-gb-eng--essex-southend-basildon-thurrock,GB-ENG: Essex: Southend-Basildon-Thurrock,,,,,,Basildon,,,,,,Basildon train station,,,,,,51.568114,0.456753
+gb-eng--essex-south-essex,GB-ENG: Essex: South Essex,,,,,,Basildon,,,,,,Basildon train station,,,,,,51.568114,0.456753
 gb-eng--kent-ashford,GB-ENG: Kent: Ashford,,,,,,Ashford,,,,,,Ashford train station,,,,,,51.1434,0.8751
 gb-eng--essex-colchester,GB-ENG: Essex: Colchester,,,,,,Colchester,,,,,,Colchester train station,,,,,,51.9007,0.8924
 gb-eng--bedfordshire-bedford,GB-ENG: Bedfordshire: Bedford,,,,,,Bedford,,,,,,Bedford train station,,,,,,52.13589,-0.47988
@@ -114,6 +114,26 @@ gb-eng--tyne-and-wear-tyneside,GB-ENG: Tyne and Wear: Tyneside,,,,,,Newcastle up
 gb-eng--tyne-and-wear-sunderland,GB-ENG: Tyne and Wear: Sunderland,,,,,,Sunderland,,,,,,Sunderland train station,,,,,,54.906101,-1.382453
 gb-eng--northumberland-east-northumberland,GB-ENG: Northumberland: East Northumberland,,,,,,Alnwick,,,,,,Alnwick post office,,,,,,55.412877,-1.706786
 gb-eng--county-durham-cumbria-northumberland-north-pennines,GB-ENG: County Durham-Cumbria-Northumberland: North Pennines,,,,,,Haydon Bridge,,,,,,Haydon Bridge train station,,,,,,54.97522,-2.24722
+gb-wls--cardiff,GB-WLS: Cardiff,,,,,,Cardiff,,,,,,Cardiff Central train station,,,,,,51.47553,-3.17974
+gb-wls--newport,GB-WLS: Newport,,,,,,Newport,,,,,,Newport train station,,,,,,51.588743,-3.000432
+gb-wls-eng--wye-valley,GB-WLS-ENG: Wye Valley,,,,,,Tintern,,,,,,Tintern Village Hall,,,,,,51.698131,-2.680798
+gb-wls--the-valleys,GB-WLS: The Valleys,,,,,,Abercynon,,,,,,Abercynon train station,,,,,,51.64303,-3.32958
+gb-wls--vale-of-glamorgan,GB-WLS: Vale of Glamorgan,,,,,,St Athan,,,,,,St Athan post office,,,,,,51.40203,-3.414183
+gb-wls--swansea-bay,GB-WLS: Swansea Bay,,,,,,Swansea,,,,,,Swansea train station,,,,,,51.62567,-3.940377
+gb-wls--breconshire,GB-WLS: Breconshire,,,,,,Brecon,,,,,,The Bulwark,,,,,,51.946826,-3.389962
+gb-wls--montgomeryshire,GB-WLS: Montgomeryshire,,,,,,Newtown,,,,,,Newtown train station,,,,,,52.512205,-3.311493
+gb-wls--radnorshire,GB-WLS: Radnorshire,,,,,,Llandrindod,,,,,,Llandrindod train station,,,,,,52.242242,-3.379471
+gb-wls--south-pembrokeshire,GB-WLS: South Pembrokeshire,,,,,,Pembroke,,,,,,Pembroke train station,,,,,,51.67302,-4.90646
+gb-wls--north-pembrokeshire,GB-WLS: North Pembrokeshire,,,,,,Fishguard,,,,,,Market Square,,,,,,51.993872,-4.976253
+gb-wls--carmarthenshire,GB-WLS: Carmarthenshire,,,,,,Carmarthen,,,,,,Carmarthen train station,,,,,,51.85325,-4.30579
+gb-wls--ceredigion,GB-WLS: Ceredigion,,,,,,Aberystwyth,,,,,,Aberystwyth train station,,,,,,52.413866,-4.081555
+gb-wls--wrexham,GB-WLS: Wrexham,,,,,,Wrexham,,,,,,Wrexham Central train station,,,,,,53.046315,-2.999627
+gb-wls-eng--deeside,GB-WLS-ENG: Deeside,,,,,,Connah’s Quay,,,,,,Connah’s Quay Civic Hall,,,,,,53.213798,-3.047888
+gb-wls--conwy-denbighshire,GB-WLS: Conwy-Denbighshire,,,,,,Abergele,,,,,,Abergele and Pensarn train station,,,,,,53.29452,-3.58264
+gb-wls--gwynedd,GB-WLS: Gwynedd,,,,,,Bangor,,,,,,Bangor train station,,,,,,53.222621,-4.135543
+gb-wls--anglesey,GB-WLS: Anglesey,,,,,,Holyhead,,,,,,Holyhead train station,,,,,,53.307359,-4.631204
+gb-wls--meirionnydd-snowdonia,GB-WLS: Meirionnydd-Snowdonia,,,,,,Dolgellau,,,,,,Dolgellau post office,,,,,,52.743101,-3.88476
+gb-wls--lynn-peninsula,GB-WLS: Llŷn Peninsula,,,,,,Pwllheli,,,,,,Pwllheli train station,,,,,,52.888166,-4.416177
 eu-fr--ile-de-france-paris-centre,EU-FR: Île-de-France: Paris Centre,fr,,,,,Île de la Cité,fr,,,,,Station de métro Cité,fr,,,,,48.855302,2.347512
 eu-fr--hauts-de-france-lille,EU-FR: Hauts-de-France: Lille,fr,,,,,Lille,fr,,,,,Station de métro République Beaux-Arts,fr,,,,,50.631636,3.060814
 eu-be--bruxelles-capitale-bruxelles,EU-BE: Bruxelles-Capitale: Bruxelles,fr,EU-BE: Brussels Hoofdstedelijk: Brussel,nl,,,Bruxelles,fr,Brussel,nl,,,Grand-Place de Bruxelles,fr,Grote Markt van Brussel,nl,,,50.846738,4.352463
